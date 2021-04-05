@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 
 I am a PhD student in Economic History at Université Saint-Louis -- Bruxelles and UCLouvain. My research looks at the determinants of long-run economic development. More specifically, I focus on the influence of 
 
