@@ -11,7 +11,7 @@ div.highlighter-rouge, figure.highlight {
   background-color: $code-background-color;
   box-shadow: $box-shadow;
 
-  &:before {
+    &:before {
     position: absolute;
     top: 0;
     right: 0;
@@ -27,7 +27,7 @@ div.highlighter-rouge, figure.highlight {
 
   .highlight {
     margin: 0;
-    font-family: $Times;
+    font-family: $monospace;
     font-size: $type-size-7;
     line-height: 1.8;
   }
