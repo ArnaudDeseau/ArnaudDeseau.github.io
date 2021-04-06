@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,6 +12,7 @@ redirect_from:
 I am a PhD student in Economic History at Université Saint-Louis -- Bruxelles and UCLouvain. My research looks at the determinants of long-run economic development. More specifically, I focus on the influence of 
 
 I am currently full-time teaching assistant at Université Saint-Louis -- Bruxelles. Prior to that, I obtain my Master at UCLouvain in .
+
 
 **What's New?**
 
