@@ -16,4 +16,6 @@ I am currently full-time teaching assistant at Université Saint-Louis -- Bruxel
 
 **What's New?**
 
+**04-06-2020:** Hello world! Creation of my website 
+
 **12-18-2020:** Organization of the first online Doctoral Workshop in Economics 
