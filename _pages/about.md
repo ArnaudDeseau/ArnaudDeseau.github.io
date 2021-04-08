@@ -9,10 +9,9 @@ redirect_from:
 ---
 
 
-I am a PhD student in Economic History at Université Saint-Louis -- Bruxelles and UCLouvain. My research looks at the determinants of long-run economic development. More specifically, I focus on the influence of 
+I am a PhD student in Economic History at Université Saint-Louis -- Bruxelles and UCLouvain. My research looks at the determinants of long-run economic development. More specifically, my research focuses on law and economics, Malthusian dynamics, the First Industrial Revolution and long-run determinants of industrialisation.
 
-I am currently full-time teaching assistant at Université Saint-Louis -- Bruxelles. Prior to that, I obtain my Master at UCLouvain in .
-
+I am currently full-time teaching assistant at Université Saint-Louis -- Bruxelles. Prior to that, I obtain my Master at the Economics School of Louvain (UCLouvain, Belgium) in 2016.
 
 **What's New?**
 
