@@ -84,11 +84,11 @@ author:
   avatar           : "idpic.png"
   bio              : "PhD Student in Economic History"
   location         : "Bruxelles"
-  employer         : "https://www.usaintlouis.be/"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=q9psw3AAAAAJ&hl=fr"
   email            :
-  researchgate     :   "https://www.researchgate.net/profile/Arnaud-Deseau-2"
+  researchgate     : "https://www.researchgate.net/profile/Arnaud-Deseau-2"
   uri              :
   bitbucket        :
   codepen          :
