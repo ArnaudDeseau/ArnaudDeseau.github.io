@@ -31,8 +31,8 @@ $GaramondLibre              : GaramondLibre, serif;
 
 
 $global-font-family         : $GaramondLibre;
-$header-font-family         : $garamond;
-$caption-font-family        : $garamond;
+$header-font-family         : $GaramondLibre;
+$caption-font-family        : $GaramondLibre;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -51,8 +51,8 @@ $type-size-8                : 0.625em;  // ~10px
 
 $gray                       : #318ce7;
 $dark-gray                  : #f984e5;
-$darker-gray                : #fbcce7;
-$light-gray                 : #9457eb;
+$darker-gray                : #ff0038;
+$light-gray                 : #ff0038;
 $lighter-gray               : #228b22;
 
 $body-color                 : #fff;
