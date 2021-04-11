@@ -7,7 +7,11 @@ author_profile: true
 
 **Working Papers**
 
-<span style="color:light-gray">some *blue* text</span>.
+<div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+</div>
 
 <span style="color:blue">some *blue* text</span>.
 
