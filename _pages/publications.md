@@ -7,6 +7,8 @@ author_profile: true
 
 **Working Papers**
 
+<span style="color:`#ff0038`">some *blue* text</span>.
+
 <h3 style="color:#ff0038">Danger</h3>
 <span style="color:#ff0038">some *blue* text</span>.
 
