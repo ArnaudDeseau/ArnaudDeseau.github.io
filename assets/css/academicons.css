@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: CENTAUR;
+    src: url('../fonts/CENTAUR.ttf');
+}
+
+@font-face {
     font-family: 'Academicons';
     src:url('../fonts/academicons.eot?v=1.8.0');
     src:url('../fonts/academicons.eot?v=1.8.0') format('embedded-opentype'),
