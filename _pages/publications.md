@@ -11,7 +11,9 @@ author_profile: true
 <span style="color:#0bda51"> **Working Papers** </span>.
 <span style="color:#e34234"> **Working Papers Vermillion** </span>.
 <span style="color:#dc143c"> **Working Papers Crimson** </span>.
+<span style="color:#b7410e"> **Working Papers Rust** </span>.
 
+ 	
  	
 
 
