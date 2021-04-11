@@ -7,7 +7,7 @@ author_profile: true
 
 **Working Papers**
 
-<span style="color: RGB(#ff0038)">some *blue* text</span>.
+<span style="color:#ff0038">some *blue* text</span>.
 
 <span style="color:gray">some *blue* text</span>.
 
