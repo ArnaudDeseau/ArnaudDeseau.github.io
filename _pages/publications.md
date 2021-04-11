@@ -7,7 +7,9 @@ author_profile: true
 
 **Working Papers**
 
-<span style="color:#ff0038">some ***Working Papers*** text</span>.
+<span style="color:#ff0038"> **Working Papers** </span>.
+<span style="color:#0bda51"> **Working Papers** </span>.
+
 
 <h3 style="color:#ff0038">Danger</h3>
 <span style="color:#ff0038">some *blue* text</span>.
