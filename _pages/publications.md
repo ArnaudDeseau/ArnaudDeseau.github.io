@@ -15,7 +15,7 @@ author_profile: true
 <span style="color:#d4af37"> **Working Papers Gold Metalic** </span>.
 <span style="color:#cfb53b"> **Working Papers Old Gold** </span>.
 
-<span style="color:#dc143c"> **W** </span>orking .
+<span style="color:#dc143c"> **W**</span>orking .
 
 
 
