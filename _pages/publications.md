@@ -10,6 +10,11 @@ author_profile: true
 <br/>
 <br/>
 
+<div align="justify">
+    <p><strong>Text</strong> Text Text.</p>
+    <p><code>Text</code> Text.</p>
+</div>
+
 
 
 <span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
