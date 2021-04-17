@@ -5,11 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice and** <span style="color:#dc143c"> **E**</span>**conomic** <span style="color:#dc143c"> **D**</span>**evelopment**
+<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
 <br/>
-**Working Papers**
-
-Deseau, A., Levai, A., and Schmiegelow, M. (2019). Access to Justice and Economic Development: Evidence from an International Panel Dataset. Discussion Paper 2019-09, IRES, UCLouvain.
+Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
 <br/>
 [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
