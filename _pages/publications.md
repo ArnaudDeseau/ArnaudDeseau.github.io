@@ -13,7 +13,7 @@ author_profile: true
 <span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
 <br/>
 <br/>
-Access to Justice is increasingly...
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 
 Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
 <br/>
