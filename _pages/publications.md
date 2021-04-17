@@ -10,15 +10,11 @@ author_profile: true
 <br/>
 <br/>
 
-<div align="justify">
-    <p><strong>Text</strong> Text Text.</p>
-    <p><code>Text</code> Text.</p>
-</div>
-
-
-
 <span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
 <br/>
+<br/>
+Access to Justice is increasingly...
+
 Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
 <br/>
 [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
