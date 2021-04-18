@@ -33,9 +33,9 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/atj_sdg.jpg" width="2000">
+    <img src="{{site.url}}/images/atj_sdg.jpg" width="3000">
     <br>
-    <em style="color: grey">Routing (yönlendirme)</em>
+    <em style="color: grey">SDG 16</em>
   </p> 
 </td>
 </tr></table>
