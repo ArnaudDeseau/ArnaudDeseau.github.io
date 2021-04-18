@@ -5,27 +5,16 @@ permalink: /research/
 author_profile: true
 ---
 
-aa|bb|cc
---|--|--
-ee|ff|gg 
 
-<div style="border: 0px solid black">
-    <table border="0">
-        <tr>
-            <td>one</td>
-            <td>two</td>
-        </tr>
-        <tr>
-            <td>one</td>
-            <td>two</td>
-        </tr>
-    </table>
-</div>
-
-
-
-<table border="0"><tr>
-<td> ssssssss </td>
+<table><tr>
+<td> Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+ </td>
 <td> <img src="Nordic_trails.jpg" alt="Drawing" style="width: 250px;"/> </td>
 </tr></table>
 
