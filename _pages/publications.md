@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-<div style="border: 1px solid black">
+<div style="border: 0px solid black">
     <table border="0">
         <tr>
             <td>one</td>
