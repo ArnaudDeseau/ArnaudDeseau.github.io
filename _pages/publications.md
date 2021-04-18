@@ -21,17 +21,18 @@ Our societies, both developing and developed, are facing a considerable gap in t
 
 <table><tr>
 <td> 
-  <p align="center" style="padding: 10px">
-    <img alt="Forwarding" src="images/IMG_20201012_183152_(2).jpg" width="320">
-    <br>
-    <em style="color: grey">Forwarding (Anahtarlama)</em>
-  </p> 
+ Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 </td>
 <td> 
   <p align="center">
     <img alt="Routing" src="images/IMG_20201012_183158_(2).jpg" width="515">
-    <br>
-    <em style="color: grey">Routing (yönlendirme)</em>
+   <img src="{{site.url}}/images/atj_sdg.jpg" style="width="515"/> </td>
   </p> 
 </td>
 </tr></table>
