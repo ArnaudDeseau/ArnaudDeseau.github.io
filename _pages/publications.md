@@ -4,6 +4,9 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+
+| I am text to the left  | ![Flowers](/flowers.jpeg) |
+
 <table><tr>
 <td> ssssssss </td>
 <td> <img src="Nordic_trails.jpg" alt="Drawing" style="width: 250px;"/> </td>
