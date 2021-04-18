@@ -5,8 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-<div style="text-align: right"><img src="/default/image/sms.png" width="100" /></div>
+<img style="float: right;" src="whatever.jpg">
 
+Continue markdown text...
 
 <table><tr>
 <td> ssssssss </td>
