@@ -5,9 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
-<img style="float: right;" src="whatever.jpg">
-
-Continue markdown text...
+jaaaaaaaaaaaaaj
+<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100"> jaaaaaaaaaaaaaj
+jaaaaaaaaaaaaaj
 
 <table><tr>
 <td> ssssssss </td>
