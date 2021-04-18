@@ -4,19 +4,10 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
-<table>
-<td> 
- ddddd
-</td>
-<td> 
-  <p align="center">
-    <img alt="Routing" src="images/IMG_20201012_183158_(2).jpg" width="515">
-    <br>
-    <em style="color: grey">Routing (yönlendirme)</em>
-  </p> 
-</td>
-</table>
+<table><tr>
+<td> ssssssss </td>
+<td> <img src="Nordic_trails.jpg" alt="Drawing" style="width: 250px;"/> </td>
+</tr></table>
 
 
 <table><tr>
