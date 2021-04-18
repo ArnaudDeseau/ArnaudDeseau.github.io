@@ -5,7 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
-| I am text to the left  | ![Flowers](/flowers.jpeg) |
+<div style="text-align: right"><img src="/default/image/sms.png" width="100" /></div>
+
 
 <table><tr>
 <td> ssssssss </td>
