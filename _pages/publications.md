@@ -5,19 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
-
-<table><tr>
-<td> Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
- </td>
-<td> <img src="{{site.url}}/images/atj_sdg.jpg" style="width: 250px;"/> </td>
-</tr></table>
-
+<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
+<br/>
 
 <table><tr>
 <td>
@@ -40,20 +29,18 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 </tr></table>
 
-
-<span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
 <br/>
-<br/>
-
-<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
-<br/>
-<br/>
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-
 Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
 <br/>
 [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
+
+
+
+
+<span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
+<br/>
+<br/>
 
 
 <br/>
