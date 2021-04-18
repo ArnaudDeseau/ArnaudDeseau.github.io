@@ -6,9 +6,7 @@ author_profile: true
 ---
 
 <table><tr>
-<td> 
 dkdjdjdjdjdjd
-</td>
 <td> 
   <p align="center">
     <img alt="Routing" src="images/IMG_20201012_183158_(2).jpg" width="515">
