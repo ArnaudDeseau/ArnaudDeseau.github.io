@@ -5,6 +5,23 @@ permalink: /research/
 author_profile: true
 ---
 
+<table><tr>
+<td> 
+  <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="images/IMG_20201012_183152_(2).jpg" width="320">
+    <br>
+    <em style="color: grey">Forwarding (Anahtarlama)</em>
+  </p> 
+</td>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="images/IMG_20201012_183158_(2).jpg" width="515">
+    <br>
+    <em style="color: grey">Routing (yönlendirme)</em>
+  </p> 
+</td>
+</tr></table>
+
 <div class="row">
   <div class="col-md-8" markdown="1">
   Some text.
