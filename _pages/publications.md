@@ -5,8 +5,20 @@ permalink: /research/
 author_profile: true
 ---
 
+<div class="row">
+  <div class="col-md-8" markdown="1">
+  Some text.
+  </div>
+  <div class="col-md-4" markdown="1">
+  <!-- ![Alt Text](../img/folder/blah.jpg) -->
+  <img height="600px" class="center-block" src="../img/folder/blah.jpg">
+  </div>
+</div>
+
+
 <u>some text</u>
-<span style="color:#dc143c"> </u>**M**</span>**althusian**</u> <span style="color:#dc143c"> **C**</span>**onvergence** 
+<br/>
+</u><span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence**</u>
 
 <span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
 <br/>
