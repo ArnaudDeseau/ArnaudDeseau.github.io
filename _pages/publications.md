@@ -5,23 +5,19 @@ permalink: /research/
 author_profile: true
 ---
 
-<table border="1">
-<tr>
-    <td>
-        <table border="0">
-            <tr>
-                <td>one</td>
-                <td>two</td>
-            </tr>
-            <tr>
-                <td>one</td>
-                <td>two</td>
-            </tr>
-        </table>
-    </td>
-</tr>
+<div style="border: 1px solid black">
+    <table border="0">
+        <tr>
+            <td>one</td>
+            <td>two</td>
+        </tr>
+        <tr>
+            <td>one</td>
+            <td>two</td>
+        </tr>
+    </table>
+</div>
 
-</table>
 
 
 <table border="0"><tr>
