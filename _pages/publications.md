@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-<table><tr>
+<table>
 <td> 
  ddddd
 </td>
@@ -16,7 +16,7 @@ author_profile: true
     <em style="color: grey">Routing (yönlendirme)</em>
   </p> 
 </td>
-</tr></table>
+</table>
 
 
 <table><tr>
