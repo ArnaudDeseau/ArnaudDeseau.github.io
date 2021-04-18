@@ -15,7 +15,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
  </td>
-<td> <img src="{{site.url}}/images/atj_sdg.jpg" style="display: block; margin: auto;" /> </td>
+<td> <img src="{{site.url}}/images/atj_sdg.jpg" style="width: 250px;"/> </td>
 </tr></table>
 
 
