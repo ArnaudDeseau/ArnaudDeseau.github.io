@@ -7,6 +7,19 @@ author_profile: true
 
 <table><tr>
 <td> 
+dkdjdjdjdjdjd
+</td>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="images/IMG_20201012_183158_(2).jpg" width="515">
+    <br>
+    <em style="color: grey">Routing (yönlendirme)</em>
+  </p> 
+</td>
+</tr></table>
+
+<table><tr>
+<td> 
   <p align="center" style="padding: 10px">
     <img alt="Forwarding" src="images/IMG_20201012_183152_(2).jpg" width="320">
     <br>
@@ -22,20 +35,6 @@ author_profile: true
 </td>
 </tr></table>
 
-<div class="row">
-  <div class="col-md-8" markdown="1">
-  Some text.
-  </div>
-  <div class="col-md-4" markdown="1">
-  <!-- ![Alt Text](../img/folder/blah.jpg) -->
-  <img height="600px" class="center-block" src="../img/folder/blah.jpg">
-  </div>
-</div>
-
-
-<u>some text</u>
-<br/>
-</u><span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence**</u>
 
 <span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
 <br/>
