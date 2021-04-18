@@ -20,7 +20,8 @@ Our societies, both developing and developed, are facing a considerable gap in t
 
 
 <table><tr>
-<td> 
+<td>
+<div style="text-align: justify"> 
  Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
@@ -28,6 +29,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+</div>
 </td>
 <td> 
   <p align="center">
