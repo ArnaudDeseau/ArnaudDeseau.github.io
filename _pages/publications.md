@@ -31,7 +31,6 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 <td> 
    <img src="{{site.url}}/images/atj_sdg.jpg" style="width="515"/> </td>
-</td>
 </tr></table>
 
 
