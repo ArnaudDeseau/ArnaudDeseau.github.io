@@ -11,7 +11,7 @@ author_profile: true
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
+<span style="color:#dc143c"> <strong>A</strong></span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
 <br/>
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
@@ -24,7 +24,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/atj_sdg.jpg" width="5000">
+    <img src="{{site.url}}/images/atj_sdg.jpg" width="6000">
     <br>
     <em style="color: grey">SDG 16</em>
   </p> 
