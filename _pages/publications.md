@@ -34,8 +34,28 @@ Our societies, both developing and developed, are facing a considerable gap in t
 <br/>[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
 
-<br/><span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
-
+<table><tr>
+<td>
+<div style="text-align: justify">
+<span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>C</strong></span><strong>onvergence</strong>
+<br/>
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+</div>
+</td>
+<td> 
+  <p align="center">
+    <img src="{{site.url}}/images/septembre.jpg" width="6000">
+    <br>
+    <em style="color: grey">SDGs 16</em>
+  </p> 
+</td>
+</tr></table>
 
 
 <br/>
