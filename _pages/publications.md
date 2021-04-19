@@ -5,8 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-<span style="color:#dc143c"> **A**</span>**ccess to** <span style="color:#dc143c"> **J**</span>**ustice** 
-<br/>
 
 <table><tr>
 <td>
@@ -31,18 +29,13 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 </tr></table>
 
-<br/>
-Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
-<br/>
-[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
+
+<br/>Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
+<br/>[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
 
+<br/><span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
 
-
-
-<span style="color:#dc143c"> **M**</span>**althusian** <span style="color:#dc143c"> **C**</span>**onvergence** 
-<br/>
-<br/>
 
 
 <br/>
