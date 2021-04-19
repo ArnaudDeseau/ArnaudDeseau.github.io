@@ -13,9 +13,8 @@ I am a PhD student in Economic History at Université Saint-Louis – Bruxelles 
 
 <div style="text-align: justify"> 
 <br/>I am currently full-time teaching assistant at Université Saint-Louis – Bruxelles. Prior to that, I obtained my Master at the Economics School of Louvain (UCLouvain, Belgium) in 2016.</div>
-<br/>
+
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
-<br/>
 
 **04-06-2020:** Hello world! Creation of my website 
 
