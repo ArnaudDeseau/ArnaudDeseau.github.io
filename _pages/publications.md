@@ -26,7 +26,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
   <p align="center">
     <img src="{{site.url}}/images/atj_sdg.jpg" width="6000">
     <br>
-    <em style="color: grey">SDG 16</em>
+    <em style="color: grey">SDGs 16</em>
   </p> 
 </td>
 </tr></table>
