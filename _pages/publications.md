@@ -11,7 +11,7 @@ author_profile: true
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> <strong>A</span>ccess to <span style="color:#dc143c"> J</span>ustice</strong>
+<span style="color:#dc143c"> <strong>A</strong></span><strong>ccess to </strong><span style="color:#dc143c"> <strong>J</strong></span><strong>ustice</strong>
 <br/>
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
