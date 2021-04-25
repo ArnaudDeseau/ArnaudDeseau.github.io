@@ -16,7 +16,7 @@ I am a PhD student in Economic History at Université Saint-Louis – Bruxelles 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**04-20-2020:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation on my research on the consequences of the auctioning off of French monasteries on the First Industrial Revolution in France.
+**04-20-2020:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution.
 
 **04-06-2020:** Hello world! Creation of my website 
 
