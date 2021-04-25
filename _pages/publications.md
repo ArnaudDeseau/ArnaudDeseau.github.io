@@ -29,8 +29,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 </tr></table>
 
-
-<br/>Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
+Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).
 <br/>[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
 
@@ -75,7 +74,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/moyenmoutier.jpg" width="6000">
+    <img src="{{site.url}}/images/moyenmoutier.jpg" width="8000">
     <br>
     <em style="color: grey">SDGs 16</em>
   </p> 
