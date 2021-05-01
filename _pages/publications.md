@@ -30,15 +30,15 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </tr></table>
 
 <li>Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).</li>
-<br/>[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
+[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
 
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>C</strong></span><strong>onvergence</strong>
+<span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+The transition from stagnation to growth or from Malthusian to Industrial societies is one Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
