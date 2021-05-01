@@ -20,6 +20,6 @@ I am a PhD student in Economic History at Université Saint-Louis – Bruxelles 
 
 **04-06-2020:** Hello world! Creation of my website 
 
-**12-18-2020:** Organization of the first online Doctoral Workshop in Economics (Belgium) 
+**12-18-2020:** Organization of the first online edition of the Belgian Doctoral Workshop in Economics
 
 
