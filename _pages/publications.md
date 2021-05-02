@@ -50,7 +50,7 @@ Understanding the Malthusian economic system is key to resolve the mystery of th
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="6000">
+    <img src="{{site.url}}/images/septembre.jpg" width="8000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
