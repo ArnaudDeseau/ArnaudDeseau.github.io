@@ -38,7 +38,7 @@ Understanding the Malthusian economic system is key to resolve the mystery of th
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="8000">
+    <img src="{{site.url}}/images/septembre.jpg" width="6000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
@@ -63,7 +63,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/moyenmoutier.jpg" width="8000">
+    <img src="{{site.url}}/images/moyenmoutier.jpg" width="6000">
     <br>
     <em style="color: grey">Textile Factory of Moyenmoutier ex Abbaye Saint-Hydulphe de Moyenmoutier </em>
   </p> 
