@@ -11,13 +11,7 @@ author_profile: true
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>A</strong></span><strong>ccess to </strong><span style="color:#dc143c"> <strong>J</strong></span><strong>ustice</strong>
 <br/>
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 </div>
 </td>
 <td> 
@@ -77,7 +71,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
   <p align="center">
     <img src="{{site.url}}/images/moyenmoutier.jpg" width="8000">
     <br>
-    <em style="color: grey">Textile Factory de Moyenmoutier </em>
+    <em style="color: grey">Textile Factory of Moyenmoutier ex Abbaye Saint-Hydulphe de Moyenmoutier </em>
   </p> 
 </td>
 </tr></table>
