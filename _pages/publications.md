@@ -37,13 +37,14 @@ Our societies, both developing and developed, are facing a considerable gap in t
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-The transition from stagnation to growth or from Malthusian to Industrial societies is one Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in England. This economic system is characterized by the stagnation of the living conditions.
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+Understanding the Malthusian economic system is key to resolve the mystery of the end of the Malthusian era and the onset of modern economic growth. Enven more important, the Great Divergence.
 </div>
 </td>
 <td> 
