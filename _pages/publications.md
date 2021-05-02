@@ -23,7 +23,8 @@ Our societies, both developing and developed, are facing a considerable gap in t
 </td>
 </tr></table>
 
-<li>Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).</li> [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)|[Adam Levai](https://ideas.repec.org/p/ctl/louvir/2019009.html)
+<li>Access to Justice and Economic Development: Evidence from an International Panel Dataset (with Adam Levai and Michèle Schmiegelow).</li> 
+[WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)|[Adam Levai](https://ideas.repec.org/p/ctl/louvir/2019009.html)
 
 
 <table><tr>
@@ -37,7 +38,7 @@ Understanding the Malthusian economic system is key to resolve the mystery of th
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="10000">
+    <img src="{{site.url}}/images/septembre.jpg" width="8000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
