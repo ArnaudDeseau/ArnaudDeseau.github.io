@@ -32,19 +32,13 @@ Our societies, both developing and developed, are facing a considerable gap in t
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in with the onset of the Industrial Revolution. The key characteristic of Malthusiant economies is the lThis economic system is characterized by the stagnation of the living conditions.
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
-Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
+In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in with the onset of the Industrial Revolution. The key characteristic of Malthusiant economies is the lThis economic system is characterized by the stagnation of the living conditions. 
 Understanding the Malthusian economic system is key to resolve the mystery of the end of the Malthusian era and the onset of modern economic growth. Enven more important, the Great Divergence.
 </div>
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="8000">
+    <img src="{{site.url}}/images/septembre.jpg" width="10000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
