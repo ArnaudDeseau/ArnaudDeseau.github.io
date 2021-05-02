@@ -24,7 +24,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
   <p align="center">
     <img src="{{site.url}}/images/atj_sdg.jpg" width="6000">
     <br>
-    <em style="color: grey">SDGs 16</em>
+    <em style="color: grey">Sustainable Development Goal 16</em>
   </p> 
 </td>
 </tr></table>
@@ -52,7 +52,7 @@ Understanding the Malthusian economic system is key to resolve the mystery of th
   <p align="center">
     <img src="{{site.url}}/images/septembre.jpg" width="6000">
     <br>
-    <em style="color: grey">SDGs 16</em>
+    <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
 </td>
 </tr></table>
@@ -77,7 +77,7 @@ Our societies, both developing and developed, are facing a considerable gap in t
   <p align="center">
     <img src="{{site.url}}/images/moyenmoutier.jpg" width="8000">
     <br>
-    <em style="color: grey">SDGs 16</em>
+    <em style="color: grey">Textile Factory de Moyenmoutier </em>
   </p> 
 </td>
 </tr></table>
