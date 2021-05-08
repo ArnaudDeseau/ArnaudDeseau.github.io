@@ -33,8 +33,9 @@ Although existing contributions to the literature have stressed the importance o
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in with the onset of the Industrial Revolution. The key characteristic of Malthusiant economies is the lThis economic system is characterized by the stagnation of the living conditions. 
+In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 with the onset of the Industrial Revolution. The key characteristic of Malthusian economies is the lThis economic system is characterized by the stagnation of the living conditions. 
 Understanding the Malthusian economic system is key to resolve the mystery of the end of the Malthusian era and the onset of modern economic growth. Enven more important, the Great Divergence.
+In this project, I start by analyzing the speed at which a Malthusian economy 
 </div>
 </td>
 <td> 
