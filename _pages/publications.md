@@ -18,7 +18,7 @@ Although existing contributions to the literature have stressed the importance o
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/atj_sdg.jpg" width="12000">
+    <img src="{{site.url}}/images/atj_sdg.jpg" width="10000">
     <br>
     <em style="color: grey">Sustainable Development Goal 16</em>
   </p> 
