@@ -60,7 +60,7 @@ During medievel times, monasteries were places of spitirual activity; but not on
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/thionville.jpg" width="3000">
+    <img src="{{site.url}}/images/thionville.jpg" width="4000">
     <br>
     <em style="color: grey">Tableau des Biens à Vendre dans le District de Thionville au 27 juillet 1791 </em>
   </p> 
