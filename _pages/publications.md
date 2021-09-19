@@ -48,6 +48,7 @@ The Malthusian Trap is challenged in the litterature. In this project, I focus o
 </td>
 </tr></table>
 
+<li><span style="color:#318ce7">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>.</li>
 
 
 <table><tr>
