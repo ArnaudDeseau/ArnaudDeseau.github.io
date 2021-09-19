@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 
-fff. [WP](https://arnauddeseau.github.io/files/CV_Latex.pdf)
+You can download a PDF copy of my CV [here](https://arnauddeseau.github.io/files/CV_Latex.pdf).
