@@ -60,7 +60,7 @@ During medievel times, monasteries were places of spitirual activity; but not on
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/moyenmoutier.jpg" width="6000">
+    <img src="{{site.url}}/images/thionville.jpg" width="6000">
     <br>
     <em style="color: grey">Textile Factory of Moyenmoutier ex Abbaye Saint-Hydulphe de Moyenmoutier </em>
   </p> 
