@@ -34,9 +34,9 @@ Although existing contributions to the literature have stressed the importance o
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (x-x), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 with the onset of the Industrial Revolution. The key characteristic of Malthusian economies is the lThis economic system is characterized by the stagnation of the living conditions. 
-Understanding the Malthusian economic system is key to resolve the mystery of the end of the Malthusian era and the onset of modern economic growth. Enven more important, the Great Divergence.
-In this project, I start by analyzing the speed at which a Malthusian economy 
+In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (1766-1834), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in England with the onset of the Industrial Revolution. One key characterisitc of the Malthusian era is the concept of Malthusian Trap - i.e. the stagnation of output per capita because of a positive link between output per capita and fertility. One most famous and tragic exemple is The Black Death: right after the pestilence, survivors enjoy a higher income per capita, they survive more, make more kids who enjoy better survival chance such that population growth 
+<br/>
+The Malthusian Trap is challenged in the litterature. In this project, I focus on the speed of convergence of a Malthusian economy to its steady-state - i.e. the time a Malthusian economy takes to return to its previous GDP per capita steady-state after a shock. 
 </div>
 </td>
 <td> 
@@ -55,17 +55,21 @@ In this project, I start by analyzing the speed at which a Malthusian economy
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong><span style="color:#dc143c"> <strong>E</strong></span><strong>conomic</strong> <span style="color:#dc143c"> <strong>C</strong></span><strong>onsequences</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong> <span style="color:#dc143c"> <strong>D</strong></span><strong>issolution</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>F</strong></span><strong>rench</strong> <span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries</strong>
 <br/>
-During medievel times, monasteries were places of spitirual activity; but not only. Monasteries were important economic actors possesing significant amount of land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal rights on land. At the eve of the French Revolution, the Church posseses as much as 6-7% of the land and monasteries are a high contributor of that figure (Bodinier and Teyssier, 2000). The French Revolution occurred in 1789 and in the space of 3 years, the vast majority of monasteries and their possessions were sold by auction in the event called La Vente des Biens Nationaux. The aim of this project is to i) reconstruct monastic revenue and ii) study the economic and social consequences of the dissolution of the French monasteries.
+During medievel times, monasteries were places of spitirual activity; but not only. Monasteries were important economic actors possesing significant amount of land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal rights on land. At the eve of the French Revolution, the Church posseses as much as 6-7% of the land and monasteries are a high contributor of that figure (Bodinier and Teyssier, 2000). After the revolution, in the space of 3 years, the vast majority of monasteries and their possessions were sold by auction in the event called La Vente des Biens Nationaux. The aim of this project is to i) reconstruct the revenue of Ancien Régime French monasteries and ii) study the economic and social consequences of the dissolution of the French monasteries.
 </div>
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/thionville.jpg" width="4000">
+    <img src="{{site.url}}/images/thionville.jpg" width="5000">
     <br>
-    <em style="color: grey">Tableau des Biens à Vendre dans le District de Thionville au 27 juillet 1791 </em>
+    <em style="color: grey">Tableau des Biens à Vendre dans le district de Thionville au 27 juillet 1791 </em>
   </p> 
 </td>
 </tr></table>
+
+<li><span style="color:#318ce7">The Effect of the Dissolution of French Monasteries</span>.</li> 
+<li><span style="color:#318ce7">Holy Factories: Industrialization and the
+Dissolution of French Monasteries</span>.</li> 
 
 
 <br/>
