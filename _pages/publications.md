@@ -53,7 +53,7 @@ In this project, I start by analyzing the speed at which a Malthusian economy
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>C</strong></span><strong>onvergence</strong>
+<span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong><span style="color:#dc143c"> <strong>E</strong></span><strong>conomic</strong> <span style="color:#dc143c"> <strong>C</strong></span><strong>onsequences</strong> of <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong> <span style="color:#dc143c"> <strong>D</strong></span><strong>issolution</strong> of <span style="color:#dc143c"> <strong>F</strong></span><strong>rench</strong> <span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries</strong>
 <br/>
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
 Our societies, both developing and developed, are facing a considerable gap in the justice sector. 
