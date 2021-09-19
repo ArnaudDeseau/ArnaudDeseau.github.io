@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 
-fff. [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)
+fff. [WP](https://arnauddeseau.github.io/files/CV_Latex.pdf)
