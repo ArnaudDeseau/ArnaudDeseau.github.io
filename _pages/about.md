@@ -23,4 +23,3 @@ I am a PhD student in Economic History at Université Saint-Louis – Bruxelles 
 **12-18-2020:** Organization of the first online edition of the Belgian Doctoral Workshop in Economics
 
 
-<meta name="google-site-verification" content="mgmzDndxCU53pEUr2i9FyH1hOAMu-Ht4A8aNEFZmZsA" />
