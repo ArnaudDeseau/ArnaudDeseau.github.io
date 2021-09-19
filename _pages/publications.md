@@ -53,16 +53,16 @@ In this project, I start by analyzing the speed at which a Malthusian economy
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong><span style="color:#dc143c"> <strong>E</strong></span><strong>conomic</strong> <span style="color:#dc143c"> <strong>C</strong></span><strong>onsequences</strong> of <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong> <span style="color:#dc143c"> <strong>D</strong></span><strong>issolution</strong> of <span style="color:#dc143c"> <strong>F</strong></span><strong>rench</strong> <span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries</strong>
+<span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong><span style="color:#dc143c"> <strong>E</strong></span><strong>conomic</strong> <span style="color:#dc143c"> <strong>C</strong></span><strong>onsequences</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong> <span style="color:#dc143c"> <strong>D</strong></span><strong>issolution</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>F</strong></span><strong>rench</strong> <span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries</strong>
 <br/>
 During medievel times, monasteries were places of spitirual activity; but not only. Monasteries were important economic actors possesing significant amount of land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal titles.
 </div>
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/thionville.jpg" width="6000">
+    <img src="{{site.url}}/images/thionville.jpg" width="3000">
     <br>
-    <em style="color: grey">Textile Factory of Moyenmoutier ex Abbaye Saint-Hydulphe de Moyenmoutier </em>
+    <em style="color: grey">Tableau des Biens à Vendre dans le District de Thionville au 27 juillet 1791 </em>
   </p> 
 </td>
 </tr></table>
