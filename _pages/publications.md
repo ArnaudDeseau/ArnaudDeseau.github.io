@@ -34,14 +34,14 @@ Although existing contributions to the literature have stressed the importance o
 <div style="text-align: justify">
 <span style="color:#dc143c"> <strong>M</strong></span><strong>althusian</strong><span style="color:#dc143c"> <strong>D</strong></span><strong>ynamics</strong>
 <br/>
-In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (1766-1834), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in England with the onset of the Industrial Revolution. Since decades now, economists have accumulated evidence in favour of the existence of the Malthusian period. The fundamental postulate of the Malthusian theory, related to Thomas Malthus's theories is that living standards were determined by fertility and mortality and exhibit no sustain growth. One key and closely related element is the concept of Malthusian Trap - i.e. the mechanism by which fertility and mortality adjust to prevent variations of income per capita. One of the most famous and tragic example is The Black Death: right after the pestilence, the survivors enjoy higher income per capita; they and their progenitures have better chance to survive; population growth untill 
+In regard of Human History, modern growth is the great exception and Malthusian times, the rule. Named after Thomas Malthus (1766-1834), the Malthusian epoch starts 12,000 ago with the Neolithical Revolution and ends around 1750 in England with the onset of the Industrial Revolution. Since decades now, economists have accumulated evidence in favour of the existence of the Malthusian period. The fundamental postulate of the Malthusian theory, directly related to Thomas Malthus's theories, is that living standards were determined by fertility and mortality and exhibit no sustain growth. One key and closely related element is the concept of Malthusian Trap - i.e. the mechanism by which fertility and mortality adjust to prevent variations of income per capita. One of the most famous and tragic example of Malthusian adjustment is The Black Death (1346-1353): right after the pestilence, the survivors enjoy higher income per capita and have better chances to survive but are also able to make their progenitures survive more; this means that population will increase and incompe per capita will converge to his pre-pestilence level.
 <br/>
-Since new GDP series data showing upward trends prior 1800 (Fouquet & Broadberry, 2015), the Malthusian Trap is challenged in the litterature. In this project, I focus on the speed of convergence of a Malthusian economy to its steady-state - i.e. the time a Malthusian economy takes to return to its previous GDP per capita steady-state after a shock. 
+Since new GDP per capita data series showing upward trends prior 1800 (Fouquet & Broadberry, 2015), the Malthusian Trap is challenged in the litterature. To reconcile Malthusian theories, we need long lasting effect of shocks. In this project, I focus on the speed of convergence of a Malthusian economy to its steady-state - i.e. the time a Malthusian economy takes to return to its previous GDP per capita steady-state after a shock. 
 </div>
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="6000">
+    <img src="{{site.url}}/images/septembre.jpg" width="7000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
@@ -61,7 +61,7 @@ During medievel times, monasteries were places of spitirual activity; but not on
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/thionville.jpg" width="5000">
+    <img src="{{site.url}}/images/thionville.jpg" width="6000">
     <br>
     <em style="color: grey">Tableau des Biens à Vendre dans le district de Thionville au 27 juillet 1791 </em>
   </p> 
