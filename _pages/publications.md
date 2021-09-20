@@ -49,7 +49,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 </tr></table>
 
 <li><span style="color:#318ce7">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>.</li>
-
+<br/>
 
 <table><tr>
 <td>
