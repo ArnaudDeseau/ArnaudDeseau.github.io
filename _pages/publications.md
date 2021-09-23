@@ -41,7 +41,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="10000">
+    <img src="{{site.url}}/images/septembre.jpg" width="6000">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
