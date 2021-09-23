@@ -41,7 +41,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="8700">
+    <img src="{{site.url}}/images/septembre.jpg" width="8800">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
@@ -61,7 +61,7 @@ During medievel times, monasteries were places of spitirual activity; but not on
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/thionville.jpg" width="7300">
+    <img src="{{site.url}}/images/thionville.jpg" width="7350">
     <br>
     <em style="color: grey">Tableau des Biens à Vendre dans le district de Thionville au 27 juillet 1791 </em>
   </p> 
