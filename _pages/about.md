@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am a PhD student in Economic History at Université Saint-Louis – Bruxelles and UCLouvain (Belgium). My research focus on the determinants and the evolution of economic development in a long-run perspective. More specifically, my research looks at the historical evolution of access to justice, Malthusian dynamics, the determinants of the First Industrial Revolution in France and the long-run impact of Cistercians presence.</div>
+I am a PhD student in Economic History at [Université Saint-Louis – Bruxelles](https://www.usaintlouis.be/) and [UCLouvain](https://uclouvain.be/fr/index.html) (Belgium) under the supervision of [Hélène Latzer](https://sites.google.com/view/helene-latzer/home) and [David de la Croix](https://perso.uclouvain.be/david.delacroix/). My research focus on the determinants and the evolution of economic development in a long-run perspective. More specifically, my research looks at the historical evolution of access to justice, Malthusian dynamics and the long-run impact of the dissolution of French monasteries.</div>
 
 <div style="text-align: justify"> 
 <br/>I am currently full-time teaching assistant at Université Saint-Louis – Bruxelles. Prior to that, I obtained my Master at the Economics School of Louvain (UCLouvain, Belgium) in 2016.</div>
