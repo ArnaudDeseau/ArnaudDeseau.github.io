@@ -10,16 +10,16 @@ author_profile: true
 <table><tr>
 <td>
 <div style="text-align: justify">
-<span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong><span style="color:#dc143c"> <strong>E</strong></span><strong>conomic</strong> <span style="color:#dc143c"> <strong>C</strong></span><strong>onsequences</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>T</strong></span><strong>he</strong> <span style="color:#dc143c"> <strong>D</strong></span><strong>issolution</strong> <strong>of</strong> <span style="color:#dc143c"> <strong>F</strong></span><strong>rench</strong> <span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries</strong>
+<span style="color:#dc143c"> <strong>M</strong></span><strong>onasteries and </strong><span style="color:#dc143c"> <strong>R</strong></span><strong>evolutions</strong>
 <br/>
-During medievel times, monasteries were places of spitirual activity; but not only. Monasteries were also important economic actors possesing significant amount of the land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal rights on the land. At the eve of the French Revolution, the Church posseses as much as 6-7% of the land and monasteries are a high contributor of that figure (Bodinier and Teyssier, 2000). After the revolution, in the space of 3 years, the vast majority of monasteries and their possessions were sold by auction in the event called La Vente des Biens Nationaux. The aim of this project is to i) reconstruct the revenue of Ancien Régime French monasteries and ii) study the economic and social consequences of the dissolution of the French monasteries.
+During medievel times, monasteries were places of spitirual activity; but not only. Monasteries were also important economic actors possesing significant amount of the land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal rights on the land. At the eve of the French Revolution, the Church posseses as much as 6-7% of the land and monasteries are a high contributor of that figure (Bodinier and Teyssier, 2000). After the revolution, in the space of three years, the vast majority of monasteries and their possessions were sold by auction in the event called <em>La Vente des Biens Nationaux</em>. The aim of this project is to i) reconstruct the revenue of <em>Ancien Régime</em> French monasteries and ii) study the economic and social consequences of the dissolution of the French monasteries.
 </div>
 </td>
 <td> 
   <p align="center">
     <img src="{{site.url}}/images/thionville.jpg" width="7600">
     <br>
-    <em style="color: grey">Tableau des Biens à Vendre dans le district de Thionville au 27 juillet 1791 </em>
+    <em style="color: grey">List of properties for sale in the district of Thionville on July 27, 1791</em>
   </p> 
 </td>
 </tr></table>
