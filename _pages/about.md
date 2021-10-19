@@ -16,10 +16,10 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**2021-04-20:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution.
+**20-04-2021:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution.
 
-**2021-04-06:** Hello world! Creation of my website 
+**06-04-2021:** Hello world! Creation of my website 
 
-**2020-12-18:** Organization of the first online edition of the Belgian Doctoral Workshop in Economics
+**18-12-2020:** Organization of the first online edition of the Belgian Doctoral Workshop in Economics
 
 
