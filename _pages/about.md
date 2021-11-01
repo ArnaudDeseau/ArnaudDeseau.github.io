@@ -16,7 +16,9 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**20-04-2021:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution.
+**01-11-2021:** I am honored to be the laureate of the French Community Travel Grant in order to finance my visiting at the Brown University in February 
+
+**20-04-2021:** I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution
 
 **06-04-2021:** Hello world! Creation of my website 
 
