@@ -86,4 +86,6 @@ Although existing contributions to the literature have stressed the importance o
 
 <li><a href="{{ site.baseurl }}/index.html"><i class='fa fa-home'></i> Home</a></li>
 
-<i class="fas fa-file-pdf"></i>
+<li><a href="{{ site.baseurl }}/index.html"><i class='fa fa-home'></i> Home</a></li>
+
+<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf"></i> WP</a>
