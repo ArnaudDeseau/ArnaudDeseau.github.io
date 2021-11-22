@@ -82,10 +82,9 @@ Although existing contributions to the literature have stressed the importance o
 
 [this](#Buttons){: .btn--research}
 
-[this](#Buttons){: .btn--phone}
-
-<li><a href="{{ site.baseurl }}/index.html"><i class='fa fa-home'></i> Home</a></li>
-
 <li><a href="{{ site.baseurl }}/index.html"><i class='fa fa-home'></i> Home</a></li>
 
 <a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf"></i> WP</a>
+
+<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf"></i></a>
+
