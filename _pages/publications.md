@@ -88,6 +88,6 @@ Although existing contributions to the literature have stressed the importance o
 
 <a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf fa-2x"></i></a>
 
-<a href="{{https://ideas.repec.org/p/ctl/louvir/2019009.html}}/index.html"><i class="fas fa-file-pdf fa-2x"></i></a>
+<a href="https://ideas.repec.org/p/ctl/louvir/2019009.html"><i class="fas fa-file-pdf fa-2x"></i></a>
 <a href="{{https://ideas.repec.org/p/ctl/louvir/2019009.html}}/index.html"><i class="fas fa-user-friends fa-2x"></i></a>
 
