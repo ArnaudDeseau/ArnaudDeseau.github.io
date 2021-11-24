@@ -75,7 +75,8 @@ Although existing contributions to the literature have stressed the importance o
 </tr></table>
 
 <li><span style="color:#318ce7">Access to Justice and Economic Development: Evidence from an International Panel Dataset</span> (with Adam Levai and Michèle Schmiegelow).</li> 
-<a href="https://ideas.repec.org/p/ctl/louvir/2019009.html"><i class="fas fa-file-pdf fa-2x"></i></a> working paper | 
+<a href="https://ideas.repec.org/p/ctl/louvir/2019009.html"><i class="fas fa-file-pdf"></i></a> working paper | <a href="https://www.researchgate.net/profile/Adam-Levai"><i class="fas fa-user-friends"></i></a>
+
 [WP](https://ideas.repec.org/p/ctl/louvir/2019009.html)|[Adam Levai](https://www.researchgate.net/profile/Adam-Levai)|[Michèle Schmiegelow](https://www.researchgate.net/profile/Michele-Schmiegelow)
 <br/>
 
