@@ -78,12 +78,11 @@ Although existing contributions to the literature have stressed the importance o
 <a href="https://ideas.repec.org/p/ctl/louvir/2019009.html"><i class="fas fa-file-pdf"></i></a> working paper | <a href="https://www.researchgate.net/profile/Adam-Levai"><i class="fas fa-user-friends"></i></a> Adam Levai | <a href="https://www.researchgate.net/profile/Michele-Schmiegelow"><i class="fas fa-user-friends"></i></a> Michèle Schmiegelow
 
 
+<!-- 
+[this](#Buttons){: .btn--research}
 
+<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf"></i></a>
 
-*[this](#Buttons){: .btn--research}
+<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf fa-2x"></i></a>
 
-*<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf"></i></a>
-
-*<a href="{{ site.baseurl }}/index.html"><i class="fas fa-file-pdf fa-2x"></i></a>
-
-
+-->
