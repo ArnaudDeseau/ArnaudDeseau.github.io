@@ -16,7 +16,7 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**02-12-2021** I am looking forward to attending and speaking at the seminar: « Les biens nationaux » : une révolution ? XVIIIe – XXIe siècle. Enjeux socio-politiques et imaginaires sociaux organized by the CRIHAM at Université de Poitiers 
+**02-12-2021:** I am looking forward to attending and speaking at the seminar: « Les biens nationaux » : une révolution ? XVIIIe – XXIe siècle. Enjeux socio-politiques et imaginaires sociaux organized by the CRIHAM at Université de Poitiers 
 
 **01-11-2021:** I am honored to be the laureate of the French Community Travel Grant in order to finance my visiting at the Brown University in February 
 
