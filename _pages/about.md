@@ -16,6 +16,8 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
+**01-02-2022:** Starting of my 6 months visiting at Brown University, under the supervision of Oded Galor. I am really looking forward to present my research and interact with the economics department
+
 **10-01-2022:** I am looking forward to attending and presenting a poster of my research on French monasteries at the XIX World Economic History Congress (WEHC) to be held in Paris
 
 **02-12-2021:** I am looking forward to attending and speaking at the seminar: « Les biens nationaux » : une révolution ? XVIIIe – XXIe siècle. Enjeux socio-politiques et imaginaires sociaux organized by the CRIHAM at Université de Poitiers 
