@@ -16,6 +16,8 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
+**23-02-2022:** Delighted to present my research on ``Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em>'' at the Growth Breakfast of Brown University
+
 **01-02-2022:** Starting of my 6 months visiting at Brown University, under the supervision of <a href="https://www.odedgalor.com/" target="_blank">Oded Galor</a>. I am really looking forward to present my research and interact with the economics department
 
 **10-01-2022:** I am looking forward to attending and presenting a poster of my research on French monasteries at the XIX World Economic History Congress (<a href="https://www.wehc2022.org/" target="_blank">WEHC</a>) to be held in Paris
