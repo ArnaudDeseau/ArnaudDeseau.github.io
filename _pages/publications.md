@@ -24,7 +24,7 @@ During medieval times, monasteries were places of spiritual activity; but not on
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>.</li> 
+<li><span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>.</li> Draft coming soon!
 <li><span style="color:#dc143c">Holy Factories: Industrialization and the
 Dissolution of French Monasteries</span>.</li> 
 
@@ -51,7 +51,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>.</li>
+<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>.</li> Draft coming soon!
 <br/>
 
 
