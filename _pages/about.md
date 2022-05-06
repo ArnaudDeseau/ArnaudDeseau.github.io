@@ -16,6 +16,10 @@ I am a PhD student in Economic History at <a href="https://www.usaintlouis.be/" 
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
+**04-05-2022:** Delighted to present my research on « The Long-Run Impact of the Dissolution of French Monastery » at the Growth Breakfast of the Brown University
+
+**23-04-2021:** I am honored to be the laureate of the Association Française d'Histoire Economique (French Economic History Association) Grant in view of my participation to the WEHC conference in Paris this summer
+
 **23-02-2022:** Delighted to present my research on « Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em> » at the Growth Breakfast of the Brown University
 
 **01-02-2022:** Starting of my 6 months visiting at Brown University, under the supervision of <a href="https://www.odedgalor.com/" target="_blank">Oded Galor</a>. I am really looking forward to present my research and interact with the economics department
