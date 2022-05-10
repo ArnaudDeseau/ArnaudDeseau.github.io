@@ -10,7 +10,8 @@ redirect_from:
 
 <div style="text-align: justify"> 
 I am a PhD student in Economics at <a href="https://www.usaintlouis.be/" target="_blank">Université Saint-Louis – Bruxelles</a> and <a href="https://uclouvain.be/fr/index.html" target="_blank">UCLouvain</a> (Belgium) under the supervision of <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a> and <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a>.</div>
-  
+
+<div style="text-align: justify"> 
 My research spans economic growth, political economy, demography and economic history. More specifically, my research centers on understanding the role of institutions and social change in long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (population or Malthusian trap) before the Industrial Revolution.</div>
   
 <div style="text-align: justify"> 
