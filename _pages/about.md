@@ -19,6 +19,8 @@ I am a PhD student in Economics at <a href="https://www.usaintlouis.be/" target=
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
+**07-05-2022:** Had a really great time attending to the Brown Conference on the Roots of Comparative Development
+
 **04-05-2022:** Delighted to present my research on « The Long-Run Impact of the Dissolution of French Monastery » at the Growth Breakfast of the Brown University
 
 **23-04-2021:** I am honored to be the laureate of the Association Française d'Histoire Economique (French Economic History Association) Grant in view of my participation to the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris this summer
