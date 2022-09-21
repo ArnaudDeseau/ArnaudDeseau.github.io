@@ -24,7 +24,7 @@ During medieval times, monasteries were places of spiritual activity; but not on
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>. Draft coming soon!</li> 
+<li><span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>. <em Draft available upon request </em> </li> 
 <li><span style="color:#dc143c">Holy Factories: Industrialization and the
 Dissolution of French Monasteries</span>.</li> 
 
@@ -51,7 +51,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>. Draft coming soon!</li> 
+<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>. <em Draft available upon request </em> </li> 
 <br/>
 
 
@@ -74,7 +74,7 @@ Although existing contributions to the literature have stressed the importance o
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">Access to Justice and Economic Development: Evidence from an International Panel Dataset</span> (with Adam Levai and Michèle Schmiegelow).</li> 
+<li><span style="color:#dc143c">Access to Justice and Economic Development: Evidence from an International Panel Dataset</span> (with Adam Levai and Michèle Schmiegelow). <em Submited. </em> </li> 
 <a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft | <a href="https://www.researchgate.net/profile/Adam-Levai"><i class="fas fa-user-friends"></i></a> Adam Levai | <a href="https://www.researchgate.net/profile/Michele-Schmiegelow"><i class="fas fa-user-friends"></i></a> Michèle Schmiegelow
 
 
