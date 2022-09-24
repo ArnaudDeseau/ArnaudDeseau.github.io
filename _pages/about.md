@@ -19,7 +19,7 @@ I am a PhD student in Economics at <a href="https://www.usaintlouis.be/" target=
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**23-09-2022:** Had a really great time attending and presenting my job market paper on « The Most Important Event? The Long-Run Impact of the Dissolution of French Monasteries » at the Instituto de Ciências Sociais (ICS) of the University of Lisbon
+**23-09-2022:** Had a really great time attending and presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the Instituto de Ciências Sociais (ICS) of the University of Lisbon
 
 **29-07-2022:** Had a really great time attending and presenting a poster at to the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris 
 
