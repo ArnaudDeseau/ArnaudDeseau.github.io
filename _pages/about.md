@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/research-institutes/lidam/ires" target="_blank">Institut de Recherches Economiques et Sociales</a> (IRES) of the UCLouvain (Belgium) and the <a href="https://cerec.be/" target="_blank">Centre de Recherche en Economie</a> (CEREC) of the Université Saint-Louis - Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
+I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/research-institutes/lidam/ires" target="_blank">Institut de Recherches Economiques et Sociales</a> (IRES) of the UCLouvain (Belgium) and the <a href="https://cerec.be/" target="_blank">Centre de Recherche en Economie</a> (CEREC) of the Université Saint-Louis – Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
 <div style="text-align: justify">
 <br/> <b>I am on the 2022-23 job market.</b></div>
