@@ -15,7 +15,7 @@ I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/resear
 <br/> <b>I am on the 2022-23 job market.</b></div>
 
 <div style="text-align: justify"> 
-<br/> My research spans economic growth, comparative development, Malthusian dynamics and economic history. More specifically, my research centers on understanding the role of institutions and social change in long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (Malthusian trap) before the Industrial Revolution.</div>
+<br/> My research spans economic growth, comparative development, Malthusian dynamics and economic history. More specifically, my research centers on understanding the role of misallocation of factor of production (land and fixed capital) on productivity and long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (Malthusian trap) before the Industrial Revolution. My research interests also include the historical evolution of access to justice.</div>
   
 <div style="text-align: justify"> 
 <br/>I am also currently full-time teaching assistant in economics at the Université Saint-Louis – Bruxelles.</div>
