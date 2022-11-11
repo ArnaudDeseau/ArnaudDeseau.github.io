@@ -43,7 +43,7 @@ While the existence of the Malthusian trap mechanism is widely accepted, previou
 </td>
 <td> 
   <p align="center">
-    <img src="{{site.url}}/images/septembre.jpg" width="11000">
+    <img src="{{site.url}}/images/septembre.jpg" width="10500">
     <br>
     <em style="color: grey">Les Très Riches Heures du Duc de Berry - Septembre</em>
   </p> 
