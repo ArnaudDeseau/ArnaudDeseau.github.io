@@ -51,7 +51,7 @@ While the existence of the Malthusian trap mechanism is widely accepted, previou
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</span>. <em>Draft available upon request</em> </li> 
+<li><span style="color:#dc143c">Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em>?</span>. <em>Draft available upon request</em> </li> 
 <br/>
 
 
