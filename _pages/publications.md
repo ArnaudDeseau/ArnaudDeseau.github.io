@@ -62,7 +62,7 @@ Since new GDP per capita data series showing upward trends prior 1800 (Fouquet &
 <br/>
 The last decade has seen a growing recognition of Access to Justice (ATJ) as one of the major challenges in the development of peaceful and prosperous societies for the coming years. A study conducted by the World Justice Project in 2019 estimates that as much as 5.1 billion people – or approximately two-thirds of humanity – face issues related to ATJ. The obstacles to reaching justice are numerous, ranging from time and costs factors to discrimination of all kinds; they impede the accurate delivery of justice in civil, administrative, and criminal matters. This has direct and strong implications for peoples’everyday decisions in the most fundamental economic operations. Consequently, such obstacles to justice generate substantial economic costs and slows down economic development in both developed and developing societies.
 <br/>
-Although existing contributions to the literature have stressed the importance of legal codes as well as effective or de facto judicial institutions for economic development, surprisingly little is known about the importance of the central notion of ATJ for economic development. In this project, we take a long-run perspective to i) retrace the historical evolution of ATJ through time and accross country and ii) evaluates the contribution of ATJ to economic development.
+Although existing contributions to the literature have stressed the importance of legal codes as well as effective or de facto judicial institutions for economic development, surprisingly little is known about the importance of the central notion of ATJ for economic development. In this project, we take a long-run perspective to (i) trace the historical evolution of ATJ through time and accross country and (ii) evaluate the contribution of ATJ to economic development.
 </div>
 </td>
 <td> 
@@ -75,7 +75,7 @@ Although existing contributions to the literature have stressed the importance o
 </tr></table>
 
 <li><span style="color:#dc143c">Access to Justice and Economic Development: Evidence from an International Panel Dataset</span> (with Adam Levai and Michèle Schmiegelow). <em>Submited.</em> </li> 
-<a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft | <a href="https://www.researchgate.net/profile/Adam-Levai"><i class="fas fa-user-friends"></i></a> Adam Levai | <a href="https://www.researchgate.net/profile/Michele-Schmiegelow"><i class="fas fa-user-friends"></i></a> Michèle Schmiegelow
+<a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft | <a href="https://adam-levai.com/"><i class="fas fa-user-friends"></i></a> Adam Levai | <a href="https://www.researchgate.net/profile/Michele-Schmiegelow"><i class="fas fa-user-friends"></i></a> Michèle Schmiegelow
 
 
 <!-- 
