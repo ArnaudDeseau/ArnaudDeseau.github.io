@@ -24,9 +24,8 @@ During medieval times, monasteries were places of spiritual activity; but not on
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>. <em>Draft available upon request</em> </li> 
-<li><span style="color:#dc143c">Holy Factories: Industrialization and the
-Dissolution of French Monasteries</span>.</li> 
+<li> Job Market Paper: <span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>. <em>Draft available upon request</em> </li> 
+
 
 
 <br/>
