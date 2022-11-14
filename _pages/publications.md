@@ -14,7 +14,7 @@ author_profile: true
 <br/>
 During medieval times, monasteries were places of spiritual activity; but not only. Monasteries were also important economic actors possessing significant amount of the land, forests, mills, houses and forges. More importantly, they were true feudal landlords, collecting taxes and exercising feudal rights on the land. After the Revolution, the land and production facilities owned by the Church and monasteries were confiscated and auctioned through the event known as the <em>Vente des Biens Nationaux</em>. In the space of five years, 6% of French land and more than 170,000 buildings, had been reallocated by the market from the Church to secular owners, of which a substantial part came from monastic properties (Bodinier and Teyssier, 2000). According to the French historian Lecarpentier (1908, author’s translation p. 4), this was "the most important event of the Revolution".
 <br/>
-In this project, I (i) reconstruct proxy the local economic importance of French monasteries before 1789 and (ii) study the economic and social consequences of the reallocation by the market of the land and production facilities owned by monasteries.
+In this project, I (i) proxy the local economic importance of French monasteries before 1789 and (ii) study the economic and social consequences of the reallocation by the market of the land and production facilities owned by monasteries.
 </div>
 </td>
 <td> 
