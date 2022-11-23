@@ -26,7 +26,7 @@ In this project, I (i) proxy the local economic importance of French monasteries
 </td>
 </tr></table>
 
-<li> Job Market Paper: <span style="color:#dc143c">The Effect of the Dissolution of French Monasteries</span>. <em>Draft available upon request</em> </li> 
+<li> Job Market Paper: <span style="color:#dc143c"><em>The Most Important Event</em>? The Long-Run Effect of the Dissolution of French Monasteries</span>. <em>Draft available upon request</em> </li> 
 
 
 
