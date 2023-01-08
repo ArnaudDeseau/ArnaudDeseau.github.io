@@ -22,12 +22,13 @@ I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/resear
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**04-10-2022:** Had a really great time presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://uclouvain.be/en/calendar/ires" target="_blank">IRES Lunch Seminar</a> of the Université catholique de Louvain
+**19-12-2022:** I was very pleased to present a poster at the conference on « Religion, Culture and Economic Growth in Historical Perspective » organized at the Université catholique de Louvain
 
+**04-10-2022:** Had a really great time presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://uclouvain.be/en/calendar/ires" target="_blank">IRES Lunch Seminar</a> of the Université catholique de Louvain
 
 **23-09-2022:** Had a really great time attending and presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://www.ics.ulisboa.pt/" target="_blank">Instituto de Ciências Sociais (ICS)</a> of the University of Lisbon
 
-**29-07-2022:** Had a really great time attending and presenting a poster at to the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris 
+**29-07-2022:** Had a really great time attending and presenting a poster at the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris 
 
 **07-05-2022:** Had a really great time attending to the Brown Conference on the Roots of Comparative Development
 
