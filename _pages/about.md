@@ -22,6 +22,8 @@ I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/resear
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
+**09-01-2023:** I am looking forward to staying at the Aix-Marseille School of Economics (Université Aix-Marseille) from 09/01 to 13/01 in order to present my job market paper and to have fruitful exchanges with the faculty
+
 **19-12-2022:** I was very pleased to present a poster at the conference on « Religion, Culture and Economic Growth in Historical Perspective » organized at the Université catholique de Louvain
 
 **04-10-2022:** Had a really great time presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://uclouvain.be/en/calendar/ires" target="_blank">IRES Lunch Seminar</a> of the Université catholique de Louvain
