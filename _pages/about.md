@@ -22,7 +22,7 @@ I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/resear
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**30-01-2023:** I look forward to defending my thesis publicly on March 27, 2023. <em>Le jour de gloire est arrivé !</em>
+**30-01-2023:** I look forward to defending my thesis publicly on March 28, 2023. <em>Le jour de gloire est arrivé !</em>
 
 **09-01-2023:** I am looking forward to staying at the <a href="https://www.amse-aixmarseille.fr/en" target="_blank">Aix-Marseille School of Economics</a> (Université Aix-Marseille) from 09/01 to 13/01 in order to present my job market paper and to have fruitful exchanges with the faculty
 
