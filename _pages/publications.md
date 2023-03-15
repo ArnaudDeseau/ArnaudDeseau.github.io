@@ -26,8 +26,8 @@ In this project, I (i) proxy the local economic importance of French monasteries
 </td>
 </tr></table>
 
-<li><span style="color:#dc143c">Job Market Paper: Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries</span>
-<a href="https://arnauddeseau.github.io/files/JMP_Arnaud_Deseau.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft | 
+<li><span style="color:#dc143c">Job Market Paper: Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries</span> </li> 
+<a href="https://arnauddeseau.github.io/files/JMP_Arnaud_Deseau.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft
 
 
 
