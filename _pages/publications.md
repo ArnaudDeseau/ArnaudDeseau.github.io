@@ -26,9 +26,7 @@ In this project, I (i) proxy the local economic importance of French monasteries
 </td>
 </tr></table>
 
-<li> Job Market Paper: <span style="color:#dc143c"><em>The Most Important Event</em>? The Long-Run Effect of the Dissolution of French Monasteries</span>. <em>Draft available upon request</em> </li> 
-
-<li><span style="color:#dc143c">Job Market Paper: Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries</span> (with Adam Levai and Michèle Schmiegelow). <em>Submited.</em> </li> 
+<li><span style="color:#dc143c">Job Market Paper: Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries</span>
 <a href="https://arnauddeseau.github.io/files/JMP_Arnaud_Deseau.pdf"><i class="fas fa-file-pdf"></i></a> Latest Draft | 
 
 
