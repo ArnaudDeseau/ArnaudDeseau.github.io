@@ -90,37 +90,36 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 <div class="buttons">
-  <button class="button button1">Bouton 1</button>
-  <button class="button button2">Bouton 2</button>
+  <button class="button1">Button 1</button>
+  <button class="button2">Button 2</button>
 </div>
 
 <style>
-  .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 
-  .button {
-    display: inline-block;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    border: 2px solid #008CBA;
-    color: #008CBA;
-    text-align: center;
-    font-size: 16px;
-    padding: 12px 24px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
+.button1, .button2 {
+  background-color: #ffffff;
+  border: 2px solid #008cba;
+  color: #008cba;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 14px 24px;
+  margin: 0 10px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
 
-  .button:hover {
-    background-color: #008CBA;
-    color: #FFFFFF;
-  }
+.button1:hover, .button2:hover {
+  color: #ffffff;
+  background-color: #008cba;
+  border-color: #008cba;
+  transition: all 0.2s ease-in-out;
+}
 </style>
 
 
