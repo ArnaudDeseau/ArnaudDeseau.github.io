@@ -65,7 +65,12 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   </script>
   <style>
     #article-title {
+      background-color: #eee;
+      transition: background-color 0.5s ease-out;
       cursor: pointer;
+    }
+    #article-title:hover {
+      background-color: #ccc;
     }
     #article-summary {
       max-height: 0;
@@ -75,12 +80,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
     #article-summary.active {
       max-height: 1000px;
       transition: max-height 1s ease-in;
-    }
-    #article-title:after {
-      content: "\25BC";
-      display: inline-block;
-      margin-left: 5px;
-      font-size: 0.8em;
     }
   </style>
 </head>
@@ -93,5 +92,3 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 </body>
 </html>
-
-
