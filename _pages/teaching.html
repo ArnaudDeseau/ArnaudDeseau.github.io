@@ -51,3 +51,47 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </body>
 </html>
 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#article-title").click(function() {
+        $("#article-summary").toggleClass("active");
+      });
+    });
+  </script>
+  <style>
+    #article-title {
+      cursor: pointer;
+    }
+    #article-summary {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-out;
+    }
+    #article-summary.active {
+      max-height: 1000px;
+      transition: max-height 1s ease-in;
+    }
+    #article-title:after {
+      content: "\25BC";
+      display: inline-block;
+      margin-left: 5px;
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+
+<h2 id="article-title">Women in Academia: Religion, Marriage and Human Capital</h2>
+<div id="article-summary">
+  <p>Here is a summary of the article...</p>
+</div>
+
+</body>
+</html>
+
+
