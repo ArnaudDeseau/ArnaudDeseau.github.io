@@ -67,6 +67,53 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <div id="article-summary">
   <p>Here is a summary of the article...</p>
 </div>
+  
+  
+  
+  
+  
+  
+  
+  <?php
+  $article_text = "Le texte de l'article s'affiche ici.";
+  $article_image_path = "image.jpg";
+?>
+
+<a class="dropdown-link" href="#">women in academia: religion, marriage and human capital</a>
+<div class="dropdown-content">
+  <div class="column-left">
+    <p><?php echo $article_text; ?></p>
+  </div>
+  <div class="column-right">
+    <img src="<?php echo $article_image_path; ?>" alt="Description de l'image">
+  </div>
+</div>
+
+<style>
+.dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+}
+
+.column-left {
+  width: 60%;
+  float: left;
+}
+
+.column-right {
+  width: 40%;
+  float: right;
+}
+
+.dropdown-link:focus + .dropdown-content {
+  display: block;
+}
+</style>
+
+  
+  
 
 </body>
 </html>
