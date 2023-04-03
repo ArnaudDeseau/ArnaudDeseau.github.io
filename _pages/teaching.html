@@ -86,5 +86,32 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
   
-  
+  <?php
+  $button1_text = "Bouton 1";
+  $button2_text = "Bouton 2";
+?>
+
+<button class="button"><?php echo $button1_text; ?></button>
+<button class="button"><?php echo $button2_text; ?></button>
+
+<style>
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #008CBA;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button:hover {
+    background-color: #005f77;
+  }
+</style>
+
 
