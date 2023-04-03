@@ -30,56 +30,12 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $("#article-title").click(function() {
-        $("#article-summary").toggleClass("active");
-      });
-    });
-  </script>
-  <style>
-    #article-title {
-      background-color: #eee;
-      transition: background-color 0.5s ease-out;
-      cursor: pointer;
-    }
-    #article-title:hover {
-      background-color: #ccc;
-    }
-    #article-summary {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s ease-out;
-    }
-    #article-summary.active {
-      max-height: 1000px;
-      transition: max-height 1s ease-in;
-    }
-  </style>
-</head>
-<body>
-
-<h2 id="article-title">Women in Academia: Religion, Marriage and Human Capital</h2>
-<div id="article-summary">
-  <p>Here is a summary of the article...</p>
-</div>
-  
-  
-  
-  
-  
-  
-  
-  <?php
+<?php
   $article_text = "Le texte de l'article s'affiche ici.";
   $article_image_path = "image.jpg";
 ?>
 
-<a class="dropdown-link" href="#">women in academia: religion, marriage and human capital</a>
+<a class="dropdown-link" href="#">Titre de l'article</a>
 <div class="dropdown-content">
   <div class="column-left">
     <p><?php echo $article_text; ?></p>
@@ -95,6 +51,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   width: 100%;
   overflow: hidden;
   clear: both;
+  background-color: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
 }
 
 .column-left {
@@ -109,6 +68,19 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 .dropdown-link:focus + .dropdown-content {
   display: block;
+}
+
+.dropdown-link:hover {
+  color: #000000;
+}
+
+.dropdown-link:focus {
+  outline: none;
+  color: #000000;
+}
+
+.dropdown-link:focus + .dropdown-content {
+  background-color: #FFFFFF;
 }
 </style>
 
