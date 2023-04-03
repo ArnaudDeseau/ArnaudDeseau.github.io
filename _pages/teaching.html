@@ -35,23 +35,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <style>
-    /* CSS pour créer les deux colonnes */
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-    .col-left {
-      flex: 0 0 60%;
-      max-width: 60%;
-      padding-right: 10px;
-    }
-    .col-right {
-      flex: 0 0 40%;
-      max-width: 40%;
-    }
-
-    /* CSS pour l'effet de déroulement */
     #article-title {
       background-color: #eee;
       transition: background-color 0.5s ease-out;
@@ -64,10 +47,22 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.5s ease-out;
+      display: flex;
+      flex-wrap: wrap;
     }
     #article-summary.active {
       max-height: 1000px;
       transition: max-height 1s ease-in;
+    }
+    #article-summary p {
+      width: 60%;
+    }
+    #article-summary img {
+      width: 40%;
+      display: none;
+    }
+    #article-summary.active img {
+      display: block;
     }
   </style>
   <script>
@@ -80,19 +75,15 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </head>
 <body>
 
-  <h2 id="article-title">Women in Academia: Religion, Marriage and Human Capital</h2>
-  <div class="row">
-    <div id="article-summary" class="col-left">
-      <p>Here is a summary of the article...</p>
-      <p>More details about the article...</p>
-    </div>
-    <div class="col-right">
-      <img src="https://via.placeholder.com/150" alt="Article image">
-    </div>
-  </div>
+<h2 id="article-title">Women in Academia: Religion, Marriage and Human Capital</h2>
+<div id="article-summary">
+  <p>Here is a summary of the article...</p>
+  <img src="your-image-url.jpg" alt="Article image">
+</div>
 
 </body>
 </html>
+
 
 
   
