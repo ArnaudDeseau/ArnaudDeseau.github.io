@@ -210,14 +210,11 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			position: relative;
 			width: 50%;
 		}
-		.container a {
-			display: block;
-			position: relative;
-		}
 		.container img {
 			width: 100%;
 			height: auto;
 			transition: opacity 0.5s;
+			cursor: pointer;
 		}
 		.container:hover img {
 			opacity: 0.8;
@@ -241,22 +238,24 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			display: none;
 			font-size: 16px;
 			line-height: 1.5;
+			margin-top: 10px;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<a href="lien-de-ton-image">
-			<img src="{{site.url}}/images/mie_france.png">
+		<a onclick="toggleResume()">
+			<img src="image.jpg" alt="Image déroulante" title="Cliquer pour afficher le résumé">
 			<div class="text">Texte sur l'image</div>
 		</a>
-		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
+		<div class="resume" id="resume">
 			<!-- Contenu du résumé -->
+			<h3>Titre de l'article</h3>
+			<p>Texte du résumé</p>
 		</div>
 	</div>
 
 	<script>
-		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			if (resume.style.display === "none") {
