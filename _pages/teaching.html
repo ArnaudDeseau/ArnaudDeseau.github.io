@@ -178,12 +178,10 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
-			transform: translateY(20px);
-			transition: transform 0.3s ease-in-out;
 		}
 		.container.open .resume {
 			display: block;
-			transform: translateY(50px);
+			margin-top: 20px;
 		}
 		.resume img {
 			float: right;
@@ -202,6 +200,15 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
+		footer {
+			background-color: #f1f1f1;
+			padding: 10px;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			z-index: 2;
+		}
 	</style>
 </head>
 <body>
@@ -218,6 +225,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
+	<footer>
+		<p>Contenu du footer</p>
+	</footer>
 
 	<script>
 		function toggleResume() {
