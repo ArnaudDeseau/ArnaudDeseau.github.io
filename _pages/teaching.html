@@ -143,6 +143,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		.container img {
 			width: 100%;
 			height: auto;
+			transition: opacity 0.5s; /* Nouvelle propriété pour la transition de l'opacité */
+		}
+		.container:hover img {
 			opacity: 0.8; /* Nouvelle propriété pour l'opacité */
 		}
 		.container .text {
@@ -161,24 +164,28 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</style>
 </head>
 <body>
-	<div class="container">
-		<img src="{{site.url}}/images/mie_france.png">
-		<div class="text">Texte sur l'image</div>
-	</div>
+	<a href="#" onclick="toggleTexteDeroulant()"> <!-- Nouveau lien pour le texte déroulant -->
+		<div class="container">
+			<img src="image.jpg">
+			<div class="text">Texte sur l'image</div>
+		</div>
+	</a>
 
 	<!-- Nouveau code pour le texte déroulant -->
-	<div id="texte-deroulant">
+	<div id="texte-deroulant" style="display: none;">
 		<!-- Contenu du texte déroulant -->
 	</div>
 
 	<script>
 		// Code pour afficher/masquer le texte déroulant lorsqu'on clique sur l'image
-		var container = document.querySelector('.container');
-		var texteDeroulant = document.getElementById('texte-deroulant');
-
-		container.addEventListener('click', function() {
-			texteDeroulant.style.display = (texteDeroulant.style.display === 'none') ? 'block' : 'none';
-		});
+		function toggleTexteDeroulant() {
+			var texteDeroulant = document.getElementById('texte-deroulant');
+			if (texteDeroulant.style.display === 'none') {
+				texteDeroulant.style.display = 'block';
+			} else {
+				texteDeroulant.style.display = 'none';
+			}
+		}
 	</script>
 </body>
 </html>
