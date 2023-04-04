@@ -184,7 +184,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			width: 100%;
 			z-index: 1;
 		}
-		.container.open .resume { /* La classe .open permet de vérifier si le résumé est actuellement ouvert ou fermé */
+		.container.open .resume {
 			display: block;
 		}
 		.resume img {
@@ -192,42 +192,36 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			max-width: 50%;
 			margin-left: 20px;
 		}
-        .toggle {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translate(-50%, 50%);
-            border: 1px solid black;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-        }
-        .toggle:before {
-            content: "\2193";
-            font-size: 24px;
-        }
+		.container .arrow-down {
+			position: absolute;
+			bottom: -20px;
+			left: 50%;
+			transform: translateX(-50%);
+			border: solid black;
+			border-width: 0 3px 3px 0;
+			display: inline-block;
+			padding: 3px;
+			transition: transform 0.5s;
+		}
+		.container.open .arrow-down {
+			transform: translateX(-50%) rotate(-135deg);
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<img src="{{site.url}}/images/mie_france.png">
+		<a href="javascript:void(0)" onclick="toggleResume();"><img src="https://via.placeholder.com/350x150"></a>
 		<div class="text">Texte sur l'image</div>
 		<div class="resume" id="resume">
 			<div class="resume-content">
 				<p>Contenu du résumé</p>
-				<img src="{{site.url}}/images/mie_france.png">
+				<img src="https://via.placeholder.com/350x200">
 			</div>
-            <div class="toggle" onclick="toggleResume();"> </div>
+			<div class="arrow-down"></div>
 		</div>
 	</div>
 
 	<script>
-		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			if (resume.classList.contains("open")) {
@@ -239,4 +233,5 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</script>
 </body>
 </html>
+
 
