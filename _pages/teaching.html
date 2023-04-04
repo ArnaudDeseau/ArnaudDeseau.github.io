@@ -143,13 +143,14 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		.container img {
 			width: 100%;
 			height: auto;
+			opacity: 0.8; /* Nouvelle propriété pour l'opacité */
 		}
 		.container .text {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-			color: white;
+			color: black; /* Nouvelle couleur pour le texte */
 			font-size: 20px;
 			opacity: 0;
 			transition: opacity 0.5s;
@@ -161,10 +162,26 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </head>
 <body>
 	<div class="container">
-		<img src="{{site.url}}/images/mie_france.png">
+		<img src="image.jpg">
 		<div class="text">Texte sur l'image</div>
 	</div>
+
+	<!-- Nouveau code pour le texte déroulant -->
+	<div id="texte-deroulant">
+		<!-- Contenu du texte déroulant -->
+	</div>
+
+	<script>
+		// Code pour afficher/masquer le texte déroulant lorsqu'on clique sur l'image
+		var container = document.querySelector('.container');
+		var texteDeroulant = document.getElementById('texte-deroulant');
+
+		container.addEventListener('click', function() {
+			texteDeroulant.style.display = (texteDeroulant.style.display === 'none') ? 'block' : 'none';
+		});
+	</script>
 </body>
 </html>
+
 
 
