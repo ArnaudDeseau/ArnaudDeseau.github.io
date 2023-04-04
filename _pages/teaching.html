@@ -184,7 +184,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			width: 100%;
 			z-index: 1;
 		}
-		.container.open .resume { /* La classe .open permet de vérifier si le résumé est actuellement ouvert ou fermé */
+		.container.open .resume {
 			display: block;
 		}
 		.resume img {
@@ -196,9 +196,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </head>
 <body>
 	<div class="container">
-		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
+		<img src="{{site.url}}/images/mie_france.png" onclick="toggleResume();"> <!-- Ajout de l'attribut onclick sur l'image -->
 		<div class="text">Texte sur l'image</div>
-		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
+		<div class="resume" id="resume">
 			<div class="resume-content">
 				<p>Contenu du résumé</p>
 				<img src="{{site.url}}/images/mie_france.png">
@@ -207,7 +207,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</div>
 
 	<script>
-		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			if (resume.classList.contains("open")) {
