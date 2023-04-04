@@ -142,7 +142,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -185,7 +184,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			width: 100%;
 			z-index: 1;
 		}
-		.container.clicked .resume {
+		.container.open .resume { /* La classe .open permet de vérifier si le résumé est actuellement ouvert ou fermé */
 			display: block;
 		}
 		.resume img {
@@ -197,7 +196,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </head>
 <body>
 	<div class="container">
-		<a href="#" onclick="toggleResume(event);"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
+		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
 		<div class="text">Texte sur l'image</div>
 		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
 			<div class="resume-content">
@@ -209,11 +208,15 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 	<script>
 		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
-		function toggleResume(event) {
-			event.preventDefault(); // Empêche la page de se recharger lorsque l'utilisateur clique sur l'image
-			var container = event.target.closest('.container'); // Récupère l'élément parent .container de l'image cliquée
-			container.classList.toggle('clicked'); // Ajoute ou retire la classe .clicked à l'élément parent .container de l'image cliquée
+		function toggleResume() {
+			var resume = document.getElementById("resume");
+			if (resume.classList.contains("open")) {
+				resume.classList.remove("open");
+			} else {
+				resume.classList.add("open");
+			}
 		}
 	</script>
 </body>
 </html>
+
