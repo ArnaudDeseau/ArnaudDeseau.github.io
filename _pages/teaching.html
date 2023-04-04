@@ -179,40 +179,28 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			line-height: 1.5;
 			position: absolute;
 			left: 0;
-			top: 100%;
-			width: 100%;
 			z-index: 1;
+			width: calc(100% - 20px); /* ajustement pour prendre en compte le padding */
+			max-height: 0; /* hauteur initiale à 0 pour être animée plus tard */
+			overflow: hidden; /* pour cacher le texte qui dépasse */
+			transition: max-height 0.5s ease-out;
 		}
-		.container.open .resume {
-			display: block;
+		.container.open .resume { /* La classe .open permet de vérifier si le résumé est actuellement ouvert ou fermé */
+			max-height: 500px; /* hauteur maximale pour le texte */
+			padding: 10px;
 		}
 		.resume img {
 			float: right;
 			max-width: 50%;
 			margin-left: 20px;
 		}
-		.container .arrow {
-			position: absolute;
-			bottom: -30px;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 40px;
-			height: 40px;
-			background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png');
-			background-repeat: no-repeat;
-			background-size: contain;
-			cursor: pointer;
-		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<div onclick="toggleResume();" class="image-container">
-			<img src="{{site.url}}/images/mie_france.png">
-			<div class="text">Texte sur l'image</div>
-			<div class="arrow"></div>
-		</div>
-		<div class="resume" id="resume">
+		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
+		<div class="text">Texte sur l'image</div>
+		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
 			<div class="resume-content">
 				<p>Contenu du résumé</p>
 				<img src="{{site.url}}/images/mie_france.png">
@@ -221,15 +209,13 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</div>
 
 	<script>
+		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
 			var resume = document.getElementById("resume");
-			var container = document.querySelector(".container");
 			if (resume.classList.contains("open")) {
 				resume.classList.remove("open");
-				container.classList.remove("open");
 			} else {
 				resume.classList.add("open");
-				container.classList.add("open");
 			}
 		}
 	</script>
