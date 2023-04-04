@@ -132,42 +132,63 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      /* Styles pour le bouton déroulant */
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
+<head>
+	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
+	<style>
+		.container {
+			position: relative;
+			width: 50%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			transition: opacity 0.5s;
+		}
+		.container:hover img {
+			opacity: 0.8;
+		}
+		.container .text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: black;
+			font-size: 20px;
+			opacity: 0;
+			transition: opacity 0.5s;
+		}
+		.container:hover .text {
+			opacity: 1;
+		}
+		.resume {
+			background-color: #f1f1f1;
+			padding: 10px;
+			display: none;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="image.jpg" onclick="toggleResume()"> <!-- Ajout de l'attribut onclick pour ouvrir/fermer le résumé -->
+		<div class="text">Texte sur l'image</div>
+		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
+			<!-- Contenu du résumé -->
+		</div>
+	</div>
 
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        z-index: 1;
-      }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      // Code pour le bouton déroulant
-      $(document).ready(function() {
-        $('.dropdown-toggle').on('click', function() {
-          $('.dropdown-menu').toggleClass('show');
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <div class="dropdown">
-      <img src="{{site.url}}/images/mie_france.png" width="300" height="200" class="img-fluid opacity">
-      <div class="dropdown-content">
-        <p>Résumé de l'article ici</p>
-      </div>
-    </div>
-  </body>
+	<script>
+		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
+		function toggleResume() {
+			var resume = document.getElementById("resume");
+			if (resume.style.display === "none") {
+				resume.style.display = "block";
+			} else {
+				resume.style.display = "none";
+			}
+		}
+	</script>
+</body>
 </html>
 
