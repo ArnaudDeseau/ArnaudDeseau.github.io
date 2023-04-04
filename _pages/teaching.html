@@ -130,85 +130,23 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
-	<style>
-		.container {
-			position: relative;
-			width: 50%;
-		}
-		.container img {
-			width: 100%;
-			height: auto;
-			transition: opacity 0.5s;
-		}
-		.container:hover img {
-			opacity: 0.8;
-		}
-		.container .text {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: black;
-			font-size: 20px;
-			opacity: 0;
-			transition: opacity 0.5s;
-		}
-		.container:hover .text {
-			opacity: 1;
-		}
-		.resume {
-			background-color: #f1f1f1;
-			padding: 10px;
-			display: none;
-			font-size: 16px;
-			line-height: 1.5;
-		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<img src="{{site.url}}/images/mie_france.png" onclick="toggleResume()"> <!-- Ajout de l'attribut onclick pour ouvrir/fermer le résumé -->
-		<div class="text">Texte sur l'image</div>
-		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
-			<!-- Contenu du résumé -->
-		</div>
-	</div>
-
-	<script>
-		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
-		function toggleResume() {
-			var resume = document.getElementById("resume");
-			if (resume.style.display === "none") {
-				resume.style.display = "block";
-			} else {
-				resume.style.display = "none";
-			}
-		}
-	</script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Ma page</title>
 	<style>
 		.container {
 			position: relative;
@@ -258,11 +196,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</style>
 </head>
 <body>
-	<h1>Titre de ma page</h1>
-	<p>Texte de ma page.</p>
-
 	<div class="container">
-		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
+		<img src="{{site.url}}/images/mie_france.png" onclick="toggleResume()"> <!-- Ajout de l'attribut onclick pour afficher/masquer le résumé -->
 		<div class="text">Texte sur l'image</div>
 		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
 			<div class="resume-content">
@@ -272,8 +207,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		</div>
 	</div>
 
-	<p>Autre texte de ma page.</p>
-	
 	<script>
 		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
