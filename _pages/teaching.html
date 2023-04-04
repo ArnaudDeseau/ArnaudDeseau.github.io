@@ -145,8 +145,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		.container {
 			position: relative;
 			width: 50%;
-			margin: 0 auto;
-			margin-bottom: 100px;
+			margin-bottom: 40px; /* ajouter une marge pour faire de la place au footer */
 		}
 		.container img {
 			width: 100%;
@@ -201,8 +200,14 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
-		.container.open .arrow {
-			bottom: -80px;
+		/* Ajouter un style pour le footer */
+		footer {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			height: 60px;
+			background-color: #f1f1f1;
+			padding: 20px;
 		}
 	</style>
 </head>
@@ -220,6 +225,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
+	<footer>Contenu du footer</footer>
 
 	<script>
 		function toggleResume() {
