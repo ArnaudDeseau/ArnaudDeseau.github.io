@@ -208,7 +208,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
+	<title>Ma page</title>
 	<style>
 		.container {
 			position: relative;
@@ -258,6 +258,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</style>
 </head>
 <body>
+	<h1>Titre de ma page</h1>
+	<p>Texte de ma page.</p>
+
 	<div class="container">
 		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
 		<div class="text">Texte sur l'image</div>
@@ -269,6 +272,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		</div>
 	</div>
 
+	<p>Autre texte de ma page.</p>
+	
 	<script>
 		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
 		function toggleResume() {
