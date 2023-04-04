@@ -143,6 +143,14 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <head>
 	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
 	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
 		.container {
 			position: relative;
 			width: 50%;
@@ -200,6 +208,11 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
+		footer {
+			margin-top: auto;
+			background-color: #ccc;
+			padding: 20px;
+		}
 	</style>
 </head>
 <body>
@@ -217,6 +230,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		</div>
 	</div>
 
+	<footer>Je suis un footer</footer>
+
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
@@ -224,9 +239,11 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			if (resume.classList.contains("open")) {
 				resume.classList.remove("open");
 				container.classList.remove("open");
+				document.body.style.paddingBottom = "0";
 			} else {
 				resume.classList.add("open");
 				container.classList.add("open");
+				document.body.style.paddingBottom = resume.offsetHeight + "px";
 			}
 		}
 	</script>
