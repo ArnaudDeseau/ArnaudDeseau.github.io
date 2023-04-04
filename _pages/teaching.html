@@ -183,8 +183,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
-			border-top: 1px solid #ccc;
-			box-sizing: border-box;
 		}
 		.container.open .resume { /* La classe .open permet de vérifier si le résumé est actuellement ouvert ou fermé */
 			display: block;
@@ -194,31 +192,37 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			max-width: 50%;
 			margin-left: 20px;
 		}
-		.arrow {
-			display: inline-block;
-			margin-left: 5px;
-			width: 0;
-			height: 0;
-			border-top: 6px solid #666;
-			border-left: 6px solid transparent;
-			border-right: 6px solid transparent;
-			transition: transform 0.5s;
-			transform-origin: center center;
-		}
-		.container.open .arrow {
-			transform: rotate(180deg);
-		}
+        .toggle {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        .toggle:before {
+            content: "\2193";
+            font-size: 24px;
+        }
 	</style>
 </head>
 <body>
 	<div class="container">
-		<a href="#" onclick="toggleResume(); return false;"><img src="{{site.url}}/images/mie_france.png"><span class="arrow"></span></a>
+		<img src="{{site.url}}/images/mie_france.png">
 		<div class="text">Texte sur l'image</div>
 		<div class="resume" id="resume">
 			<div class="resume-content">
 				<p>Contenu du résumé</p>
 				<img src="{{site.url}}/images/mie_france.png">
 			</div>
+            <div class="toggle" onclick="toggleResume();"> </div>
 		</div>
 	</div>
 
@@ -235,3 +239,4 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</script>
 </body>
 </html>
+
