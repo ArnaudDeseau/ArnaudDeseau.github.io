@@ -137,7 +137,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -154,7 +153,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		}
 		.container:hover img {
 			opacity: 0.8;
-			z-index: -1;
 		}
 		.container .text {
 			position: absolute;
@@ -180,9 +178,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
-		}
-		.container.open .resume {
-			display: block;
+			max-height: calc(100vh - 150px);
+			overflow-y: auto;
+			margin-bottom: 60px; /* hauteur du séparateur + 10px de marge */
 		}
 		.resume img {
 			float: right;
@@ -201,6 +199,10 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
+		#separator {
+			height: 50px; /* hauteur du séparateur */
+			width: 100%; /* largeur maximale */
+		}
 	</style>
 </head>
 <body>
@@ -217,7 +219,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
-
+	<div id="separator"></div>
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
@@ -233,3 +235,4 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 	</script>
 </body>
 </html>
+
