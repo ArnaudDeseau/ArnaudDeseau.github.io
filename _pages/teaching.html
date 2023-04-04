@@ -178,9 +178,13 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
-			max-height: calc(100vh - 150px);
-			overflow-y: auto;
-			margin-bottom: 60px; /* hauteur du séparateur + 10px de marge */
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.5s ease-out;
+		}
+		.container.open .resume {
+			display: block;
+			max-height: 500px; /* ajustez la hauteur maximale selon vos besoins */
 		}
 		.resume img {
 			float: right;
@@ -199,10 +203,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
-		#separator {
-			height: 50px; /* hauteur du séparateur */
-			width: 100%; /* largeur maximale */
-		}
 	</style>
 </head>
 <body>
@@ -219,7 +219,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
-	<div id="separator"></div>
+
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
@@ -227,12 +227,15 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			if (resume.classList.contains("open")) {
 				resume.classList.remove("open");
 				container.classList.remove("open");
+				resume.style.maxHeight = "0";
 			} else {
 				resume.classList.add("open");
 				container.classList.add("open");
+				resume.style.maxHeight = resume.scrollHeight + "px";
 			}
 		}
 	</script>
 </body>
 </html>
+
 
