@@ -141,97 +141,111 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
-	<style>
-		.container {
-			position: relative;
-			width: 50%;
-		}
-		.container img {
-			width: 100%;
-			height: auto;
-			transition: opacity 0.5s;
-		}
-		.container:hover img {
-			opacity: 0.8;
-		}
-		.container .text {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: black;
-			font-size: 20px;
-			opacity: 0;
-			transition: opacity 0.5s;
-		}
-		.container:hover .text {
-			opacity: 1;
-		}
-		.resume {
-			background-color: #f1f1f1;
-			padding: 10px;
-			display: none;
-			font-size: 16px;
-			line-height: 1.5;
-			position: absolute;
-			left: 0;
-			top: 100%;
-			width: 100%;
-			z-index: 1;
-		}
-		.container.open .resume {
-			display: block;
-		}
-		.resume img {
-			float: right;
-			max-width: 50%;
-			margin-left: 20px;
-		}
-		.container .arrow {
-			position: absolute;
-			bottom: -30px;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 40px;
-			height: 40px;
-			background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png');
-			background-repeat: no-repeat;
-			background-size: contain;
-			cursor: pointer;
-		}
-	</style>
+  <title>Image déroulante avec texte sur hover et résumé sur clic</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: relative;
+      width: 50%;
+      margin: auto;
+    }
+
+    .container img {
+      width: 100%;
+      height: auto;
+      transition: opacity 0.5s;
+    }
+
+    .container:hover img {
+      opacity: 0.8;
+    }
+
+    .container .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    .container:hover .text {
+      opacity: 1;
+    }
+
+    .resume {
+      background-color: #f1f1f1;
+      padding: 10px;
+      display: none;
+      font-size: 16px;
+      line-height: 1.5;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .container.open .resume {
+      display: block;
+    }
+
+    .resume img {
+      float: right;
+      max-width: 50%;
+      margin-left: 20px;
+    }
+
+    .container .arrow {
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 40px;
+      background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+    }
+
+    .container.open {
+      height: calc(100% + 100px); /* ajuster la valeur 100px selon vos besoins */
+    }
+
+    footer {
+      background-color: gray;
+      color: white;
+      height: 100px;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<div onclick="toggleResume();" class="image-container">
-			<img src="{{site.url}}/images/mie_france.png">
-			<div class="text">Texte sur l'image</div>
-			<div class="arrow"></div>
-		</div>
-		<div class="resume" id="resume">
-			<div class="resume-content">
-				<p>Contenu du résumé</p>
-				<img src="{{site.url}}/images/mie_france.png">
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div onclick="toggleResume();" class="image-container">
+      <img src="{{site.url}}/images/mie_france.png">
+      <div class="text">Texte sur l'image</div>
+      <div class="arrow"></div>
+    </div>
+    <div class="resume" id="resume">
+      <div class="resume-content">
+        <p>Contenu du résumé</p>
+        <img src="{{site.url}}/images/mie_france.png">
+      </div>
+    </div>
+  </div>
 
-	<script>
-		function toggleResume() {
-			var resume = document.getElementById("resume");
-			var container = document.querySelector(".container");
-			if (resume.classList.contains("open")) {
-				resume.classList.remove("open");
-				container.classList.remove("open");
-			} else {
-				resume.classList.add("open");
-				container.classList.add("open");
-			}
-		}
-	</script>
-</body>
-</html>
+  <footer>Ceci est le footer de la page</footer>
+
+  <script>
+    function toggleResume() {
+      var
 
 
 
