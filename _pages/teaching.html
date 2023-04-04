@@ -185,7 +185,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			width: 100%;
 			z-index: 1;
 		}
-		.container:hover .resume {
+		.container.clicked .resume {
 			display: block;
 		}
 		.resume img {
@@ -197,7 +197,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 </head>
 <body>
 	<div class="container">
-		<img src="{{site.url}}/images/mie_france.png" onclick="toggleResume()"> <!-- Ajout de l'attribut onclick pour afficher/masquer le résumé -->
+		<a href="#" onclick="toggleResume(event);"><img src="{{site.url}}/images/mie_france.png"></a> <!-- Ajout du lien onclick et de l'attribut return false pour ne pas suivre le lien -->
 		<div class="text">Texte sur l'image</div>
 		<div class="resume" id="resume"> <!-- Ajout de la div pour le résumé -->
 			<div class="resume-content">
@@ -209,15 +209,11 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 	<script>
 		// Code pour afficher/masquer le résumé lorsque l'utilisateur clique sur l'image
-		function toggleResume() {
-			var resume = document.getElementById("resume");
-			if (resume.style.display === "none") {
-				resume.style.display = "block";
-			} else {
-				resume.style.display = "none";
-			}
+		function toggleResume(event) {
+			event.preventDefault(); // Empêche la page de se recharger lorsque l'utilisateur clique sur l'image
+			var container = event.target.closest('.container'); // Récupère l'élément parent .container de l'image cliquée
+			container.classList.toggle('clicked'); // Ajoute ou retire la classe .clicked à l'élément parent .container de l'image cliquée
 		}
 	</script>
 </body>
 </html>
-
