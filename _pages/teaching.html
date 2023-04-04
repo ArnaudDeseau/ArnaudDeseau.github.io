@@ -143,9 +143,22 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <head>
 	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
 	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			height: 100px;
+			background-color: lightblue;
+		}
+		main {
+			min-height: calc(100vh - 200px);
+		}
 		.container {
 			position: relative;
 			width: 50%;
+			margin: 0 auto;
+			margin-bottom: 50px;
 		}
 		.container img {
 			width: 100%;
@@ -179,6 +192,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
+			box-sizing: border-box;
+			margin-top: 10px;
+			padding-bottom: 50px;
 		}
 		.container.open .resume {
 			display: block;
@@ -200,36 +216,41 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
+		footer {
+			height: 50px;
+			background-color: lightblue;
+		}
 	</style>
 </head>
 <body>
-	<div class="container">
-		<div onclick="toggleResume();" class="image-container">
-			<img src="{{site.url}}/images/mie_france.png">
-			<div class="text">Texte sur l'image</div>
-			<div class="arrow"></div>
-		</div>
-		<div class="resume" id="resume">
-			<div class="resume-content">
-				<p>Contenu du résumé</p>
+	<header>
+		<!-- Contenu de l'en-tête -->
+	</header>
+
+	<main>
+		<div class="container">
+			<div onclick="toggleResume();" class="image-container">
 				<img src="{{site.url}}/images/mie_france.png">
+				<div class="text">Texte sur l'image</div>
+				<div class="arrow"></div>
+			</div>
+			<div class="resume" id="resume">
+				<div class="resume-content">
+					<p>Contenu du résumé</p>
+					<img src="{{site.url}}/images/mie_france.png">
+				</div>
 			</div>
 		</div>
-	</div>
+	</main>
+
+	<footer>
+		<!-- Contenu du pied de page -->
+	</footer>
 
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			var container = document.querySelector(".container");
-			if (resume.classList.contains("open")) {
-				resume.classList.remove("open");
-				container.classList.remove("open");
-			} else {
-				resume.classList.add("open");
-				container.classList.add("open");
-			}
-		}
-	</script>
-</body>
-</html>
+			if (resume.classList.contains("open"))
+
 
