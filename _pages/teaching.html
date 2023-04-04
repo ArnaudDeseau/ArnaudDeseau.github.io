@@ -175,9 +175,16 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			line-height: 1.5;
 			position: absolute;
 			left: 0;
-			top: 100%;
+			top: calc(100% + 20px);
 			width: 100%;
 			z-index: 1;
+			box-sizing: border-box;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 		.container.open .resume {
 			display: block;
@@ -198,6 +205,16 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-repeat: no-repeat;
 			background-size: contain;
 			cursor: pointer;
+			z-index: 2;
+		}
+		.footer {
+			background-color: green;
+			color: white;
+			padding: 10px;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
 		}
 	</style>
 </head>
@@ -215,6 +232,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
+	<div class="footer">
+		Ceci est un footer.
+	</div>
 
 	<script>
 		function toggleResume() {
@@ -225,12 +245,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 				container.classList.remove("open");
 			} else {
 				resume.classList.add("open");
-				container.classList.add("open");
-			}
-		}
-	</script>
-</body>
-</html>
+				container.classList.add("open
+
 
 
 
