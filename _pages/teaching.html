@@ -117,6 +117,24 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   <style>
     #article-image {
       cursor: pointer;
+      opacity: 1;
+      transition: opacity 0.5s ease-out;
+      position: relative;
+    }
+    #article-image:hover {
+      opacity: 0.7;
+    }
+    #article-image:hover::after {
+      content: "Cliquez pour lire l'article";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1;
     }
     #article-summary {
       max-height: 0;
@@ -160,6 +178,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 </body>
 </html>
+
 
 
 
