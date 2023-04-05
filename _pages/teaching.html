@@ -145,13 +145,10 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<style>
 		.container {
 			position: relative;
@@ -192,13 +189,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		}
 		.container.open .resume {
 			display: block;
-			max-height: 0;
-			overflow: hidden;
-			transition: max-height 0.5s ease-out;
-		}
-		.container.open .resume.active {
-			max-height: 1000px;
-			transition: max-height 1s ease-in;
 		}
 		.resume img {
 			float: right;
@@ -234,21 +224,20 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		</div>
 	</div>
 
+	<footer>
+		<p>Contenu du footer</p>
+	</footer>
+
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			var container = document.querySelector(".container");
-			if (container.classList.contains("open")) {
+			var footer = document.querySelector("footer");
+			if (resume.classList.contains("open")) {
+				resume.classList.remove("open");
 				container.classList.remove("open");
-				resume.classList.remove("active");
-			} else {
-				container.classList.add("open");
-				resume.classList.add("active");
-			}
-		}
-	</script>
-</body>
-</html>
+				footer.style.margin
+
 
 
 
