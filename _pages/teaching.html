@@ -127,6 +127,26 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -168,9 +188,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			top: 100%;
 			width: 100%;
 			z-index: 1;
-			 /* autres styles */
-  max-height: calc(100vh - 150px); /* ajustez cette valeur selon vos besoins */
-  overflow-y: auto;
 		}
 		.container.open .resume {
 			display: block;
@@ -192,21 +209,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
-		.container.open .arrow {
-			transform: translate(-50%, 50%);
-		}
-		.footer {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			height: 50px;
-			background-color: #ccc;
-			transform: translate(0, 0);
-			transition: transform 0.5s;
-		}
-		.container.open .footer {
-			transform: translate(0, 50%);
-		}
 	</style>
 </head>
 <body>
@@ -223,7 +225,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			</div>
 		</div>
 	</div>
-	<div class="footer">Mon footer</div>
+
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
@@ -237,9 +239,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			}
 		}
 	</script>
-
-
-
+</body>
+</html>
 
 
 
