@@ -144,7 +144,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -224,24 +223,19 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		</div>
 	</div>
 
-	<footer>
-		<p>Contenu du footer</p>
-	</footer>
-
 	<script>
 		function toggleResume() {
 			var resume = document.getElementById("resume");
 			var container = document.querySelector(".container");
-			var footer = document.querySelector("footer");
 			if (resume.classList.contains("open")) {
 				resume.classList.remove("open");
 				container.classList.remove("open");
-				footer.style.margin
-
-
-
-
-
-
-
+			} else {
+				resume.classList.add("open");
+				container.classList.add("open");
+			}
+		}
+	</script>
+</body>
+</html>
 
