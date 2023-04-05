@@ -151,10 +151,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <html>
 <head>
 	<title>Image déroulante avec texte sur hover et résumé sur clic</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<style>
-		body {
-  height: auto;
-}
 		.container {
 			position: relative;
 			width: 50%;
@@ -212,6 +210,25 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			background-size: contain;
 			cursor: pointer;
 		}
+		.container .hide-button {
+			position: absolute;
+			bottom: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 40px;
+			height: 40px;
+			background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/close-512.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+			cursor: pointer;
+			display: none;
+		}
+		.container.open .arrow {
+			display: none;
+		}
+		.container.open .hide-button {
+			display: block;
+		}
 	</style>
 </head>
 <body>
@@ -220,6 +237,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			<img src="{{site.url}}/images/mie_france.png">
 			<div class="text">Texte sur l'image</div>
 			<div class="arrow"></div>
+			<div onclick="toggleResume();" class="hide-button"></div>
 		</div>
 		<div class="resume" id="resume">
 			<div class="resume-content">
@@ -234,16 +252,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 			var resume = document.getElementById("resume");
 			var container = document.querySelector(".container");
 			if (resume.classList.contains("open")) {
-				resume.classList.remove("open");
-				container.classList.remove("open");
-			} else {
-				resume.classList.add("open");
-				container.classList.add("open");
-			}
-		}
-	</script>
-</body>
-</html>
+				resume
 
 
 
