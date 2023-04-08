@@ -177,7 +177,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
       padding: 20px;
     }
     #article-summary p {
-      width: 60%;
+      display: inline-block;
+      width: 100%;
     }
   </style>
   <script>
@@ -193,8 +194,8 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <div id="article-image" class="centered">
   <img src="{{site.url}}/images/mie_france.png" alt="Article image">
 </div>
-<div id="article-summary">
-  <p>Here is a summary of the article...</p>
+  <div id="article-summary">
+  <p style="display: inline-block; width: 100%;">Here is a summary of the article...</p>
   <br>
   <a href="lien-de-l-article" class="bouton-article">Article</a>
 </div>
