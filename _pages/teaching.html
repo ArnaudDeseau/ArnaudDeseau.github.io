@@ -136,7 +136,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 .bouton-article + .bouton-article {
   margin-left: 10px;
 }
-    #article-image {
+    #[id^="article-image-"] {
       cursor: pointer;
       opacity: 1;
       transition: opacity 0.5s ease-out;
@@ -144,7 +144,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
       margin: 0 auto;
       max-width: 600px; /* ajouter une largeur maximale pour éviter que l'image ne devienne trop grande */
     }
-    #article-image.centered {
+    #[id^="article-image-"].centered {
       display: flex;
       justify-content: center;
     }
