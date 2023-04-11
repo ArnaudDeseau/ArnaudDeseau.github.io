@@ -164,7 +164,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
       z-index: 1;
       opacity: 1;
     }
-    #article-summary {
+    [id^="article-summary-"] {
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.5s ease-out, border-color 0s 0.5s;
@@ -173,7 +173,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
       border: 0 solid #e21313;
       border-top: none;
     }
-    #article-summary.active {
+    [id^="article-summary-"].active {
       max-height: 1000px;
       transition: max-height 1s ease-in, border-color 0s;
       border-color: #e21313;
@@ -189,19 +189,19 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   text-align: justify;
     }
   </style>
+  
 <script>
   $(document).ready(function() {
-    $("#article-image-1").click(function() {
-      $("#article-summary-1").toggleClass("active");
-    });
-    $("#article-image-2").click(function() {
-      $("#article-summary-2").toggleClass("active");
-    });
+    for (let i = 1; i <= 2; i++) {
+      $(`#article-image-${i}`).click(function() {
+        $(`#article-summary-${i}`).toggleClass("active");
+      });
+    }
   });
 </script>
+
 </head>
 <body>
-
 <div id="article-image-1" class="centered">
   <img src="{{site.url}}/images/carte_france_mie.jpg" alt="Article image">
 </div>
