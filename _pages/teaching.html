@@ -191,13 +191,9 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   </style>
   <script>
     $(document).ready(function() {
-  $("#article-image-1").click(function() {
-    $("#article-summary-1").toggleClass("active");
+  $("#article-image").click(function() {
+    $("#article-summary").toggleClass("active");
   });
-  $("#article-image-2").click(function() {
-    $("#article-summary-2").toggleClass("active");
-  });
-});
   </script>
 </head>
 <body>
@@ -211,17 +207,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <a href="lien-de-l-article" class="bouton-article"><i class="fas fa-file-pdf"></i> Article</a>
     <a href="#" class="bouton-article"><i class="fas fa-chalkboard-user"></i> Slides</a>
 </div>
-
-  <div id="article-image-2" class="centered">
-  <img src="{{site.url}}/images/carte_france_mie.jpg" alt="Article image">
-</div>
-  <div id="article-summary-2">
-  <p style="display: inline-block; width: 100%;">Here is a summary of the article...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <br>
-<a href="lien-de-l-article" class="bouton-article"><i class="fas fa-file-pdf"></i> Article</a>
-    <a href="#" class="bouton-article"><i class="fas fa-chalkboard-user"></i> Slides</a>
-</div>
-
 
 </body>
 </html>
