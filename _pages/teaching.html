@@ -67,9 +67,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
     }
   </style>
   <script>
-div {
-        margin-bottom: 20px;
-      };
     $(document).ready(function() {
       $("#article-title").click(function() {
         $("#article-summary").toggleClass("active");
@@ -194,6 +191,9 @@ div {
   </style>
   
 <script>
+  div {
+        margin-bottom: 20px;
+      };
   $(document).ready(function() {
     for (let i = 1; i <= 2; i++) {
       $(`#article-image-${i}`).click(function() {
