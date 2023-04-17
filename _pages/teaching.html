@@ -114,16 +114,12 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">  <style>    display: block;
 .bouton-article {
-  background-color: transparent;
-  border: 2px solid #2d2d2d;
-  border-radius: 0;
-  color: #2d2d2d;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 500;
-  margin-right: 10px;
-  padding: 10px 20px;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: block;
+  transition: all 0.2s ease-in-out;
 }
 .bouton-article:hover {
   background-color: #2d2d2d;
@@ -132,10 +128,11 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 }
 .bouton-container {
   display: inline-block;
-  border: 2px solid #D2D2D2;
-  border-radius: 8px;
+  margin-bottom: 10px;
+  position: relative;
   overflow: hidden;
-  margin: 10px 0;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px;
 }
 .bouton-container:hover {
   position: relative;
@@ -150,12 +147,10 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   border: 2px solid #666;
   box-sizing: border-box;
 }
-  .bouton-container:hover .bouton-article {
-  background-color: #008cba;
-  color: #fff;
-  border-color: #008cba;
+.bouton-container:hover .bouton-article {
+  transform: translateX(100%);
 }
-  .bouton-border {
+ .bouton-border {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,14 +158,12 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   height: 100%;
   box-sizing: border-box;
   border: 2px solid #dcdcdc;
-  border-radius: 0px;
+  border-radius: 10px;
   transition: all 0.2s ease-in-out;
 }
-
 .bouton-container:hover .bouton-border {
   transform: translateX(-100%);
 }
-
 .bouton-container + .bouton-container {
   margin-left: 10px;
 }
