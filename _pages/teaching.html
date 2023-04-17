@@ -114,25 +114,32 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">  <style>    display: block;
 .bouton-article {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 20px;
-  display: block;
-  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #fff;
+  background-color: #1C84C6;
+  transition: background-color 0.2s, color 0.2s;
 }
 .bouton-article:hover {
-  background-color: #008cba;
-  color: #fff;
-  border-color: #008cba;
+  background-color: #fff;
+  color: #1C84C6;
+}
+.bouton-article i {
+  margin-right: 5px;
+}
+.bouton-article span {
+  margin-left: 5px;
 }
 .bouton-container {
   display: inline-block;
-  margin-bottom: 10px;
-  position: relative;
+  border: 2px solid #D2D2D2;
+  border-radius: 8px;
   overflow: hidden;
-  border: 2px solid #dcdcdc;
-  border-radius: 0px;
+  margin: 10px 0;
 }
 .bouton-container:hover {
   position: relative;
