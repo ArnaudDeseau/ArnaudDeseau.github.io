@@ -124,7 +124,6 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   transition: all 0.2s ease-in-out;
   outline: 2px solid #dcdcdc;
 }
-
 .bouton-article:hover {
   background-color: #2d2d2d;
   color: #ffffff;
@@ -133,6 +132,23 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 }
 .bouton-article + .bouton-article {
   margin-left: 10px;
+}
+  .conteneur .bouton-article {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10%;
+  display: block;
+  border: 2px solid #dcdcdc;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  outline: 2px solid #dcdcdc;
+}
+.conteneur .bouton-article:hover {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  outline-color: #2d2d2d;
+  transition: all 0.3s ease-in-out;
 }
     [id^="article-image-"] {
       cursor: pointer;
@@ -236,6 +252,13 @@ content: "Access to Justice and Economic Development: Evidence from an Internati
 <a href="lien-de-l-article" class="bouton-article"><i class="fas fa-file-pdf"></i> Article</a>
     <a href="#" class="bouton-article"><i class="fas fa-chalkboard-user"></i> Slides</a>
     <a href="#" class="bouton-article">Mon Bouton Lien</a>
+    
+    <div class="conteneur">
+  <a href="#" class="bouton-article">Mon Bouton Lien</a>
+</div>
+
+    
+    
 </div>
   
   <div id="article-image-2" class="centered" style="max-width: 400px;">
