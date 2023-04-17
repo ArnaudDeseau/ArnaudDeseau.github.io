@@ -128,35 +128,7 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   color: #ffffff;
   transition: all 0.3s ease-in-out;
 }
-.bouton-container {
-  display: inline-block;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.bouton-container:hover {
-  position: relative;
-}
-.bouton-container::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: calc(100% - 4px);
-  height: calc(100% - 4px);
-  border: 2px solid #dcdcdc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  padding: 20px;
-}
-.bouton-container:hover::before {
-  border: 2px solid #666;
-}
-.bouton-container:hover .bouton-article {
-  transform: translateX(100%);
-}
-.bouton-container + .bouton-container {
+.bouton-article + .bouton-article {
   margin-left: 10px;
 }
     [id^="article-image-"] {
@@ -258,12 +230,8 @@ content: "Access to Justice and Economic Development: Evidence from an Internati
   <div id="article-summary-1" style="margin-bottom: 30px;">
   <p style="display: inline-block; width: 100%;">Here is a summary of the article...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <br>
-      <div class="bouton-container">
 <a href="lien-de-l-article" class="bouton-custom"><i class="fas fa-file-pdf"></i> Article</a>
-             </div>
-    <div class="bouton-container">
-    <a href="#" class="bouton-article"><i class="fas fa-chalkboard-user"></i> Slides</a>
-       </div>    
+    <a href="#" class="bouton-article"><i class="fas fa-chalkboard-user"></i> Slides</a> 
 </div>
   
   <div id="article-image-2" class="centered" style="max-width: 400px;">
