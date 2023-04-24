@@ -31,58 +31,37 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Bouton déroulant</title>
-	<style>
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  background-color: #ffcc00;
-  color: #000;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  padding: 12px 16px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-  color: #000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-	</style>
-</head>
-<body>
-
-<div class="dropdown">
-	<button>Bouton déroulant</button>
-	<div class="dropdown-content">
-		<a href="#">Option 1</a>
-		<a href="#">Option 2</a>
-		<a href="#">Option 3</a>
-	</div>
-</div>
-
-</body>
+  <head>
+    <title>Bouton déroulant</title>
+    <style>
+      /* style pour le bouton */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <button style="background-color:#3C3C3C; color:white; border:none; padding: 10px;">
+        Registres paroissiaux et d'état civils
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Registres paroissiaux</a>
+        <a href="#">Registres d'état civils</a>
+      </div>
+    </div>
+  </body>
 </html>
+
 
 
 
