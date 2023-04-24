@@ -32,31 +32,43 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Bouton déroulant</title>
     <style>
-      /* style pour le bouton */
       .dropdown {
         position: relative;
         display: inline-block;
       }
+      
       .dropdown-content {
         display: none;
         position: absolute;
         z-index: 1;
       }
+      
       .dropdown:hover .dropdown-content {
         display: block;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
       }
     </style>
   </head>
   <body>
     <div class="dropdown">
-      <button style="background-color:#3C3C3C; color:white; border:none; padding: 10px;">
-        Registres paroissiaux et d'état civils
-      </button>
+      <button class="dropbtn">Bouton déroulant</button>
       <div class="dropdown-content">
-        <a href="#">Registres paroissiaux</a>
-        <a href="#">Registres d'état civils</a>
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
       </div>
     </div>
   </body>
