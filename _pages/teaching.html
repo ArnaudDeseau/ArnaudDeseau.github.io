@@ -39,45 +39,40 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 		.dropdown {
 			position: relative;
 			display: inline-block;
-			margin-right: 20px;
 		}
 		
 		.dropdown-content {
 			display: none;
 			position: absolute;
+			top: 100%;
+			left: 0;
 			background-color: #f9f9f9;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			padding: 20px;
+			border: 1px solid #ccc;
 			z-index: 1;
 		}
 		
-		.dropdown:hover .dropdown-content {
+		.dropdown.active .dropdown-content {
 			display: block;
-		}
-		
-		.dropdown-content a {
-			color: black;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
-		}
-		
-		.dropdown-content a:hover {
-			background-color: #f1f1f1;
 		}
 	</style>
+	<script>
+		function toggleDropdown() {
+			var dropdown = document.getElementById('my-dropdown');
+			dropdown.classList.toggle('active');
+		}
+	</script>
 </head>
 <body>
-	<div class="dropdown">
-		<button>Women in academia</button>
+	<div class="dropdown" id="my-dropdown">
+		<button onclick="toggleDropdown()">Cliquez ici</button>
 		<div class="dropdown-content">
-			<a href="#">Breaking the glass ceiling</a>
-			<a href="#">Mentoring and leadership</a>
-			<a href="#">Gender bias in STEM fields</a>
+			<p>Voici le texte qui apparaîtra lorsque vous cliquerez sur le bouton. Vous pouvez ajouter ici autant de texte et de contenu que vous le souhaitez.</p>
 		</div>
 	</div>
 </body>
 </html>
+
 
 
 
