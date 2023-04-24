@@ -31,47 +31,37 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Bouton déroulant</title>
-    <style>
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        z-index: 1;
-      }
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      
-      .dropdown-content a:hover {
-        background-color: #f1f1f1;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="dropdown">
-      <button class="dropbtn">Bouton déroulant</button>
-      <div class="dropdown-content">
-        <a href="#">Option 1</a>
-        <a href="#">Option 2</a>
-        <a href="#">Option 3</a>
-      </div>
-    </div>
-  </body>
+<head>
+	<title>Bouton déroulant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+		}
+		
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+		<button>Women in academia</button>
+		<div class="dropdown-content">
+			<a href="#">Breaking the glass ceiling</a>
+			<a href="#">Mentoring and leadership</a>
+			<a href="#">Gender bias in STEM fields</a>
+		</div>
+	</div>
+</body>
 </html>
 
 
