@@ -31,47 +31,48 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 <!DOCTYPE html>
 <html>
-<head>
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+  <head>
+    <title>Bouton déroulant</title>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
 
-.dropdown-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+      .dropdown-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-}
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+      }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-</head>
-<body>
-	
-<div class="dropdown">
-  <button class="dropdown-btn">Titre du bouton</button>
-  <div class="dropdown-content">
-    <p>Texte à afficher</p>
-  </div>
-</div>
-
-</body>
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <button class="dropdown-btn">Titre du bouton</button>
+      <div class="dropdown-content">
+        <p>Texte à afficher</p>
+      </div>
+    </div>
+  </body>
 </html>
+
 
 
 
