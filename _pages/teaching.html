@@ -32,44 +32,44 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bouton déroulant</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		.dropdown {
-			position: relative;
-			display: inline-block;
-		}
-		
-		.dropdown-content {
-			display: none;
-			position: absolute;
-			top: 100%;
-			left: 0;
-			background-color: #f9f9f9;
-			padding: 20px;
-			border: 1px solid #ccc;
-			z-index: 1;
-		}
-		
-		.dropdown.active .dropdown-content {
-			display: block;
-		}
-	</style>
-	<script>
-		function toggleDropdown() {
-			var dropdown = document.getElementById('my-dropdown');
-			dropdown.classList.toggle('active');
-		}
-	</script>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 </head>
 <body>
-	<div class="dropdown" id="my-dropdown">
-		<button onclick="toggleDropdown()">Cliquez ici</button>
-		<div class="dropdown-content">
-			<p>Voici le texte qui apparaîtra lorsque vous cliquerez sur le bouton. Vous pouvez ajouter ici autant de texte et de contenu que vous le souhaitez.</p>
-		</div>
-	</div>
+	
+<div class="dropdown">
+  <button class="dropdown-btn">Titre du bouton</button>
+  <div class="dropdown-content">
+    <p>Texte à afficher</p>
+  </div>
+</div>
+
 </body>
 </html>
 
