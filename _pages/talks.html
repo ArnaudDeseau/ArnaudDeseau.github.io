@@ -5,6 +5,173 @@ permalink: /data/
 author_profile: true
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">  <style>    display: block;
+.bouton-article {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  outline: 2px solid #dcdcdc;
+  background-color: #3D3D3D; 
+}
+.bouton-article:hover {
+  background-color: #e21313;
+  color: #ffffff;
+  border-color: #e21313;
+  transition: all 0.3s ease-in-out;
+}
+.bouton-article + .bouton-article {
+  margin-left: 10px;
+}
+ .bordered-button {
+  border: 2px solid #e21313;
+  padding: 5px;
+  border-radius: 4px;
+}
+    [id^="article-image-"] {
+      cursor: pointer;
+      opacity: 1;
+      transition: opacity 0.5s ease-out;
+      position: relative;
+      margin: 0 auto;
+      max-width: 600px; /* ajouter une largeur maximale pour éviter que l'image ne devienne trop grande */
+    }
+    [id^="article-image-"].centered {
+      display: flex;
+      justify-content: center;
+    }
+   [id^="article-image-"]:hover img {
+      opacity: 0.2;
+    }
+  #article-image-1:hover::after {
+content: "Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1;
+      opacity: 1;
+    }
+    #article-image-2:hover::after {
+content: "Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1;
+      opacity: 1;
+    }
+      #article-image-3:hover::after {
+content: "Access to Justice and Economic Development: Evidence from an International Panel Dataset";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      z-index: 1;
+      opacity: 1;
+    }
+    [id^="article-summary-"] {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-out, border-color 0s 0.5s;
+      display: flex;
+      flex-wrap: wrap;
+      border: 0 solid #e21313;
+      border-top: none;
+    }
+    [id^="article-summary-"].active {
+      max-height: 1000px;
+      transition: max-height 1s ease-in, border-color 0s;
+      border-color: #e21313;
+      border: 3px solid #e21313;
+      padding: 20px;
+    }
+    #article-summary p {
+      display: inline-block;
+      width: 100%;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  text-align: justify;
+    }
+  </style>
+  
+<script>
+  $(document).ready(function() {
+    for (let i = 1; i <= 3; i++) {
+      $(`#article-image-${i}`).click(function() {
+        $(`#article-summary-${i}`).toggleClass("active");
+      });
+    }
+  });
+</script>
+
+</head>
+<body>
+  
+<div id="article-image-1" class="centered" style="max-width: 400px;">
+  <img src="{{site.url}}/images/Poster_Biens_Nationaux_à_vendre_1790_France.png" alt="Article image">
+</div>
+  <div id="article-summary-1" style="margin-bottom: 30px; text-align: justify;">
+  <p style="display: inline-block; width: 100%;"><b>Land Reform and Productivity: Evidence from the Dissolution of French Monasteries</b> <br> This article uses the confiscation and auction of monastic properties during the French
+Revolution to assess the effects of land reallocation on agricultural productivity. To proxy
+for monastic landholdings, I construct a novel dataset using the annual income and location
+of more than 1,500 French monasteries in 1768. I perform several cross-checking analyses
+and demonstrate the validity of the data as a proxy for monastic landholdings both at the
+monastery and arrondissement levels. I show that arrondissements with greater land real-
+location experienced higher levels of agricultural productivity in the mid-19th century. I
+trace these increases in productivity to the creation of larger and less fragmented farms,
+leading to an increase in mechanization and the substitution of family labor with a hired
+specialized labor force.</p>
+  <br>
+<a href="https://ideas.repec.org/p/ctl/louvir/2023009.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+    <a href="#" class="bouton-article bordered-button"><i class="fab fa-slideshare"></i> Slides</a> 
+</div>
+  
+  <div id="article-image-2" class="centered" style="max-width: 400px;">
+  <img src="{{site.url}}/images/septembre.jpg" alt="Article image">
+</div>
+  <div id="article-summary-2" style="margin-bottom: 30px; text-align: justify;">
+  <p style="display: inline-block; width: 100%;"><b>Speed of Convergence in a Malthusian World: Weak or Strong <i>Homeostasis</i>?</b> <br> Standard Malthusian models predict that a productivity or population shock modify in-
+come per capita in the short run. In the long run, however, population pressures make
+income per capita gradually come back to its steady state. I investigate the duration of
+this short-run fluctuation, estimating the speed of convergence of Malthusian economies
+to their GDP per capita and population steady-states. To do so, I first build and calibrate
+a Malthusian model capturing explicitly the idea that marriages are postponed (advanced)
+and fertility potential of couples reduced (augmented) during depressions (expansions). I
+then also run beta-convergence regressions on historical panel data. I find consistent evidence
+of weak homeostasis, with a half-life of about one century. It implies that early modern
+data may display high persistence without necessarily rejecting the Malthusian hypothesis.</p>
+  <br>
+<a href="https://ideas.repec.org/p/ctl/louvir/2023010.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+    <a href="#" class="bouton-article bordered-button"><i class="fab fa-slideshare"></i> Slides</a>
+</div>  
+  
+
+</body>
+</html>
+
 <table><tr>
 <td>
 <div style="text-align: justify">
