@@ -29,35 +29,30 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 <br/> Introduction to Microeconomics, 2nd year of the Bachelor degree in Law and Political Sciences (evening classes).</li>
 
 
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Bouton déroulant</title>
     <style>
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropdown-btn {
+      /* Style pour le bouton déroulant */
+      .dropbtn {
         background-color: #4CAF50;
         color: white;
-        padding: 10px;
+        padding: 16px;
         font-size: 16px;
         border: none;
         cursor: pointer;
       }
 
+      /* Style pour le conteneur du texte déroulé */
       .dropdown-content {
         display: none;
         position: absolute;
         z-index: 1;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
       }
 
+      /* Style pour afficher le texte déroulé lorsque le bouton est cliqué */
       .dropdown:hover .dropdown-content {
         display: block;
       }
@@ -65,14 +60,13 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
   </head>
   <body>
     <div class="dropdown">
-      <button class="dropdown-btn">Titre du bouton</button>
+      <button class="dropbtn">Bouton déroulant</button>
       <div class="dropdown-content">
-        <p>Texte à afficher</p>
+        <p>Texte déroulé</p>
       </div>
     </div>
   </body>
 </html>
-
 
 
 
