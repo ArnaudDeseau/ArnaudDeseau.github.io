@@ -76,6 +76,69 @@ At <span style="color:#dc143c"> <strong>U</strong></span><strong>niversité</str
 
 
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bouton déroulant avec défilement automatique de la page</title>
+    <style>
+      /* Style pour le bouton déroulant */
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+      /* Style pour le conteneur déroulant */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Style pour le contenu déroulant */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+      }
+
+      /* Style pour le contenu déroulant lorsqu'il est visible */
+      .dropdown-content.show {
+        display: block;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body class="scrollable">
+    <h2>Bouton déroulant avec défilement automatique de la page</h2>
+
+    <div class="dropdown">
+      <button class="dropbtn" id="myBtn">Cliquez pour dérouler le texte</button>
+      <div class="dropdown-content" id="myDropdown">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          malesuada dolor sed turpis volutpat, in molestie lectus maximus.
+          Fusce sit amet lectus euismod, cursus nulla a, feugiat quam.
+          Proin consequat, nisl id tempus viverra, lorem est semper ex,
+          vitae varius lacus nisi quis tortor. Integer tincidunt lectus
+          eget risus convallis, nec bibendum velit vestibulum. Donec ac
+          nunc ligula. Nulla facilisi. Suspendisse potenti. Sed at
+          tincidunt mauris, vitae sodales ante. Nullam euismod tortor vel
+          eros accumsan, a commodo elit egestas. Nullam laoreet a augue
+          nec aliquam. Suspendisse sed aliquet velit, ac lobortis metus.
+          Praesent a metus nisl. Praesent vehicula commodo mauris, vel
+          malesuada quam efficitur vitae. Fusce eget ipsum nec magna
+          pulvinar commodo vel ut enim. Proin consectetur malesuada urna,
+          ut sollicitudin lorem dapibus ut.
+        </p>
+      </div>
+    </div>
 
 
 
