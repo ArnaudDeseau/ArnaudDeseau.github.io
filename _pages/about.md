@@ -42,11 +42,11 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 
 **07-05-2022:** Had a really great time attending to the Brown Conference on the Roots of Comparative Development
 
-**04-05-2022:** Delighted to present my research on « The Long-Run Impact of the Dissolution of French Monasteries » at the Growth Breakfast of the Brown University
+**04-05-2022:** Delighted to present my research on « The Long-Run Impact of the Dissolution of French Monasteries » at the Growth Breakfast of the <a href="https://economics.brown.edu/" target="_blank">Brown University</a>
 
 **23-04-2022:** I am honored to be the laureate of the Association Française d'Histoire Economique (French Economic History Association) Grant in view of my participation to the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris this summer
 
-**23-02-2022:** Delighted to present my research on « Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em> » at the Growth Breakfast of the Brown University
+**23-02-2022:** Delighted to present my research on « Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em> » at the Growth Breakfast of the <a href="https://economics.brown.edu/" target="_blank">Brown University</a>
 
 **01-02-2022:** Starting of my 6 months visiting at Brown University, under the supervision of <a href="https://www.odedgalor.com/" target="_blank">Oded Galor</a>. I am really looking forward to present my research and interact with the economics department
 
