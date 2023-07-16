@@ -22,7 +22,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-**25-03-2023:** I am delighted and honored to be joining the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) in September as a postdoctoral researcher
+**17-03-2023:** I am delighted and honored to be joining the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) in September as a postdoctoral researcher
 
 **30-01-2023:** I look forward to defending my thesis publicly on March 27, 2023. <em>Le jour de gloire est arrivé !</em>
 
