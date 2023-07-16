@@ -22,8 +22,6 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
-<div style="text-align: justify"> 
-
 **06-07-2023:** I had the pleasure of presenting my research on the dissolution of French monasteries at the DEM Workshop on Ageing, Culture and Comparative Development of the <a href="https://wwwfr.uni.lu/fdef/department_of_economics_and_management" target="_blank">University of Luxembourg</a>
 
 **17-03-2023:** I am delighted and honored to be joining the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) in September as a postdoctoral researcher
@@ -62,6 +60,5 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 
 **18-12-2020:** Organization of the first online edition of the Belgian Doctoral Workshop in Economics
 
-</div>
 
 
