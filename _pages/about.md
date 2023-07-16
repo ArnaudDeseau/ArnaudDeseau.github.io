@@ -16,7 +16,8 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 
 <div style="text-align: justify"> 
 <br/> My research spans economic growth, comparative development, Malthusian dynamics and economic history. More specifically, my research centers on understanding the role of misallocation of factor of production (land and fixed capital) on productivity and long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (Malthusian trap) before the Industrial Revolution. My research interests also include the historical evolution of access to justice.</div>
-  
+
+<div style="text-align: justify"> 
 <br/> Prior to joining the University of Aix-Marseille, I obtained my PhD at the UCLouvain (Belgium) in co-tutelle with the Université Saint-Louis - Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
