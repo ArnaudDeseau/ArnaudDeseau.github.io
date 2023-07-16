@@ -9,16 +9,15 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am a PhD candidate in Economics at the <a href="https://uclouvain.be/en/research-institutes/lidam/ires" target="_blank">Institut de Recherches Economiques et Sociales</a> (IRES) of the UCLouvain (Belgium) and the <a href="https://cerec.be/" target="_blank">Centre de Recherche en Economie</a> (CEREC) of the Université Saint-Louis – Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
+I am a postdoctoral researcher in Economics at the <a href="https://uclouvain.be/en/research-institutes/lidam/ires" target="_blank">Institut de Recherches Economiques et Sociales</a> (IRES) of the UCLouvain (Belgium) and the <a href="https://cerec.be/" target="_blank">Centre de Recherche en Economie</a> (CEREC) of the Université Saint-Louis – Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
-<div style="text-align: justify">
-<br/> <b>I am on the job market in the 2022-2023 academic year and available for interviews.</b></div>
+<!-- <div style="text-align: justify"> -->
+<!-- <br/> <b>I am on the job market in the 2022-2023 academic year and available for interviews.</b></div> -->
 
 <div style="text-align: justify"> 
 <br/> My research spans economic growth, comparative development, Malthusian dynamics and economic history. More specifically, my research centers on understanding the role of misallocation of factor of production (land and fixed capital) on productivity and long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (Malthusian trap) before the Industrial Revolution. My research interests also include the historical evolution of access to justice.</div>
   
-<div style="text-align: justify"> 
-<br/>I am also currently full-time teaching assistant in economics at the Université Saint-Louis – Bruxelles.</div>
+<br/> Prior to joining the University of Aix-Marseille, I obtained my PhD at the UCLouvain (Belgium) in co-tutelle with the Université Saint-Louis - Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
