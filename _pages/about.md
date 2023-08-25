@@ -26,6 +26,40 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
     <p><span style="font-weight: bold;">06-07-2023:</span> I had the pleasure of presenting my research on the dissolution of French monasteries at the DEM Workshop on Ageing, Culture and Comparative Development of the <a href="https://wwwfr.uni.lu/fdef/department_of_economics_and_management" target="_blank">University of Luxembourg</a></p>
     
     <p><span style="font-weight: bold;">17-03-2023:</span> I am delighted and honored to be joining the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) in September as a postdoctoral researcher</p>
+    
+    <p><span style="font-weight: bold;">30-01-2023:</span> I look forward to defending my thesis publicly on March 27, 2023. <em>Le jour de gloire est arrivé !</em></p>
+    
+    <p><span style="font-weight: bold;">09-01-2023:</span> I am looking forward to staying at the <a href="https://www.amse-aixmarseille.fr/en" target="_blank">Aix-Marseille School of Economics</a> (Université Aix-Marseille) from 09/01 to 13/01 in order to present my job market paper and to have fruitful exchanges with the faculty</p>
+    
+    <p><span style="font-weight: bold;">19-12-2022:</span> I was very pleased to present a poster at the conference on « Religion, Culture and Economic Growth in Historical Perspective » organized at the Université catholique de Louvain</p>
+    
+    <p><span style="font-weight: bold;">04-10-2022:</span> Had a really great time presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://uclouvain.be/en/calendar/ires" target="_blank">IRES Lunch Seminar</a> of the Université catholique de Louvain</p>
+    
+    <p><span style="font-weight: bold;">23-09-2022:</span> Had a really great time attending and presenting my job market paper on « <em>The Most Important Event</em>? The Long-Run Impact of the Dissolution of French Monasteries » at the <a href="https://www.ics.ulisboa.pt/" target="_blank">Instituto de Ciências Sociais (ICS)</a> of the University of Lisbon</p>
+    
+    <p><span style="font-weight: bold;">29-07-2022:</span> Had a really great time attending and presenting a poster at the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris</p>
+    
+    <p><span style="font-weight: bold;">07-05-2022:</span> Had a really great time attending the Brown Conference on the Roots of Comparative Development</p>
+    
+    <p><span style="font-weight: bold;">04-05-2022:</span> Delighted to present my research on « The Long-Run Impact of the Dissolution of French Monasteries » at the Growth Breakfast of the <a href="https://economics.brown.edu/" target="_blank">Brown University</a></p>
+    
+    <p><span style="font-weight: bold;">23-04-2022:</span> I am honored to be the laureate of the Association Française d'Histoire Economique (French Economic History Association) Grant in view of my participation in the <a href="https://www.wehc2022.org/" target="_blank">WEHC</a> conference in Paris this summer</p>
+    
+    <p><span style="font-weight: bold;">23-02-2022:</span> Delighted to present my research on « Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em> » at the Growth Breakfast of the <a href="https://economics.brown.edu/" target="_blank">Brown University</a></p>
+    
+    <p><span style="font-weight: bold;">01-02-2022:</span> Starting my 6-month visiting position at Brown University, under the supervision of <a href="https://www.odedgalor.com/" target="_blank">Oded Galor</a>. I am really looking forward to presenting my research and interacting with the economics department</p>
+    
+    <p><span style="font-weight: bold;">10-01-2022:</span> I am looking forward to attending and presenting a poster of my research on French monasteries at the XIX World Economic History Congress (<a href="https://www.wehc2022.org/" target="_blank">WEHC</a>) to be held in Paris</p>
+    
+    <p><span style="font-weight: bold;">02-12-2021:</span> I am looking forward to attending and speaking at the seminar: « Les biens nationaux » : une révolution ? XVIIIe – XXIe siècle. Enjeux socio-politiques et imaginaires sociaux organized by the <a href="https://sha.univ-poitiers.fr/master-histoire-civilisations-patrimoine/colloque-biens-nationaux/" target="_blank">CRIHAM</a> at Université de Poitiers</p>
+    
+    <p><span style="font-weight: bold;">01-11-2021:</span> I am honored to be the laureate of the French Community Travel Grant to finance my visiting at Brown University in February</p>
+    
+    <p><span style="font-weight: bold;">20-04-2021:</span> I am looking forward to attending and speaking at the 69th Congress of the French Economic Association (AFSE) held online. I will give the first presentation of my research on the industrial consequences of the auctioning off of French monasteries after the French Revolution</p>
+    
+    <p><span style="font-weight: bold;">06-04-2021:</span> Hello world! Creation of my website</p>
+    
+    <p><span style="font-weight: bold;">18-12-2020:</span> Organization of the first online edition of the Belgian Doctoral Workshop in Economics</p>
 </div>
 
 
