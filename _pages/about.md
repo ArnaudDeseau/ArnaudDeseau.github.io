@@ -23,7 +23,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-    <p><span style="font-weight: bold;">24-10-2023:</span> I am looking forward to present my research on the dissolution of French monasteries at the Economic History seminar of the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE)</p>
+    <p><span style="font-weight: bold;">24-10-2023:</span> I am looking forward to present my research on the dissolution of French monasteries at the interdisciplinary seminar in history and economics of the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) with a discussion of my paper by <a href="[https://www.amse-aixmarseille.fr/fr](https://facdeslettres.univ-lyon3.fr/chopelin-paul)" target="_blank">Paul Chopelin</a> (Université Jean Moulin Lyon 3)</p>
   
     <p><span style="font-weight: bold;">06-07-2023:</span> I had the pleasure of presenting my research on the dissolution of French monasteries at the DEM Workshop on Ageing, Culture and Comparative Development of the <a href="https://wwwfr.uni.lu/fdef/department_of_economics_and_management" target="_blank">University of Luxembourg</a></p>
     
