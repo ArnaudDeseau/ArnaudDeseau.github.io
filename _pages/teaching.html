@@ -41,13 +41,19 @@ author_profile: true
   padding: 10px 25px;
   display: inline-flex;
   align-items: center;
-  border: 2px solid #e21313;
+  border: none; /* Modification ici */
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
   outline: 2px solid #dcdcdc;
-  background-color: none;
+  background-color: #3D3D3D; /* Modification ici */
   border-radius: 4px;
-} 
+}
+#myBtn:hover {
+  background-color: #e21313;
+  color: #ffffff;
+  border-color: #e21313;
+  transition: all 0.3s ease-in-out;
+}
   </style>
   <script>
     $(document).ready(function() {
