@@ -103,55 +103,56 @@ author_profile: true
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <style>
-    #article-title {
-      background-color: #eee;
-      transition: background-color 0.5s ease-out;
-      cursor: pointer;
-    }
-    #article-title:hover {
-      background-color: #ccc;
-    }
-    #article-summary {
+    #text {
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.5s ease-out;
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 10px;
     }
-    #article-summary.active {
+    #text.active {
       max-height: 1000px;
       transition: max-height 1s ease-in;
     }
-    #article-summary p {
-      width: 60%;
+    #text p {
+      width: 100%;
+      text-align: justify;
     }
-    #article-summary img {
+    #text img {
       width: 40%;
       display: none;
     }
-    #article-summary.active img {
+    #text.active img {
       display: block;
     }
+#myBtn {
+  background-color: #e21313;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: left;
+  font-family: 'GaramondLibre', serif;
+  outline: none;
+  border: none;
+}
   </style>
   <script>
     $(document).ready(function() {
-      $("#article-title").click(function() {
-        $("#article-summary").toggleClass("active");
+      $("#myBtn").click(function() {
+        $("#text").toggleClass("active");
       });
     });
   </script>
 </head>
 <body>
+<button id="myBtn">At Université Saint-Louis - Bruxelles<span style="margin-left: 5px">&#9660;</span></button>
+<div id="text">
+  <p>
 
-<h2 id="article-title">Women in Academia: Religion, Marriage and Human Capital</h2>
-<div id="article-summary">
-  <p>Here is a summary of the article...</p>
-  <img src="{{site.url}}/images/mie_france.png" alt="Article image">
-</div>
-
-</body>
-</html>
-
+<ul>
+<li>2021- Teaching Assistant,  
 
   
 -->
