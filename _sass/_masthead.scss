@@ -34,13 +34,13 @@
 }
 
 .masthead__menu {
-
+background-color: #002d6c;
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
-
+background-color: #002d6c;
   }
 }
 
@@ -48,10 +48,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+background-color: #002d6c;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+     background-color: #002d6c;
   }
 }
