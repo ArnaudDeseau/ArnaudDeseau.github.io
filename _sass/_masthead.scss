@@ -10,13 +10,14 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+       background-color: #002d6c;
+
 
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $serif;
-    background-color: #002d6c;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
