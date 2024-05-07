@@ -23,7 +23,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-      <p><span style="font-weight: bold;">29-04-2024:</span> I really enjoyed taking part in the Deep-Rooted Factors in Comparative Development conference at Brown University
+      <p><span style="font-weight: bold;">29-04-2024:</span> I really enjoyed taking part in the Deep-Rooted Factors in Comparative Development conference at <a href="https://economics.brown.edu/" target="_blank">Brown University</a></p>  
   
       <p><span style="font-weight: bold;">25-03-2024:</span> I had a great time presenting and taking part in the <a href="https://sites.google.com/view/lorde2024/home-page" target="_blank">LORDE</a> conference held in Grenoble from 20 to 22 March. My paper on the dissolution of French monasteries received an interesting discussion from <a href="https://sites.google.com/view/tanguylefur" target="_blank">Tanguy Le Fur</a></p>
 
