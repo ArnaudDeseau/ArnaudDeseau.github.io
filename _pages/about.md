@@ -25,7 +25,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <div style="text-align: justify;">
         <p><span style="font-weight: bold;">29-04-2024:</span> I really enjoyed taking part in the « Deep-Rooted Factors in Comparative Development » conference at <a href="https://economics.brown.edu/" target="_blank">Brown University</a></p>  
 
-        <p><span style="font-weight: bold;">25-06-2024:</span> I had the pleasure of attending the Louvain FRESH Workshop 2024 <a href="https://uclouvain.be/en/research-institutes/lidam/ires/events/institutions-human-capital-and-long-term-development-lessons-from-pre-modern-europe.html" target="_blank">Brown University</a> on « Institutions, Human Capital, and Long-Term Development: Lessons from pre-modern Europe. »</p>  
+        <p><span style="font-weight: bold;">25-06-2024:</span> I had the pleasure of attending the <a href="https://uclouvain.be/en/research-institutes/lidam/ires/events/institutions-human-capital-and-long-term-development-lessons-from-pre-modern-europe.html" target="_blank">Louvain FRESH Workshop 2024</a> on « Institutions, Human Capital, and Long-Term Development: Lessons from pre-modern Europe. » Always a pleasure to be back in Belgium</p>  
 
       <p><span style="font-weight: bold;">29-04-2024:</span> I really enjoyed taking part in the « Deep-Rooted Factors in Comparative Development » conference at <a href="https://economics.brown.edu/" target="_blank">Brown University</a></p>  
   
