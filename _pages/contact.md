@@ -4,7 +4,8 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 redirect_from:
-  - /resume
+  - /contact/
+  - /contact.html
 ---
 
 jaaj
