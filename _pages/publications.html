@@ -6,6 +6,149 @@ author_profile: true
 ---
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Research Presentation</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">
+  <style>
+    /* Container to center the image row */
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Image styling */
+    .article-image {
+      cursor: pointer;
+      transition: opacity 0.5s ease-out;
+      max-width: 400px;
+      position: relative;
+      flex: 1;
+    }
+    .article-image:hover img {
+      opacity: 0.2;
+    }
+
+    /* Hover overlay text */
+    .article-image:hover::after {
+      content: attr(data-title);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Button styling */
+    .bouton-article {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 25px;
+      display: inline-flex;
+      align-items: center;
+      border: none;
+      box-sizing: border-box;
+      transition: all 0.2s ease-in-out;
+      outline: 2px solid #dcdcdc;
+      background-color: #3D3D3D;
+    }
+    .bouton-article:hover {
+      background-color: #e21313;
+      color: #ffffff;
+      border-color: #e21313;
+      transition: all 0.3s ease-in-out;
+    }
+    .bouton-article + .bouton-article {
+      margin-left: 10px;
+    }
+
+    /* Summary styling */
+    .article-summary {
+      display: none;
+      text-align: justify;
+      padding: 20px;
+      border: 3px solid #e21313;
+      margin-top: 10px;
+      background-color: #f9f9f9;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .article-summary.active {
+      display: block;
+    }
+  </style>
+  
+  <script>
+    $(document).ready(function() {
+      // Show only the clicked summary and hide others
+      $('[id^="article-image-"]').click(function() {
+        const index = $(this).data('index');
+        $('.article-summary').removeClass('active');
+        $(`#article-summary-${index}`).addClass('active');
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div class="image-container">
+    <!-- Article 1 -->
+    <div id="article-image-1" class="article-image" data-index="1" data-title="Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries">
+      <img src="{{site.url}}/images/Poster_Biens_Nationaux_à_vendre_1790_France.png" alt="Article 1 Image">
+    </div>
+    <!-- Article 2 -->
+    <div id="article-image-2" class="article-image" data-index="2" data-title="Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?">
+      <img src="{{site.url}}/images/septembre.jpg" alt="Article 2 Image">
+    </div>
+    <!-- Article 3 -->
+    <div id="article-image-3" class="article-image" data-index="3" data-title="Access to Justice and Economic Development: Evidence from an International Panel Dataset">
+      <img src="{{site.url}}/images/atj_sdg.jpg" alt="Article 3 Image">
+    </div>
+  </div>
+
+  <!-- Summaries for each article -->
+  <div id="article-summary-1" class="article-summary">
+    <p><b>Land Reform and Productivity: Evidence from the Dissolution of French Monasteries</b> <br> 
+    This article uses the confiscation and auction of monastic properties during the French Revolution to assess the effects of land reallocation on agricultural productivity...</p>
+    <a href="https://ideas.repec.org/p/ctl/louvir/2023009.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+    <a href="#" class="bouton-article bordered-button"><i class="fab fa-slideshare"></i> Slides</a> 
+  </div>
+
+  <div id="article-summary-2" class="article-summary">
+    <p><b>Speed of Convergence in a Malthusian World: Weak or Strong <i>Homeostasis</i>?</b> <br> 
+    The Malthusian trap is a well recognized source of stagnation in per capita income prior to industrialization...</p>
+    <a href="https://arnauddeseau.github.io/files/arnaud_deseau_malthusian_trap.pdf" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Latest Draft</a>
+    <a href="https://ideas.repec.org/p/ctl/louvir/2023010.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+  </div>
+
+  <div id="article-summary-3" class="article-summary">
+    <p><b>Access to Justice and Economic Development: Evidence from an International Panel Dataset</b> <br> 
+    This paper evaluates the importance of access to justice (ATJ) for economic growth...</p>
+    <a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Latest Draft</a>
+    <a href="https://ideas.repec.org/p/ctl/louvir/2019009.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
 
 
 <!DOCTYPE html>
