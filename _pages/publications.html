@@ -67,6 +67,12 @@ author_profile: true
       margin-bottom: 30px;
     }
 
+    #article-image-1, #article-image-2, #article-image-3 {
+  width: 100%; /* Set width to 100% of the parent container */
+  height: 250px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+}
+
     /* Hover content */
     #article-image-1:hover::after, 
     #article-image-2:hover::after, 
