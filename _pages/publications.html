@@ -86,6 +86,7 @@ author_profile: true
     #article-image-3:hover::after {
       content: "Access to Justice and Economic Development: Evidence from an International Panel Dataset";
     }
+    /* Hide article summaries by default */
     [id^="article-summary-"] {
       max-height: 0;
       overflow: hidden;
@@ -116,6 +117,10 @@ author_profile: true
     $(document).ready(function() {
       for (let i = 1; i <= 3; i++) {
         $(`#article-image-${i}`).click(function() {
+          // Close all summaries first
+          $('[id^="article-summary-"]').removeClass("active");
+
+          // Toggle the clicked summary
           $(`#article-summary-${i}`).toggleClass("active");
         });
       }
@@ -167,6 +172,7 @@ author_profile: true
 
 </body>
 </html>
+
 
 
 
