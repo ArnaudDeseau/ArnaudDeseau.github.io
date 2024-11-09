@@ -14,6 +14,7 @@ author_profile: true
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">
   <style>
+    display: block;
     .bouton-article {
       color: #fff;
       text-decoration: none;
@@ -46,23 +47,22 @@ author_profile: true
       opacity: 1;
       transition: opacity 0.5s ease-out;
       position: relative;
-      max-width: 400px;
-      margin: 0 10px;
+      max-width: 400px; /* Adjusted for side-by-side view */
+      margin: 0 10px; /* Margin between images */
     }
     [id^="article-image-"]:hover img {
       opacity: 0.2;
     }
 
-    /* Flexbox to handle two items per row */
+    /* Apply flexbox to the container */
     .articles-container {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      flex-wrap: wrap;  /* Allows wrapping to the next line */
+      flex-wrap: wrap;
     }
-
     .article-item {
-      flex-basis: 48%; /* Each item takes up about half of the container width */
+      flex-basis: 48%; /* Each item takes up about 1/3 of the container width */
       text-align: justify;
       margin-bottom: 30px;
     }
@@ -104,7 +104,7 @@ author_profile: true
       padding: 0 20px;
     }
     [id^="article-summary-"].active {
-      max-height: 1000px;
+      max-height: 1000px; /* Increase max-height if needed */
       transition: max-height 1s ease-in-out;
       border-color: #e21313;
       border: 3px solid #e21313;
@@ -125,8 +125,8 @@ author_profile: true
     $(document).ready(function() {
       // Toggle the summary box visibility when an image is clicked
       for (let i = 1; i <= 3; i++) {
-        $(`#article-image-${i}`).click(function() {
-          let summary = $(`#article-summary-${i}`);
+        $(#article-image-${i}).click(function() {
+          let summary = $(#article-summary-${i});
           // Toggle the active class to show/hide the summary
           summary.toggleClass("active");
           
@@ -146,7 +146,15 @@ author_profile: true
     </div>
     <div id="article-summary-1">
       <p><b>Land Reform and Productivity: Evidence from the Dissolution of French Monasteries</b> <br> This article uses the confiscation and auction of monastic properties during the French
-Revolution to assess the effects of land reallocation on agricultural productivity...</p>
+Revolution to assess the effects of land reallocation on agricultural productivity. To proxy
+for monastic landholdings, I construct a novel dataset using the annual income and location
+of more than 1,500 French monasteries in 1768. I perform several cross-checking analyses
+and demonstrate the validity of the data as a proxy for monastic landholdings both at the
+monastery and arrondissement levels. I show that arrondissements with greater land real-
+location experienced higher levels of agricultural productivity in the mid-19th century. I
+trace these increases in productivity to the creation of larger and less fragmented farms,
+leading to an increase in mechanization and the substitution of family labor with a hired
+specialized labor force.</p>
       <br>
       <a href="https://ideas.repec.org/p/ctl/louvir/2023009.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
       <a href="#" class="bouton-article bordered-button"><i class="fab fa-slideshare"></i> Slides</a>
@@ -158,13 +166,26 @@ Revolution to assess the effects of land reallocation on agricultural productivi
       <img src="{{site.url}}/images/septembre.jpg" alt="Article image">
     </div>
     <div id="article-summary-2">
-      <p><b>Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</b> <br> The Malthusian trap is a well recognized source of stagnation in per capita income...</p>
+      <p><b>Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</b> <br> The Malthusian trap is a well recognized source of stagnation in per capita income prior to industrialization... </p>
       <br>
       <a href="https://arnauddeseau.github.io/files/arnaud_deseau_malthusian_trap.pdf" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Latest Draft</a>
       <a href="https://ideas.repec.org/p/ctl/louvir/2023010.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
     </div>
   </div>
 
+  <div class="article-item">
+    <div id="article-image-3" class="centered">
+      <img src="{{site.url}}/images/atj_sdg.jpg" alt="Article image">
+    </div>
+    <div id="article-summary-3">
+      <p><b>Access to Justice and Economic Development: Evidence from an International Panel Dataset</b> <br> This paper evaluates the importance of access to justice (ATJ) for economic growth. ...</p>
+      <br>
+      <a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Latest Draft</a>
+      <a href="https://ideas.repec.org/p/ctl/louvir/2023010.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+      <a href="https://adam-levai.com/" class="bouton-article bordered-button"><i class="fas fa-user-friends"></i> Adam Levai</a>
+      <a href="https://www.researchgate.net/profile/Michele-Schmiegelow" class="bouton-article bordered-button"><i class="fas fa-user-friends"></i> Michèle Schmiegelow</a>
+    </div>
+  </div>
 </div>
 
 </body>
