@@ -101,10 +101,11 @@ author_profile: true
       flex-wrap: wrap;
       border: 0 solid #e21313;
       border-top: none;
+      padding: 0 20px;
     }
     [id^="article-summary-"].active {
-      max-height: 1000px;
-      transition: max-height 1s ease-in, border-color 0s;
+      max-height: 1000px; /* Increase max-height if needed */
+      transition: max-height 1s ease-in-out;
       border-color: #e21313;
       border: 3px solid #e21313;
       padding: 20px;
@@ -125,8 +126,12 @@ author_profile: true
       // Toggle the summary box visibility when an image is clicked
       for (let i = 1; i <= 3; i++) {
         $(`#article-image-${i}`).click(function() {
+          let summary = $(`#article-summary-${i}`);
           // Toggle the active class to show/hide the summary
-          $(`#article-summary-${i}`).toggleClass("active");
+          summary.toggleClass("active");
+          
+          // Close other summaries if necessary
+          $(".article-item .article-summary").not(summary).removeClass("active");
         });
       }
     });
@@ -176,7 +181,7 @@ specialized labor force.</p>
       <p><b>Access to Justice and Economic Development: Evidence from an International Panel Dataset</b> <br> This paper evaluates the importance of access to justice (ATJ) for economic growth. ...</p>
       <br>
       <a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Latest Draft</a>
-      <a href="https://ideas.repec.org/p/ctl/louvir/2019009.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
+      <a href="https://ideas.repec.org/p/ctl/louvir/2023010.html" class="bouton-article bordered-button"><i class="fas fa-file-pdf"></i> Working Paper</a>
       <a href="https://adam-levai.com/" class="bouton-article bordered-button"><i class="fas fa-user-friends"></i> Adam Levai</a>
       <a href="https://www.researchgate.net/profile/Michele-Schmiegelow" class="bouton-article bordered-button"><i class="fas fa-user-friends"></i> Michèle Schmiegelow</a>
     </div>
