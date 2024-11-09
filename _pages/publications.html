@@ -48,6 +48,8 @@ author_profile: true
       width: 150px;
       height: 200px;
       background-color: #dbe9f1;
+      background-size: cover;
+      background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -108,11 +110,11 @@ author_profile: true
 </head>
 <body>
   
-  <!-- Image row -->
+  <!-- Image row with actual image paths -->
   <div class="image-container">
-    <div id="article-image-1" class="article-image" data-index="1">Picture 1</div>
-    <div id="article-image-2" class="article-image" data-index="2">Picture 2</div>
-    <div id="article-image-3" class="article-image" data-index="3">Picture 3</div>
+    <div id="article-image-1" class="article-image" data-index="1" style="background-image: url('images/image1.jpg');">Picture 1</div>
+    <div id="article-image-2" class="article-image" data-index="2" style="background-image: url('images/image2.jpg');">Picture 2</div>
+    <div id="article-image-3" class="article-image" data-index="3" style="background-image: url('images/image3.jpg');">Picture 3</div>
   </div>
   
   <!-- Text zone -->
