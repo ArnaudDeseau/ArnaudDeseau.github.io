@@ -5,6 +5,136 @@ permalink: /research/
 author_profile: true
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-T9aP3j3Fd91dj3pU8WzNwwgxvOoPONn0R5jOgwN0RmJmRlRpiJ+qnztxKGPgDms/" crossorigin="anonymous">
+  <style>
+    /* Styling the button */
+    .bouton-article {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 25px;
+      display: inline-flex;
+      align-items: center;
+      border: none;
+      transition: all 0.2s ease-in-out;
+      background-color: #3D3D3D;
+      margin-top: 10px;
+      border: 2px solid #e21313;
+      border-radius: 4px;
+    }
+    .bouton-article:hover {
+      background-color: #e21313;
+    }
+
+    /* General layout */
+    .articles-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .article-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px 0;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+
+    /* Image styling */
+    .article-item img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+
+    /* Summary box styling, initially hidden */
+    [id^="article-summary-"] {
+      display: none;
+      width: 60%;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      padding-left: 20px;
+      border-left: 3px solid #e21313;
+      text-align: justify;
+      max-width: 400px;
+    }
+    [id^="article-summary-"].active {
+      display: block;
+      opacity: 1;
+    }
+
+    /* Flex grow effect for image when summary is shown */
+    .article-item.active img {
+      flex: 0 0 30%;
+      max-width: 200px;
+    }
+  </style>
+
+  <script>
+    $(document).ready(function() {
+      // Click handler for each article item
+      $('.article-item').click(function() {
+        // Close any open summaries first
+        $('.article-item').removeClass('active');
+        $("[id^='article-summary-']").removeClass('active').css('display', 'none');
+
+        // Add active class to clicked item and show its summary
+        $(this).addClass('active');
+        $(this).find("[id^='article-summary-']").addClass('active').css('display', 'block');
+      });
+    });
+  </script>
+</head>
+<body>
+
+<div class="articles-container">
+
+  <div class="article-item">
+    <div id="article-image-1">
+      <img src="{{site.url}}/images/Poster_Biens_Nationaux_à_vendre_1790_France.png" alt="Article image">
+    </div>
+    <div id="article-summary-1">
+      <p><b>Land Reform and Productivity: Evidence from the Dissolution of French Monasteries</b> <br> This article uses the confiscation and auction of monastic properties during the French
+      Revolution to assess the effects of land reallocation on agricultural productivity...</p>
+      <a href="https://ideas.repec.org/p/ctl/louvir/2023009.html" class="bouton-article"><i class="fas fa-file-pdf"></i> Working Paper</a>
+    </div>
+  </div>
+
+  <div class="article-item">
+    <div id="article-image-2">
+      <img src="{{site.url}}/images/septembre.jpg" alt="Article image">
+    </div>
+    <div id="article-summary-2">
+      <p><b>Speed of Convergence in a Malthusian World: Weak or Strong Homeostasis?</b> <br> The Malthusian trap is a well-recognized source of stagnation in per capita income prior to industrialization...</p>
+      <a href="https://arnauddeseau.github.io/files/arnaud_deseau_malthusian_trap.pdf" class="bouton-article"><i class="fas fa-file-pdf"></i> Latest Draft</a>
+    </div>
+  </div>
+
+  <div class="article-item">
+    <div id="article-image-3">
+      <img src="{{site.url}}/images/atj_sdg.png" alt="Article image">
+    </div>
+    <div id="article-summary-3">
+      <p><b>Access to Justice and Economic Development: Evidence from an International Panel Dataset</b> <br> This paper evaluates the importance of access to justice (ATJ) for economic growth...</p>
+      <a href="https://arnauddeseau.github.io/files/a2j_and_growth_shrllll.pdf" class="bouton-article"><i class="fas fa-file-pdf"></i> Latest Draft</a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
 
 
 
