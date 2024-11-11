@@ -109,13 +109,13 @@ author_profile: true
       overflow: hidden;
       transition: max-height 0.5s ease-out;
       display: flex;
-      align-items: stretch; /* Ensures sections expand equally */
+      align-items: stretch; /* Ensures sections expand to the same height */
       width: 100%;
     }
 
     /* Active state of the dropdown content */
     .dropdown-content.active {
-      max-height: 500px; /* Adjust as needed */
+      max-height: 600px; /* Adjust as needed */
       transition: max-height 1s ease-in;
     }
 
@@ -141,6 +141,7 @@ author_profile: true
       box-sizing: border-box;
       text-align: justify;
       font-size: 1rem;
+      height: 100%; /* Expands to match image height */
       display: flex;
       align-items: center;
     }
@@ -148,8 +149,8 @@ author_profile: true
     /* Right section styling for image */
     .right-section img {
       width: 100%; /* Ensures image fills the right section horizontally */
-      max-height: 600px; /* Set the max height to control the overall height */
-      object-fit: contain; /* Ensures the entire image is shown without cropping */
+      max-height: 100%; /* Full height of the container */
+      object-fit: cover; /* Ensures the image fills the area proportionally */
       border-radius: 4px; /* Optional: rounded corners */
     }
 
@@ -194,17 +195,14 @@ author_profile: true
     <div class="dropdown-content">
       <!-- Left section for paragraph with border -->
       <div class="left-section">
-        <p class="text-paragraph">
+        <div class="text-paragraph">
           The Malthusian trap is a well-recognized source of stagnation in per capita income prior to industrialization. 
           However, previous studies have found mixed evidence about its exact strength. This article contributes to this 
           ongoing debate by estimating the speed of convergence for a panel of 9 preindustrial European economies over a 
           long period (14th–18th century). The analysis relies on a calibrated Malthusian model for England and convergence 
           regressions. I find evidence of significant differences in the strength of the Malthusian trap between 
-          preindustrial European economies. The strongest estimated Malthusian trap is in Sweden, with a half-life of 20 years, 
-          while the weakest is in England, with a half-life of about 230 years. This implies that some preindustrial 
-          economies experienced prolonged variations in their standards of living after a shock, while still being subject to 
-          Malthusian stagnation in the long run.
-        </p>
+          preindustrial European economies.
+        </div>
       </div>
       
       <!-- Right section for image display -->
@@ -215,6 +213,7 @@ author_profile: true
   </div>
 </body>
 </html>
+
 
 
 
