@@ -93,6 +93,114 @@ author_profile: true
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    /* Container for dropdown and button */
+    .dropdown-container {
+      margin-bottom: 10px;
+    }
+
+    /* Hidden state of the dropdown content */
+    .dropdown-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-out;
+      display: flex;
+      width: 100%;
+    }
+
+    /* Active state of the dropdown content */
+    .dropdown-content.active {
+      max-height: 500px; /* Adjust as needed */
+      transition: max-height 1s ease-in;
+    }
+
+    /* Left and right sections inside dropdown */
+    .left-section, .right-section {
+      width: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    /* Left section styling */
+    .left-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /* Text input area in the left section */
+    .text-input {
+      width: 100%;
+      height: 100px; /* Adjust height as needed */
+      padding: 10px;
+      box-sizing: border-box;
+      resize: none;
+    }
+
+    /* Right section styling for image */
+    .right-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px; /* Optional: rounded corners */
+    }
+
+    /* Styles for the button */
+    .myBtn {
+      color: #e21313;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 25px;
+      display: inline-flex;
+      align-items: center;
+      box-sizing: border-box;
+      transition: all 0.2s ease-in-out;
+      outline: none;
+      background-color: #fefee2;
+      border: 2px solid #e21313;
+      border-radius: 4px;
+      font-family: inherit;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    /* Hover state for the button */
+    .myBtn:hover {
+      background-color: #e21313;
+      color: #ffffff;
+      border-color: #e21313;
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".myBtn").click(function() {
+        $(this).next(".dropdown-content").toggleClass("active");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="dropdown-container">
+    <button class="myBtn">At Aix-Marseille Université<span style="margin-left: 5px">&#9660;</span></button>
+    <div class="dropdown-content">
+      <!-- Left section for text input -->
+      <div class="left-section">
+        <textarea class="text-input" placeholder="Write text here..."></textarea>
+      </div>
+      
+      <!-- Right section for image display -->
+      <div class="right-section">
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
 
 
 
