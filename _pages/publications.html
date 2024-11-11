@@ -109,13 +109,13 @@ author_profile: true
       overflow: hidden;
       transition: max-height 0.5s ease-out;
       display: flex;
-      align-items: stretch; /* Ensures both sections expand equally */
+      align-items: stretch; /* Ensures sections expand equally */
       width: 100%;
     }
 
     /* Active state of the dropdown content */
     .dropdown-content.active {
-      max-height: 1000px; /* Increased for more space */
+      max-height: 500px; /* Adjust as needed */
       transition: max-height 1s ease-in;
     }
 
@@ -130,7 +130,7 @@ author_profile: true
     .left-section {
       display: flex;
       justify-content: center;
-      align-items: stretch; /* Makes the text box stretch to match image height */
+      align-items: center;
     }
 
     /* Paragraph styling with border */
@@ -147,10 +147,9 @@ author_profile: true
 
     /* Right section styling for image */
     .right-section img {
-      width: 100%;
-      height: auto;
-      max-height: 300px; /* Adjust max-height to control overall image size */
-      object-fit: cover; /* Ensures the image fills the area proportionally */
+      width: 100%; /* Ensures image fills the right section horizontally */
+      max-height: 300px; /* Set the max height to control the overall height */
+      object-fit: contain; /* Ensures the entire image is shown without cropping */
       border-radius: 4px; /* Optional: rounded corners */
     }
 
@@ -216,6 +215,7 @@ author_profile: true
   </div>
 </body>
 </html>
+
 
 
 
