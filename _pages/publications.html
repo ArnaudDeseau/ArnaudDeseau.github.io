@@ -130,16 +130,16 @@ author_profile: true
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
     }
 
-    /* Text input area in the left section */
-    .text-input {
+    /* Paragraph styling with border */
+    .text-paragraph {
       width: 100%;
-      height: 100px; /* Adjust height as needed */
-      padding: 10px;
+      border: 2px solid #e21313; /* Red border */
+      padding: 15px;
       box-sizing: border-box;
-      resize: none;
+      text-align: justify;
+      font-size: 1rem;
     }
 
     /* Right section styling for image */
@@ -188,9 +188,11 @@ author_profile: true
   <div class="dropdown-container">
     <button class="myBtn">At Aix-Marseille Université<span style="margin-left: 5px">&#9660;</span></button>
     <div class="dropdown-content">
-      <!-- Left section for text input -->
+      <!-- Left section for paragraph with border -->
       <div class="left-section">
-        <textarea class="text-input" placeholder="Write text here..."></textarea>
+        <p class="text-paragraph">
+          Advanced Macroeconomics 2: This course delves into complex economic theories, covering topics such as growth models, economic fluctuations, and policy implications in an advanced context.
+        </p>
       </div>
       
       <!-- Right section for image display -->
@@ -201,6 +203,7 @@ author_profile: true
   </div>
 </body>
 </html>
+
 
 
 
