@@ -67,7 +67,7 @@ author_profile: true
     }
 
     /* Styles for the button */
-    .myBtn {
+    .myBtnMain {
       color: #e21313;
       text-decoration: none !important;
       font-weight: bold;
@@ -86,16 +86,44 @@ author_profile: true
     }
 
     /* Hover state for the button */
-    .myBtn:hover {
+    .myBtnMain:hover {
       background-color: #e21313;
       color: #ffffff;
       border-color: #e21313;
       transition: all 0.3s ease-in-out;
     }
+
+        /* Styles for the button */
+    .myBtnSecond {
+      color: #e21313;
+      text-decoration: none !important;
+      font-weight: bold;
+      padding: 4px 12px;
+      display: inline-flex;
+      align-items: center;
+      box-sizing: border-box;
+      transition: all 0.2s ease-in-out;
+      outline: none;
+      background-color: #fefee2;
+      border: 2px solid #e21313;
+      border-radius: 4px;
+      font-family: inherit;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    /* Hover state for the button */
+    .myBtnSecond:hover {
+      background-color: #e21313;
+      color: #ffffff;
+      border-color: #e21313;
+      transition: all 0.3s ease-in-out;
+    }
+    
   </style>
   <script>
     $(document).ready(function() {
-      $(".myBtn").click(function() {
+      $(".myBtnMain").click(function() {
         $(this).next(".dropdown-content").toggleClass("active");
       });
     });
@@ -114,7 +142,7 @@ author_profile: true
     <br>
     
   <div class="dropdown-container">
-    <button class="myBtn">Speed of convergence in a Malthusian world: Weak or strong homeostasis? <i>Explorations in Economic History</i><span style="margin-left: 5px">&#9660;</span></button>
+    <button class="myBtnMain">Speed of convergence in a Malthusian world: Weak or strong homeostasis? <i>Explorations in Economic History</i><span style="margin-left: 5px">&#9660;</span></button>
     <div class="dropdown-content">
       <!-- Left section for paragraph with border -->
       <div class="left-section">
@@ -129,10 +157,10 @@ author_profile: true
           preindustrial European economies.
           <br> 
           <br> 
-            <a href="https://www.sciencedirect.com/science/article/pii/S0014498324000603" class="myBtn">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0014498324000603" class="myBtnSecond">
             <i class="fas fa-file-pdf"></i> Article  
             </a>
-            <a href="https://www.openicpsr.org/openicpsr/project/209662/version/V1/view" class="myBtn">
+            <a href="https://www.openicpsr.org/openicpsr/project/209662/version/V1/view" class="myBtnSecond">
             <i class="fas fa-file-pdf"></i> Data  
             </a>
           
@@ -153,7 +181,7 @@ author_profile: true
    <br>
 
   <div class="dropdown-container">
-    <button class="myBtn"> Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries <span style="margin-left: 5px">&#9660;</span></button>
+    <button class="myBtnMain"> Land Reform and Productivity: Evidence from the Dissolution of the French Monasteries <span style="margin-left: 5px">&#9660;</span></button>
     <div class="dropdown-content">
       <!-- Left section for paragraph with border -->
       <div class="left-section">
@@ -177,7 +205,7 @@ author_profile: true
   </div>
 
     <div class="dropdown-container">
-    <button class="myBtn"> Access to Justice and Economic Development: Evidence from an International Panel Dataset <span style="margin-left: 5px">&#9660;</span></button>
+    <button class="myBtnMain"> Access to Justice and Economic Development: Evidence from an International Panel Dataset <span style="margin-left: 5px">&#9660;</span></button>
     <div class="dropdown-content">
       <!-- Left section for paragraph with border -->
       <div class="left-section">
