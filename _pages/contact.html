@@ -7,15 +7,36 @@ redirect_from:
   - /resume
 ---
 
-Email: <a href="mailto:arnaud.deseau@uni-amu.fr">arnaud.deseau@univ-amu.fr</a>
-<br>
-<br>
-Address:
-<br>
-Aix-Marseille School of Economics (AMSE)
-<br>
-Université d'Aix-Marseille
-<br>
-5-9 Boulevard Maurice Bourdet
-<br>
-13001 Marseille
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Information</title>
+</head>
+<body>
+
+  <!-- Audio element to hold the sound file -->
+  <audio id="clickSound" src="your-sound-file.mp3" preload="auto"></audio>
+
+  <!-- Contact Information -->
+  Email: <a href="mailto:arnaud.deseau@uni-amu.fr" onclick="playSound()">arnaud.deseau@univ-amu.fr</a>
+  <br>
+  <br>
+  Address:
+  <br>
+  Aix-Marseille School of Economics (AMSE)
+  <br>
+  Université d'Aix-Marseille
+  <br>
+  5-9 Boulevard Maurice Bourdet
+  <br>
+  13001 Marseille
+
+  <!-- JavaScript function to play sound -->
+  <script>
+    function playSound() {
+      document.getElementById('clickSound').play();
+    }
+  </script>
+
+</body>
+</html>
