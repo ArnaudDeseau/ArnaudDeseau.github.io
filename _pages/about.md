@@ -23,7 +23,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-  <p><span style="font-weight: bold;">28-12-2024:</span> I am proud and honoured to announce that my article « Access to Justice and Economic Development: Evidence from an International Panel Dataset »  has been accepted for publication in the <a href="https://www.sciencedirect.com/journal/european-economic-review" target="_blank">European Economic Review</a> </p> 
+  <p><span style="font-weight: bold;">28-12-2024:</span> I am proud and honoured to announce that my article « Access to Justice and Economic Development: Evidence from an International Panel Dataset »  has been accepted for publication in the <a href="https://www.sciencedirect.com/science/article/pii/S0014292124002769" target="_blank">European Economic Review</a> </p> 
   
           <p><span style="font-weight: bold;">18-10-2024:</span> I am proud and honoured to announce that my article « Speed of Convergence in a Malthusian World: Weak or Strong <em>Homeostasis</em> »  has been accepted for publication in <a href="https://www.sciencedirect.com/science/article/pii/S0014498324000603" target="_blank">Explorations in Economic History</a> </p> 
   
