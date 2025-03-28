@@ -23,6 +23,8 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
+ <p><span style="font-weight: bold;">31-01-2025:</span> I enjoyed attending the presentations at the <a href="https://www.amse-aixmarseille.fr/fr/actualite/lorde-2025-workshop" target="_blank">LORDE 2025 Workshop</a> and discussing the interesting paper by <a href="https://www.gla.ac.uk/schools/business/staff/konstantinosangelopoulos/" target="_blank"> Konstantinos Angelopoulos on « Resource risk and the origins of inequality: Evidence from a pastoralist economy » </a> on t </p> 
+  
     <p><span style="font-weight: bold;">31-01-2025:</span> I was delighted to be able to present my paper on the dissolution of French monasteries at the <a href="https://adres2025.sciencesconf.org/" target="_blank"> ADRES conference</a> in Strasbourg </p> 
   
     <p><span style="font-weight: bold;">22-01-2025:</span> I was delighted to discuss Jérémie Foa's interesting book <a href="https://www.seuil.com/ouvrage/survivre-jeremie-foa/9782021181272" target="_blank"> « Survivre: une histoire des guerres de Religion »</a> </p> 
