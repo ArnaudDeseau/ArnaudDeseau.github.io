@@ -23,7 +23,9 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-      <p><span style="font-weight: bold;">01-04-2025:</span> I was honoured to present my ongoing research on Church lands and agricultural productivity in 19th century France at the economic history workshop organized by <a href="https://www.ens-lyon.fr/" target="_blank"> ENS Lyon</a> </p> 
+<p><span style="font-weight: bold;">02-07-2025:</span> It was a pleasure to present my research on monastic land reallocation and agricultural productivity in 19th century France at the <a href="https://www.ens-lyon.fr/" target="_blank"> 24th LAGV Days</a> held in Marseille </p> 
+  
+<p><span style="font-weight: bold;">01-04-2025:</span> I was honoured to present my ongoing research on Church lands and agricultural productivity in 19th century France at the economic history workshop organized by <a href="https://www.ens-lyon.fr/" target="_blank"> ENS Lyon</a> </p> 
   
  <p><span style="font-weight: bold;">28-03-2025:</span> I enjoyed attending the presentations at the <a href="https://www.amse-aixmarseille.fr/fr/actualite/lorde-2025-workshop" target="_blank">LORDE 2025 Workshop</a> and discussing the interesting paper by <a href="https://www.gla.ac.uk/schools/business/staff/konstantinosangelopoulos/" target="_blank"> Konstantinos Angelopoulos</a> on « Resource risk and the origins of inequality: Evidence from a pastoralist economy » </p> 
   
