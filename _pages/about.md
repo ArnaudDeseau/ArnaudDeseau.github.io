@@ -23,7 +23,7 @@ I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aix
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-<p><span style="font-weight: bold;">02-07-2025:</span> It was a pleasure to present my research on monastic land reallocation and agricultural productivity in 19th century France at the <a href="https://www.ens-lyon.fr/" target="_blank"> 24th LAGV Days</a> held in Marseille </p> 
+<p><span style="font-weight: bold;">02-07-2025:</span> It was a pleasure to present my research on monastic land reallocation and agricultural productivity in 19th century France at the <a href="https://lagv2025.sciencesconf.org/?lang=en" target="_blank"> 24th LAGV Days</a> held in Marseille </p> 
   
 <p><span style="font-weight: bold;">01-04-2025:</span> I was honoured to present my ongoing research on Church lands and agricultural productivity in 19th century France at the economic history workshop organized by <a href="https://www.ens-lyon.fr/" target="_blank"> ENS Lyon</a> </p> 
   
