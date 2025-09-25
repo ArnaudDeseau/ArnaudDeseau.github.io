@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am a postdoctoral researcher in Economics at the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE).</div>
+Welcome!</div>
 
 <div style="text-align: justify"> 
-<br/> <b>I am on the job market in the 2025-2026 academic year and available for interviews.</b></div>
+I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) and <b>currently on the 2025-2026 job market</b>. I hold a Ph.D. in Economics from the Université catholique de Louvain (Belgium), completed under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
 <div style="text-align: justify"> 
-<br/> My research spans economic growth, comparative development, Malthusian dynamics and economic history. More specifically, my research centers on understanding the role of misallocation of factor of production (land and fixed capital) on productivity and long-run development. Another strand of my research studies the co-evolution of economic and demographic forces (Malthusian trap) before the Industrial Revolution. My research interests also include the historical evolution of access to justice.</div>
+<br/> My research interests are in Development Economics, Economic History and Law & Economics, with a focus on France in the 18th-19th century period and on pre-modern Europe.</div>
 
 <div style="text-align: justify"> 
 <br/> Prior to joining the University of Aix-Marseille, I obtained my PhD at the UCLouvain (Belgium) in co-tutelle with the Université Saint-Louis - Bruxelles (Belgium) under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
