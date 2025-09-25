@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: justify"> 
-<br/> <span style="color:#dc143c"> **W**</span>**elcom**!</div>
+<br/> <span style="color:#dc143c"> **W**</span>**elcome**!</div>
 
 <div style="text-align: justify"> 
 I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) and <b>currently on the 2025-2026 job market</b>. I hold a Ph.D. in Economics from the Université catholique de Louvain (Belgium), completed under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
