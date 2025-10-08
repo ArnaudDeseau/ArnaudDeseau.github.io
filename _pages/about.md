@@ -18,6 +18,8 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
+<p><span style="font-weight: bold;">08-10-2025:</span> It was an honor and great pleasure to present my research on Malthusian stagnation at the <a href="https://www.amse-aixmarseille.fr/fr/evenements/arnaud-deseau-1" target="_blank"> History and Economics Seminar </a> of the Aix-Marseille School of Economics </p> 
+  
 <p><span style="font-weight: bold;">06-09-2025:</span> It was an honor and great pleasure to present my research on monastic land reallocation and agricultural productivity in 19th century France at the <a href="https://ehesconference.org/" target="_blank"> European Historical Economics Society Conference </a> held at the University of Hohenheim </p> 
 
 <p><span style="font-weight: bold;">28-07-2025:</span> It was an honor and great pleasure to present my research on monastic land reallocation and agricultural productivity in 19th century France at the <a href="https://wehc2025.com/" target="_blank"> World Economic History Congress 2025 </a> held in Lund </p> 
