@@ -69,11 +69,19 @@ author_profile: true
     }
   </style>
   <script>
-    $(document).ready(function() {
-      $(".myBtn").click(function() {
-        $(this).next(".dropdown-content").toggleClass("active");
-      });
-    });
+$(document).ready(function() {
+  $(".myBtn").click(function() {
+    const $content = $(this).next(".dropdown-content");
+    $content.toggleClass("active");
+
+    // When opening, scroll smoothly to the dropdown so it’s fully visible
+    if ($content.hasClass("active")) {
+      $('html, body').animate({
+        scrollTop: $content.offset().top - 20  // 20px margin for aesthetics
+      }, 600);
+    }
+  });
+});
   </script>
 </head>
 <body>
