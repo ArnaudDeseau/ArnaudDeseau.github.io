@@ -10,7 +10,7 @@ redirect_from:
 <span style="color:#dc143c"> **W**</span>**elcome!**
 
 <div style="text-align: justify"> 
-I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) and <b>currently on the 2025-2026 job market</b> (<a href="{{site.url}}/files/CV.pdf" target="_blank">JMP here!</a>). I hold a Ph.D. in Economics from the Université catholique de Louvain (Belgium), completed under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
+I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/fr" target="_blank">Aix-Marseille School of Economics</a> (AMSE) and <b>currently on the 2025-2026 job market</b> (<a href="{{site.url}}/files/JMP_Arnaud_Deseau.pdf" target="_blank">JMP here!</a>). I hold a Ph.D. in Economics from the Université catholique de Louvain (Belgium), completed under the supervision of <a href="https://perso.uclouvain.be/david.delacroix/" target="_blank">David de la Croix</a> and <a href="https://sites.google.com/view/helene-latzer/home" target="_blank">Hélène Latzer</a>.</div>
 
 <div style="text-align: justify"> 
 <br/> My research interests are in Development Economics, Economic History and Law & Economics, with a focus on France in the 18th-19th century period and on pre-modern Europe.</div>
