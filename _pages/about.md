@@ -18,7 +18,7 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 <br/><span style="color:#dc143c"> **W**</span>**hat's** <span style="color:#dc143c"> **N**</span>**ew?**
 
 <div style="text-align: justify;">
-<p><span style="font-weight: bold;">31-01-2025:</span> I was delighted to be able to present my paper on the dissolution of French monasteries at the <a href="https://adres2026.sciencesconf.org/" target="_blank"> ADRES conference</a> in Paris </p> 
+<p><span style="font-weight: bold;">22-01-2026:</span> I was delighted to be able to present my paper on the dissolution of French monasteries at the <a href="https://adres2026.sciencesconf.org/" target="_blank"> ADRES conference</a> in Paris </p> 
   
 <p><span style="font-weight: bold;">08-10-2025:</span> It was an honor and great pleasure to present my research on Malthusian stagnation at the <a href="https://www.amse-aixmarseille.fr/fr/evenements/arnaud-deseau-1" target="_blank"> History and Economics Seminar </a> of the Aix-Marseille School of Economics </p> 
   
