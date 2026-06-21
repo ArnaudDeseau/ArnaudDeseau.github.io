@@ -30,7 +30,7 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 
 <ul class="timeline">
 
-<li><span class="tl-date">10-06-2026</span> <span class="tl-text">I was delighted to present my new project on Church Construction and Economic Development in Medieval Europe (joint with ) at <a href="https://afepop2026.sciencesconf.org/" target="_blank">25th LAGV Days </a> in Aix-en-Provence</span></li>
+<li><span class="tl-date">10-06-2026</span> <span class="tl-text">I was delighted to present my new project on Church Construction and Economic Development in Medieval Europe (joint with Masahiro Kubo and Èric Roca Fernández) at the <a href="https://lagv2026.sciencesconf.org/" target="_blank">25th LAGV Days </a> held in Aix-en-Provence</span></li>
 
 <li><span class="tl-date">06-05-2026</span> <span class="tl-text">It was a pleasure to present my new project on the institutional determinants of the gender composition of the judiciary at the <a href="https://afepop2026.sciencesconf.org/" target="_blank">AFEPOP 2026 annual conference</a> in Strasbourg</span></li>
 
