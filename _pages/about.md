@@ -30,6 +30,8 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 
 <ul class="timeline">
 
+<li><span class="tl-date">06-05-2026</span> <span class="tl-text">I was delighted to present my new project on women judges at the <a href="https://afepop2026.sciencesconf.org/" target="_blank">AFEPOP 2026 annual conference</a> in Strasbourg</span></li>
+
 <li><span class="tl-date">22-01-2026</span> <span class="tl-text">I was delighted to be able to present my paper on the dissolution of French monasteries at the <a href="https://adres2026.sciencesconf.org/" target="_blank">ADRES conference</a> in Paris</span></li>
 
 <li><span class="tl-date">08-10-2025</span> <span class="tl-text">It was an honor and great pleasure to present my research on Malthusian stagnation at the <a href="https://www.amse-aixmarseille.fr/fr/evenements/arnaud-deseau-1" target="_blank">History and Economics Seminar</a> of the Aix-Marseille School of Economics</span></li>
