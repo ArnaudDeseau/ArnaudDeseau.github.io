@@ -97,11 +97,10 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 
 <style>
 .timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid #ddd; margin-left: 6px; }
-.timeline li { position: relative; padding: 6px 0 10px 22px; display: flex; align-items: flex-start; }
-.timeline li::before { content: ''; position: absolute; left: -6px; top: 0.65em; width: 10px; height: 10px; border-radius: 50%; background: #aaa; border: 2px solid #fff; }
-.timeline li.pub::before { background: #dc143c; }
-.tl-date { font-family: monospace; font-size: 0.82em; color: #888; display: inline-block; min-width: 90px; padding-top: 1px; }
-.tl-text { font-size: 0.95em; }
+.timeline li { position: relative; padding: 6px 0 10px 22px; display: flex; align-items: flex-start; gap: 12px; }
+.timeline li::before { content: ''; position: absolute; left: -6px; top: 0.65em; width: 10px; height: 10px; border-radius: 50%; background: #dc143c; border: 2px solid #fff; }
+.tl-date { font-family: monospace; font-size: 0.82em; color: #888; display: inline-block; min-width: 90px; padding-top: 1px; flex-shrink: 0; }
+.tl-text { font-size: 0.95em; text-align: justify; }
 </style>
 
 <ul class="timeline">
