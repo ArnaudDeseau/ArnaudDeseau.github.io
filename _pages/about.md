@@ -30,7 +30,7 @@ I am a postdoctoral researcher at the <a href="https://www.amse-aixmarseille.fr/
 
 <ul class="timeline">
 
-<li><span class="tl-date">29-06-2026</span> <span class="tl-text">I am very proud and delighted to announce that I will be joining the University of Lille and the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> next September</span></li>
+<li><span class="tl-date">29-06-2026</span> <span class="tl-text">I am very proud and delighted to announce that I will be joining the University of Lille and the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> next September as Maître de Conférences (Associate Professor)</span></li>
 
 <li><span class="tl-date">10-06-2026</span> <span class="tl-text">I was delighted to present my new project on « Church Construction and Economic Development in Medieval Europe » (joint with Masahiro Kubo and Èric Roca Fernández) at the <a href="https://lagv2026.sciencesconf.org/" target="_blank">25th LAGV Days </a> held in Aix-en-Provence</span></li>
 
