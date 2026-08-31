@@ -10,7 +10,7 @@ redirect_from:
 <span style="color:#dc143c"> **W**</span>**elcome!**
 
 <div style="text-align: justify"> 
-I am an Associate Professor (Maître de Conférences) in Economics at the <a href="https://www.univ-lille.fr/" target="_blank">University of Lille</a>, where I am a member of the <a href="https://lem.univ-lille.fr/" target="_blank">Lille Economie Management</a> research center (LEM, UMR CNRS 9221).</div>
+I am an Associate Professor (<em>Maître de Conférences</em>) in Economics at the <a href="https://www.univ-lille.fr/" target="_blank">University of Lille</a>, where I am a member of the <a href="https://lem.univ-lille.fr/" target="_blank">Lille Economie Management</a> research center (LEM, UMR CNRS 9221).</div>
 
 <div style="text-align: justify"> 
 <br/> My research interests are in Development Economics, Economic History and Law & Economics, with a focus on France in the 18th-19th century period and on pre-modern Europe.</div>
