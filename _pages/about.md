@@ -30,7 +30,7 @@ I am an Assistant Professor (<em>Maître de Conférences</em>) of Economics at t
 
 <ul class="timeline">
 
-<li><span class="tl-date">01-10-2026</span> <span class="tl-text">I am very proud and delighted to announce that I will be joining the University of Lille and the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> next September as <em>Maître de Conférences</em> (Assistant Professor with tenure)</span></li>
+<li><span class="tl-date">01-10-2026</span> <span class="tl-text">I was delighted to present my new project on « Medieval Cathedral Construction and Economic Development in Medieval Europe » (joint with Masahiro Kubo and Èric Roca Fernández) at the WiP Seminar of the LEM in Lille</span></li>
 
 <li><span class="tl-date">29-06-2026</span> <span class="tl-text">I am very proud and delighted to announce that I will be joining the University of Lille and the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> next September as <em>Maître de Conférences</em> (Assistant Professor with tenure)</span></li>
 
