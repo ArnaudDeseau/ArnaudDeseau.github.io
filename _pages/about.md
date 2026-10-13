@@ -30,6 +30,8 @@ I am an Assistant Professor (<em>Maître de Conférences</em>) of Economics at t
 
 <ul class="timeline">
 
+<li><span class="tl-date">09-10-2026</span> <span class="tl-text">It was a pleasure to present my project on « The Judge is a Woman: Common Law and the Gender Gap » at the <a href="https://afed2026.sciencesconf.org/" target="_blank">AFED 2026 annual conference</a> in Aix-en-Provence</span></li>
+
 <li><span class="tl-date">01-10-2026</span> <span class="tl-text">I was delighted to present our project « Medieval Cathedral Construction and Economic Development in Medieval Europe » (joint with Masahiro Kubo and Èric Roca Fernández) at the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> Work-in-Progress Seminar (WiP)</span></li>
 
 <li><span class="tl-date">29-06-2026</span> <span class="tl-text">I am very proud and delighted to announce that I will be joining the University of Lille and the <a href="https://lem.univ-lille.fr/" target="_blank">LEM </a> next September as <em>Maître de Conférences</em> (Assistant Professor with tenure)</span></li>
