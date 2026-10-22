@@ -53,8 +53,8 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
       data.addColumn('string', 'Country');
       data.addColumn('number', 'Visitors');
       visitors.countries.forEach(function (c) {
-        // Colour on a log scale so one big country doesn't wash out the rest,
-        // but show the real number in the tooltip.
+        /* Colour on a log scale so one big country doesn't wash out the rest,
+           but show the real number in the tooltip. */
         data.addRow([
           { v: c.code, f: c.name },
           { v: Math.log10(c.count + 1), f: c.count.toLocaleString() }
