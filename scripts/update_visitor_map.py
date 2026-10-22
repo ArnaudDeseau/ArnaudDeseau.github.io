@@ -14,6 +14,11 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
+try:
+    import pycountry  # gives each country's numeric code, used by the map
+except ImportError:
+    pycountry = None
+
 SITE = os.environ.get("GOATCOUNTER_SITE", "arnaudd")
 TOKEN = os.environ.get("GOATCOUNTER_TOKEN")
 START_DATE = os.environ.get("START_DATE", "2020-01-01")
@@ -59,6 +64,13 @@ def fetch(offset):
     )
 
 
+def numeric_code(alpha2):
+    if pycountry is None:
+        return None
+    country = pycountry.countries.get(alpha_2=alpha2)
+    return country.numeric if country else None
+
+
 # Check the API key first, so a key problem gives a clear message.
 me = get("me")
 print(f"API key OK: {me.get('token', {}).get('name')!r}, site code {SITE!r}")
@@ -73,34 +85,34 @@ while True:
         code = (row.get("id") or "").split("-")[0].upper()
         if len(code) != 2 or not code.isalpha():
             continue  # "(unknown)" location
-        entry = countries.setdefault(code, {"code": code, "name": row.get("name") or code, "count": 0})
+        entry = countries.setdefault(
+            code, {"code": code, "num": numeric_code(code), "name": row.get("name") or code, "count": 0}
+        )
         entry["count"] += int(row.get("count") or 0)
     if not page.get("more") or not stats:
         break
     offset += len(stats)
 
 country_list = sorted(countries.values(), key=lambda c: -c["count"])
+data = {
+    "since": START_DATE,
+    "total": sum(c["count"] for c in country_list),
+    "countries": country_list,
+}
 
-# Only rewrite the file when the numbers changed, to avoid empty daily commits.
+# Only rewrite the file when something changed, to avoid empty daily commits.
 try:
     with open(OUT, encoding="utf-8") as f:
-        if json.load(f).get("countries") == country_list:
-            print("No change in visitor data.")
-            sys.exit(0)
+        previous = json.load(f)
+    previous.pop("updated", None)
+    if previous == data:
+        print("No change in visitor data.")
+        sys.exit(0)
 except (FileNotFoundError, json.JSONDecodeError):
     pass
 
+data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 with open(OUT, "w", encoding="utf-8") as f:
-    json.dump(
-        {
-            "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "since": START_DATE,
-            "total": sum(c["count"] for c in country_list),
-            "countries": country_list,
-        },
-        f,
-        ensure_ascii=False,
-        indent=2,
-    )
+    json.dump(data, f, ensure_ascii=False, indent=2)
 print(f"Saved {len(country_list)} countries to {OUT}")
