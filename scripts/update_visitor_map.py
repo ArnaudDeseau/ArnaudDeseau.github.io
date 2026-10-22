@@ -9,6 +9,7 @@ Environment variables:
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -21,26 +22,46 @@ OUT = "_data/visitors.json"
 if not TOKEN:
     sys.exit("GOATCOUNTER_TOKEN is not set")
 
-API = f"https://{SITE}.goatcounter.com/api/v0/stats/locations"
+BASE = f"https://{SITE}.goatcounter.com/api/v0"
 start = f"{START_DATE}T00:00:00Z"
 end = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
 end = end.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def fetch(offset):
-    query = urllib.parse.urlencode(
-        {"start": start, "end": end, "limit": 100, "offset": offset}
-    )
+def get(path, params=None):
+    url = f"{BASE}/{path}"
+    if params:
+        url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(
-        f"{API}?{query}",
+        url,
         headers={
             "Authorization": f"Bearer {TOKEN}",
             "Content-Type": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            if resp.geturl() != url:
+                print(f"Note: redirected to {resp.geturl()}")
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:1000]
+        sys.exit(
+            f"GoatCounter returned HTTP {e.code} for {e.geturl()}\n"
+            f"Response: {body}"
+        )
 
+
+def fetch(offset):
+    return get(
+        "stats/locations",
+        {"start": start, "end": end, "limit": 100, "offset": offset},
+    )
+
+
+# Check the API key first, so a key problem gives a clear message.
+me = get("me")
+print(f"API key OK: {me.get('token', {}).get('name')!r}, site code {SITE!r}")
 
 # Collect all pages of results, merged by ISO country code.
 countries = {}
