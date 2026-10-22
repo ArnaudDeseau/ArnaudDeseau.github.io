@@ -15,12 +15,19 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install country code list
+        run: pip install pycountry
+
       - name: Fetch visitors by country from GoatCounter
         run: python3 scripts/update_visitor_map.py
         env:
           GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
           GOATCOUNTER_SITE: arnaudd
-          START_DATE: "2020-01-01"   # change to when you started using GoatCounter
+          START_DATE: "2026-10-13"   # first day of GoatCounter statistics
 
       - name: Commit updated data
         id: commit
