@@ -7,39 +7,73 @@ redirect_from:
   - /resume
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Contact Information</title>
-</head>
-
 <script data-goatcounter="https://arnaudd.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-  
-<body>
 
-  <!-- Audio element to hold the sound file -->
-  <audio id="clickSound" src="{{site.url}}/images/age_of_horn.mp3" preload="auto"></audio>
+<!-- Audio element to hold the sound file -->
+<audio id="clickSound" src="{{ site.url }}/images/age_of_horn.mp3" preload="auto"></audio>
 
-  <!-- Contact Information -->
-  Email: <a href="mailto:arnaud.deseau@univ-lille.fr" onclick="playSound()">arnaud.deseau@univ-lille.fr</a>
-  <br>
-  <br>
-  Address:
-  <br>
-LEM, CNRS (UMR 9221)
-  <br>
-Université de Lille
-   <br>
+<!-- Contact Information -->
+<div class="contact-info">
+Email: <a href="mailto:arnaud.deseau@univ-lille.fr" onclick="playSound()">arnaud.deseau@univ-lille.fr</a>
+<br><br>
+Address:<br>
+LEM, CNRS (UMR 9221)<br>
+Université de Lille<br>
 Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
+</div>
 
+<!-- Visitor map (data refreshed automatically from GoatCounter, see _data/visitors.json) -->
+<h2 style="margin-top: 2em;">Visitors around the world</h2>
+<div id="visitor-map" style="width: 100%; aspect-ratio: 16 / 9;"></div>
+<p id="visitor-map-caption" style="font-size: 0.75em; color: #777;"></p>
 
-  <!-- JavaScript function to play sound -->
-  <script>
-    function playSound() {
-      document.getElementById('clickSound').play();
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+  function playSound() {
+    document.getElementById('clickSound').play();
+  }
+
+  (function () {
+    var visitors = {{ site.data.visitors | jsonify }};
+    if (!visitors || !visitors.countries || !visitors.countries.length) {
+      document.getElementById('visitor-map').style.display = 'none';
+      return;
     }
-  </script>
 
-</body>
-</html>
+    google.charts.load('current', { packages: ['geochart'] });
+    google.charts.setOnLoadCallback(drawMap);
+    window.addEventListener('resize', function () {
+      clearTimeout(window._mapResize);
+      window._mapResize = setTimeout(drawMap, 200);
+    });
+
+    function drawMap() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Country');
+      data.addColumn('number', 'Visitors');
+      visitors.countries.forEach(function (c) {
+        // Colour on a log scale so one big country doesn't wash out the rest,
+        // but show the real number in the tooltip.
+        data.addRow([
+          { v: c.code, f: c.name },
+          { v: Math.log10(c.count + 1), f: c.count.toLocaleString() }
+        ]);
+      });
+
+      var chart = new google.visualization.GeoChart(document.getElementById('visitor-map'));
+      chart.draw(data, {
+        colorAxis: { colors: ['#d6e6f5', '#08306b'] },
+        datalessRegionColor: '#eeeeee',
+        backgroundColor: 'transparent',
+        legend: 'none',
+        keepAspectRatio: true
+      });
+    }
+
+    document.getElementById('visitor-map-caption').textContent =
+      visitors.total.toLocaleString() + ' visitors from ' +
+      visitors.countries.length + ' countries since ' + visitors.since +
+      ' · last updated ' + visitors.updated;
+  })();
+</script>
