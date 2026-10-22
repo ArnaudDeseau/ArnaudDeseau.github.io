@@ -1,112 +1,133 @@
 {
-  "updated": "2026-10-22",
-  "since": "2020-01-01",
-  "total": 85,
+  "since": "2026-10-13",
+  "total": 86,
   "countries": [
     {
       "code": "FR",
+      "num": "250",
       "name": "France",
-      "count": 46
+      "count": 47
     },
     {
       "code": "US",
+      "num": "840",
       "name": "United States",
       "count": 11
     },
     {
       "code": "CA",
+      "num": "124",
       "name": "Canada",
       "count": 3
     },
     {
       "code": "KR",
+      "num": "410",
       "name": "South Korea",
       "count": 3
     },
     {
       "code": "BE",
+      "num": "056",
       "name": "Belgium",
       "count": 2
     },
     {
       "code": "CD",
+      "num": "180",
       "name": "DR Congo",
       "count": 2
     },
     {
       "code": "DE",
+      "num": "276",
       "name": "Germany",
       "count": 2
     },
     {
       "code": "MO",
+      "num": "446",
       "name": "Macao",
       "count": 2
     },
     {
       "code": "SC",
+      "num": "690",
       "name": "Seychelles",
       "count": 2
     },
     {
       "code": "AR",
+      "num": "032",
       "name": "Argentina",
       "count": 1
     },
     {
       "code": "AU",
+      "num": "036",
       "name": "Australia",
       "count": 1
     },
     {
       "code": "BR",
+      "num": "076",
       "name": "Brazil",
       "count": 1
     },
     {
       "code": "BY",
+      "num": "112",
       "name": "Belarus",
       "count": 1
     },
     {
       "code": "CZ",
+      "num": "203",
       "name": "Czechia",
       "count": 1
     },
     {
       "code": "DK",
+      "num": "208",
       "name": "Denmark",
       "count": 1
     },
     {
       "code": "EG",
+      "num": "818",
       "name": "Egypt",
       "count": 1
     },
     {
       "code": "GR",
+      "num": "300",
       "name": "Greece",
       "count": 1
     },
     {
       "code": "IL",
+      "num": "376",
       "name": "Israel",
       "count": 1
     },
     {
       "code": "IN",
+      "num": "356",
       "name": "India",
       "count": 1
     },
     {
       "code": "LT",
+      "num": "440",
       "name": "Republic of Lithuania",
       "count": 1
     },
     {
       "code": "NL",
+      "num": "528",
       "name": "Netherlands",
       "count": 1
     }
-  ]
+  ],
+  "updated": "2026-10-22"
 }
