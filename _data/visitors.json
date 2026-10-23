@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 86,
+  "total": 89,
   "countries": [
     {
       "code": "FR",
@@ -12,18 +12,18 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 11
-    },
-    {
-      "code": "CA",
-      "num": "124",
-      "name": "Canada",
-      "count": 3
+      "count": 12
     },
     {
       "code": "KR",
       "num": "410",
       "name": "South Korea",
+      "count": 4
+    },
+    {
+      "code": "CA",
+      "num": "124",
+      "name": "Canada",
       "count": 3
     },
     {
@@ -117,6 +117,12 @@
       "count": 1
     },
     {
+      "code": "IT",
+      "num": "380",
+      "name": "Italy",
+      "count": 1
+    },
+    {
       "code": "LT",
       "num": "440",
       "name": "Republic of Lithuania",
@@ -129,5 +135,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-10-22"
+  "updated": "2026-10-23"
 }
