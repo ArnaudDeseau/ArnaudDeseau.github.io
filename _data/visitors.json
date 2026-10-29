@@ -1,18 +1,36 @@
 {
   "since": "2026-10-13",
-  "total": 89,
+  "total": 122,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 47
+      "count": 61
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 12
+      "count": 16
+    },
+    {
+      "code": "BE",
+      "num": "056",
+      "name": "Belgium",
+      "count": 8
+    },
+    {
+      "code": "BR",
+      "num": "076",
+      "name": "Brazil",
+      "count": 5
+    },
+    {
+      "code": "SC",
+      "num": "690",
+      "name": "Seychelles",
+      "count": 5
     },
     {
       "code": "KR",
@@ -25,12 +43,6 @@
       "num": "124",
       "name": "Canada",
       "count": 3
-    },
-    {
-      "code": "BE",
-      "num": "056",
-      "name": "Belgium",
-      "count": 2
     },
     {
       "code": "CD",
@@ -51,12 +63,6 @@
       "count": 2
     },
     {
-      "code": "SC",
-      "num": "690",
-      "name": "Seychelles",
-      "count": 2
-    },
-    {
       "code": "AR",
       "num": "032",
       "name": "Argentina",
@@ -66,12 +72,6 @@
       "code": "AU",
       "num": "036",
       "name": "Australia",
-      "count": 1
-    },
-    {
-      "code": "BR",
-      "num": "076",
-      "name": "Brazil",
       "count": 1
     },
     {
@@ -129,11 +129,23 @@
       "count": 1
     },
     {
+      "code": "MY",
+      "num": "458",
+      "name": "Malaysia",
+      "count": 1
+    },
+    {
       "code": "NL",
       "num": "528",
       "name": "Netherlands",
       "count": 1
+    },
+    {
+      "code": "TR",
+      "num": "792",
+      "name": "Turkey",
+      "count": 1
     }
   ],
-  "updated": "2026-10-23"
+  "updated": "2026-10-29"
 }
