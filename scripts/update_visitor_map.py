@@ -9,6 +9,7 @@ Environment variables:
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -33,6 +34,12 @@ end = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
 end = end.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+# GoatCounter's server sometimes answers with a spurious 404 (or a 5xx / timeout)
+# for a while. Wait and try again before giving up: 1, 2, 4, 8 then 15 minutes.
+RETRY_WAITS = [int(x) for x in os.environ.get("RETRY_WAITS", "60,120,240,480,900").split(",")]
+RETRY_CODES = {404, 408, 425, 429, 500, 502, 503, 504}
+
+
 def get(path, params=None):
     url = f"{BASE}/{path}"
     if params:
@@ -42,19 +49,27 @@ def get(path, params=None):
         headers={
             "Authorization": f"Bearer {TOKEN}",
             "Content-Type": "application/json",
+            "User-Agent": "visitor-map-updater (GitHub Actions)",
         },
     )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            if resp.geturl() != url:
-                print(f"Note: redirected to {resp.geturl()}")
-            return json.load(resp)
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", "replace")[:1000]
-        sys.exit(
-            f"GoatCounter returned HTTP {e.code} for {e.geturl()}\n"
-            f"Response: {body}"
-        )
+    for attempt in range(len(RETRY_WAITS) + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                if resp.geturl() != url:
+                    print(f"Note: redirected to {resp.geturl()}")
+                return json.load(resp)
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", "replace")[:1000]
+            problem = f"HTTP {e.code} for {url}\nResponse: {body}"
+            if e.code not in RETRY_CODES:
+                sys.exit(f"GoatCounter returned {problem}")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            problem = f"no answer for {url} ({e})"
+        if attempt == len(RETRY_WAITS):
+            sys.exit(f"GoatCounter still failing after {attempt + 1} tries: {problem}")
+        wait = RETRY_WAITS[attempt]
+        print(f"GoatCounter: {problem}\n-> trying again in {wait} s", flush=True)
+        time.sleep(wait)
 
 
 def fetch(offset):
