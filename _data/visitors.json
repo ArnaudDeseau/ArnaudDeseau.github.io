@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 122,
+  "total": 125,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 61
+      "count": 62
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 16
+      "count": 17
     },
     {
       "code": "BE",
@@ -141,11 +141,17 @@
       "count": 1
     },
     {
+      "code": "NO",
+      "num": "578",
+      "name": "Norway",
+      "count": 1
+    },
+    {
       "code": "TR",
       "num": "792",
       "name": "Turkey",
       "count": 1
     }
   ],
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
 }
