@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 129,
+  "total": 131,
   "countries": [
     {
       "code": "FR",
@@ -12,7 +12,7 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 18
+      "count": 19
     },
     {
       "code": "BE",
@@ -60,6 +60,12 @@
       "code": "MO",
       "num": "446",
       "name": "Macao",
+      "count": 2
+    },
+    {
+      "code": "NO",
+      "num": "578",
+      "name": "Norway",
       "count": 2
     },
     {
@@ -144,12 +150,6 @@
       "code": "NL",
       "num": "528",
       "name": "Netherlands",
-      "count": 1
-    },
-    {
-      "code": "NO",
-      "num": "578",
-      "name": "Norway",
       "count": 1
     },
     {
