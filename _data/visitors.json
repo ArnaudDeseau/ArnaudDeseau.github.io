@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 136,
+  "total": 137,
   "countries": [
     {
       "code": "FR",
@@ -12,7 +12,7 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 19
+      "count": 20
     },
     {
       "code": "BE",
