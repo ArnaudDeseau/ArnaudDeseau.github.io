@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 137,
+  "total": 138,
   "countries": [
     {
       "code": "FR",
@@ -21,15 +21,15 @@
       "count": 8
     },
     {
-      "code": "BR",
-      "num": "076",
-      "name": "Brazil",
-      "count": 5
-    },
-    {
       "code": "SC",
       "num": "690",
       "name": "Seychelles",
+      "count": 6
+    },
+    {
+      "code": "BR",
+      "num": "076",
+      "name": "Brazil",
       "count": 5
     },
     {
@@ -159,5 +159,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-01"
+  "updated": "2026-11-02"
 }
