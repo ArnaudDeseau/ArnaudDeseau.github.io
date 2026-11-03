@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 138,
+  "total": 139,
   "countries": [
     {
       "code": "FR",
@@ -157,7 +157,13 @@
       "num": "792",
       "name": "Turkey",
       "count": 1
+    },
+    {
+      "code": "VN",
+      "num": "704",
+      "name": "Vietnam",
+      "count": 1
     }
   ],
-  "updated": "2026-11-02"
+  "updated": "2026-11-03"
 }
