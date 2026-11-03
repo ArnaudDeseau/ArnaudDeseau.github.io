@@ -1,12 +1,12 @@
 {
   "since": "2026-10-13",
-  "total": 139,
+  "total": 150,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 68
+      "count": 77
     },
     {
       "code": "US",
@@ -111,6 +111,12 @@
       "count": 1
     },
     {
+      "code": "GB",
+      "num": "826",
+      "name": "United Kingdom",
+      "count": 1
+    },
+    {
       "code": "GR",
       "num": "300",
       "name": "Greece",
@@ -150,6 +156,12 @@
       "code": "NL",
       "num": "528",
       "name": "Netherlands",
+      "count": 1
+    },
+    {
+      "code": "PL",
+      "num": "616",
+      "name": "Poland",
       "count": 1
     },
     {
