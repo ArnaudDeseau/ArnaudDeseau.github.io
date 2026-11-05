@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 161,
+  "total": 166,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 87
+      "count": 90
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 21
+      "count": 22
     },
     {
       "code": "BE",
@@ -24,7 +24,7 @@
       "code": "SC",
       "num": "690",
       "name": "Seychelles",
-      "count": 6
+      "count": 7
     },
     {
       "code": "BR",
