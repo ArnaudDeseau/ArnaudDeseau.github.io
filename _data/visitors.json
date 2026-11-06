@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 169,
+  "total": 171,
   "countries": [
     {
       "code": "FR",
@@ -42,6 +42,12 @@
       "code": "CA",
       "num": "124",
       "name": "Canada",
+      "count": 3
+    },
+    {
+      "code": "IT",
+      "num": "380",
+      "name": "Italy",
       "count": 3
     },
     {
@@ -138,12 +144,6 @@
       "code": "IN",
       "num": "356",
       "name": "India",
-      "count": 1
-    },
-    {
-      "code": "IT",
-      "num": "380",
-      "name": "Italy",
       "count": 1
     },
     {
