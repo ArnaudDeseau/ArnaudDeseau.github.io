@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 171,
+  "total": 173,
   "countries": [
     {
       "code": "FR",
@@ -60,6 +60,12 @@
       "code": "DE",
       "num": "276",
       "name": "Germany",
+      "count": 2
+    },
+    {
+      "code": "ES",
+      "num": "724",
+      "name": "Spain",
       "count": 2
     },
     {
@@ -183,5 +189,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-06"
+  "updated": "2026-11-07"
 }
