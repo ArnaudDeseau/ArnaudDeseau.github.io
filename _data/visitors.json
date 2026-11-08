@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 175,
+  "total": 181,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 90
+      "count": 91
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 23
+      "count": 26
     },
     {
       "code": "BE",
@@ -153,6 +153,12 @@
       "count": 1
     },
     {
+      "code": "IR",
+      "num": "364",
+      "name": "Iran",
+      "count": 1
+    },
+    {
       "code": "LT",
       "num": "440",
       "name": "Republic of Lithuania",
@@ -174,6 +180,12 @@
       "code": "PL",
       "num": "616",
       "name": "Poland",
+      "count": 1
+    },
+    {
+      "code": "PT",
+      "num": "620",
+      "name": "Portugal",
       "count": 1
     },
     {
