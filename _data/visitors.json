@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 181,
+  "total": 184,
   "countries": [
     {
       "code": "FR",
@@ -27,16 +27,16 @@
       "count": 7
     },
     {
+      "code": "KR",
+      "num": "410",
+      "name": "South Korea",
+      "count": 6
+    },
+    {
       "code": "BR",
       "num": "076",
       "name": "Brazil",
       "count": 5
-    },
-    {
-      "code": "KR",
-      "num": "410",
-      "name": "South Korea",
-      "count": 4
     },
     {
       "code": "CA",
@@ -189,6 +189,12 @@
       "count": 1
     },
     {
+      "code": "SG",
+      "num": "702",
+      "name": "Singapore",
+      "count": 1
+    },
+    {
       "code": "TR",
       "num": "792",
       "name": "Turkey",
@@ -201,5 +207,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-08"
+  "updated": "2026-11-09"
 }
