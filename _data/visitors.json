@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 188,
+  "total": 190,
   "countries": [
     {
       "code": "FR",
@@ -39,6 +39,12 @@
       "count": 5
     },
     {
+      "code": "GB",
+      "num": "826",
+      "name": "United Kingdom",
+      "count": 4
+    },
+    {
       "code": "CA",
       "num": "124",
       "name": "Canada",
@@ -66,12 +72,6 @@
       "code": "DE",
       "num": "276",
       "name": "Germany",
-      "count": 2
-    },
-    {
-      "code": "GB",
-      "num": "826",
-      "name": "United Kingdom",
       "count": 2
     },
     {
