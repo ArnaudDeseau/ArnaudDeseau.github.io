@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 190,
+  "total": 194,
   "countries": [
     {
       "code": "FR",
@@ -12,7 +12,7 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 26
+      "count": 28
     },
     {
       "code": "BE",
@@ -39,16 +39,16 @@
       "count": 5
     },
     {
+      "code": "CA",
+      "num": "124",
+      "name": "Canada",
+      "count": 5
+    },
+    {
       "code": "GB",
       "num": "826",
       "name": "United Kingdom",
       "count": 4
-    },
-    {
-      "code": "CA",
-      "num": "124",
-      "name": "Canada",
-      "count": 3
     },
     {
       "code": "ES",
@@ -207,5 +207,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-10"
+  "updated": "2026-11-11"
 }
