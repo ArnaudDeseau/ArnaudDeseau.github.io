@@ -1,12 +1,12 @@
 {
   "since": "2026-10-13",
-  "total": 194,
+  "total": 198,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 94
+      "count": 97
     },
     {
       "code": "US",
@@ -117,6 +117,12 @@
       "count": 1
     },
     {
+      "code": "BG",
+      "num": "100",
+      "name": "Bulgaria",
+      "count": 1
+    },
+    {
       "code": "BY",
       "num": "112",
       "name": "Belarus",
@@ -207,5 +213,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
 }
