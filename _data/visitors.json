@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 202,
+  "total": 205,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 99
+      "count": 100
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 29
+      "count": 30
     },
     {
       "code": "BE",
@@ -171,6 +171,12 @@
       "count": 1
     },
     {
+      "code": "MA",
+      "num": "504",
+      "name": "Morocco",
+      "count": 1
+    },
+    {
       "code": "MY",
       "num": "458",
       "name": "Malaysia",
@@ -219,5 +225,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 }
