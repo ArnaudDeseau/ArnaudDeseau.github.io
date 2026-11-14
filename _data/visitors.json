@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 207,
+  "total": 208,
   "countries": [
     {
       "code": "FR",
@@ -63,6 +63,12 @@
       "count": 3
     },
     {
+      "code": "JP",
+      "num": "392",
+      "name": "Japan",
+      "count": 3
+    },
+    {
       "code": "CD",
       "num": "180",
       "name": "DR Congo",
@@ -72,12 +78,6 @@
       "code": "DE",
       "num": "276",
       "name": "Germany",
-      "count": 2
-    },
-    {
-      "code": "JP",
-      "num": "392",
-      "name": "Japan",
       "count": 2
     },
     {
@@ -231,5 +231,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-13"
+  "updated": "2026-11-14"
 }
