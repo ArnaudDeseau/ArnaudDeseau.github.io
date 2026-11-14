@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 208,
+  "total": 210,
   "countries": [
     {
       "code": "FR",
@@ -12,7 +12,7 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 30
+      "count": 31
     },
     {
       "code": "BE",
@@ -216,6 +216,12 @@
       "code": "SG",
       "num": "702",
       "name": "Singapore",
+      "count": 1
+    },
+    {
+      "code": "TH",
+      "num": "764",
+      "name": "Thailand",
       "count": 1
     },
     {
