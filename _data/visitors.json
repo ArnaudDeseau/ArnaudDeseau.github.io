@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 210,
+  "total": 217,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 101
+      "count": 102
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 31
+      "count": 36
     },
     {
       "code": "BE",
@@ -96,6 +96,12 @@
       "code": "NO",
       "num": "578",
       "name": "Norway",
+      "count": 2
+    },
+    {
+      "code": "TH",
+      "num": "764",
+      "name": "Thailand",
       "count": 2
     },
     {
@@ -219,12 +225,6 @@
       "count": 1
     },
     {
-      "code": "TH",
-      "num": "764",
-      "name": "Thailand",
-      "count": 1
-    },
-    {
       "code": "TR",
       "num": "792",
       "name": "Turkey",
@@ -237,5 +237,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 }
