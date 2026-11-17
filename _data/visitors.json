@@ -1,12 +1,12 @@
 {
   "since": "2026-10-13",
-  "total": 230,
+  "total": 233,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 107
+      "count": 110
     },
     {
       "code": "US",
