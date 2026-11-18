@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 233,
+  "total": 234,
   "countries": [
     {
       "code": "FR",
@@ -213,6 +213,12 @@
       "count": 1
     },
     {
+      "code": "PR",
+      "num": "630",
+      "name": "Puerto Rico",
+      "count": 1
+    },
+    {
       "code": "PT",
       "num": "620",
       "name": "Portugal",
@@ -237,5 +243,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
 }
