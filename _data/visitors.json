@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 237,
+  "total": 240,
   "countries": [
     {
       "code": "FR",
@@ -12,19 +12,19 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 39
+      "count": 40
+    },
+    {
+      "code": "BE",
+      "num": "056",
+      "name": "Belgium",
+      "count": 10
     },
     {
       "code": "GB",
       "num": "826",
       "name": "United Kingdom",
       "count": 10
-    },
-    {
-      "code": "BE",
-      "num": "056",
-      "name": "Belgium",
-      "count": 8
     },
     {
       "code": "SC",
@@ -243,5 +243,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-18"
+  "updated": "2026-11-19"
 }
