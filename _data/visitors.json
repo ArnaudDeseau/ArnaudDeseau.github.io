@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 242,
+  "total": 246,
   "countries": [
     {
       "code": "FR",
@@ -12,7 +12,7 @@
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 40
+      "count": 41
     },
     {
       "code": "BE",
@@ -49,6 +49,12 @@
       "num": "124",
       "name": "Canada",
       "count": 5
+    },
+    {
+      "code": "IN",
+      "num": "356",
+      "name": "India",
+      "count": 4
     },
     {
       "code": "ES",
@@ -171,12 +177,6 @@
       "count": 1
     },
     {
-      "code": "IN",
-      "num": "356",
-      "name": "India",
-      "count": 1
-    },
-    {
       "code": "IR",
       "num": "364",
       "name": "Iran",
@@ -243,5 +243,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-19"
+  "updated": "2026-11-20"
 }
