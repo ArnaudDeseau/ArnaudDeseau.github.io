@@ -1,12 +1,12 @@
 {
   "since": "2026-10-13",
-  "total": 246,
+  "total": 249,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 114
+      "count": 116
     },
     {
       "code": "US",
@@ -168,6 +168,12 @@
       "code": "GR",
       "num": "300",
       "name": "Greece",
+      "count": 1
+    },
+    {
+      "code": "ID",
+      "num": "360",
+      "name": "Indonesia",
       "count": 1
     },
     {
