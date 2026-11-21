@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 249,
+  "total": 251,
   "countries": [
     {
       "code": "FR",
@@ -57,6 +57,12 @@
       "count": 4
     },
     {
+      "code": "DE",
+      "num": "276",
+      "name": "Germany",
+      "count": 3
+    },
+    {
       "code": "ES",
       "num": "724",
       "name": "Spain",
@@ -81,12 +87,6 @@
       "count": 2
     },
     {
-      "code": "DE",
-      "num": "276",
-      "name": "Germany",
-      "count": 2
-    },
-    {
       "code": "LT",
       "num": "440",
       "name": "Republic of Lithuania",
@@ -96,6 +96,12 @@
       "code": "MO",
       "num": "446",
       "name": "Macao",
+      "count": 2
+    },
+    {
+      "code": "NL",
+      "num": "528",
+      "name": "Netherlands",
       "count": 2
     },
     {
@@ -201,12 +207,6 @@
       "count": 1
     },
     {
-      "code": "NL",
-      "num": "528",
-      "name": "Netherlands",
-      "count": 1
-    },
-    {
       "code": "PK",
       "num": "586",
       "name": "Pakistan",
@@ -249,5 +249,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
 }
