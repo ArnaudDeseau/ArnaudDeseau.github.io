@@ -4,14 +4,14 @@
  *
  *   ln(visitors_i) = alpha + beta_1 * x_1i + ... + beta_k * x_ki + e_i
  *
- * where each x is ln(regressor) for regressors marked `log: true`.
+ * where each x is ln(regressor) or ln(1 + regressor), as set by `transform`.
  * Estimated by OLS with heteroskedasticity-robust (HC1) standard errors.
  * Countries with no visitors drop out (ln 0 is undefined).
  *
  * The dependent variable comes from _data/visitors.json (updated twice a day
  * by the "Update visitor map" GitHub Action). Regressors are computed here
- * (distance) or read from _data/country_covariates.json (World Bank data,
- * updated monthly by the "Update country data" GitHub Action).
+ * (distance) or read from _data/country_covariates.json (World Bank and RePEc
+ * data, updated monthly by the "Update country data" GitHub Action).
  *
  * With several regressors, the chart shows the relationship for the variable
  * chosen in the menu, holding the others constant (Frisch-Waugh-Lovell: both
@@ -29,13 +29,24 @@
   var EXCLUDED_IDS = { '010': true }; /* Antarctica */
   /* Three-letter codes for places the World Bank does not list. */
   var ISO3_FALLBACK = { TW: 'TWN' };
+  /* RePEc measure: 'repec_shares' (fractional count: an economist with two
+     affiliations counts half in each country) or 'repec_authors' (raw count). */
+  var REPEC_MEASURE = 'repec_shares';
+
+  var TRANSFORMS = {
+    log: { f: Math.log, inv: Math.exp, name: function (l) { return 'ln(' + l + ')'; }, ok: function (v) { return v > 0; } },
+    log1p: { f: Math.log1p, inv: Math.expm1, name: function (l) { return 'ln(1 + ' + l + ')'; }, ok: function (v) { return v > -1; } },
+    none: { f: function (v) { return v; }, inv: function (v) { return v; }, name: function (l) { return l; }, ok: function () { return true; } }
+  };
+  function tr(r) { return TRANSFORMS[r.transform || 'none']; }
 
   /*
    * Each regressor:
    *   key        short identifier
    *   label      name in the results table
    *   axis       axis title (raw units)
-   *   log        true: enters the model as ln(value)
+   *   transform  'log': enters as ln(value); 'log1p': as ln(1 + value), for
+   *              variables that can be zero; 'none': as is
    *   format     formats a raw value for the tooltip
    *   value      function (country, home) -> raw number, or null if missing.
    *              `country` has: id (ISO numeric), code (ISO 2 letters), iso3,
@@ -47,7 +58,7 @@
       key: 'distance',
       label: 'Distance to France',
       axis: 'Distance to France (km, log scale)',
-      log: true,
+      transform: 'log',
       format: function (v) { return Math.round(v).toLocaleString('en-GB') + ' km'; },
       value: function (c, home) {
         if (c.isHome) { return HOME_DISTANCE_KM; }
@@ -58,18 +69,45 @@
       key: 'gdp_pc',
       label: 'GDP per capita',
       axis: 'GDP per capita (PPP, international $, log scale)',
-      log: true,
+      transform: 'log',
       format: function (v, c) {
         return '$' + Math.round(v).toLocaleString('en-GB') +
           (c && c.covariates && c.covariates.gdp_pc_year ? ' (' + c.covariates.gdp_pc_year + ')' : '');
       },
       value: function (c) { return c.covariates ? c.covariates.gdp_pc : null; }
+    },
+    {
+      key: 'economists',
+      label: 'Economists per million',
+      axis: 'RePEc economists per million people (log(1 + x) scale)',
+      transform: 'log1p',
+      format: function (v, c) {
+        var cv = c && c.covariates;
+        return d3.format(',.1f')(v) + ' per million' +
+          (cv && cv.repec_authors !== undefined ? ' (' + cv.repec_authors.toLocaleString('en-GB') + ' registered)' : '');
+      },
+      value: function (c) {
+        var cv = c.covariates;
+        if (!cv || cv[REPEC_MEASURE] === undefined || cv[REPEC_MEASURE] === null || !(cv.pop > 0)) { return null; }
+        return cv[REPEC_MEASURE] / cv.pop * 1e6;
+      }
+    },
+    {
+      key: 'alcohol',
+      label: 'Alcohol consumption',
+      axis: 'Alcohol consumption (litres of pure alcohol per adult, log(1 + x) scale)',
+      transform: 'log1p',
+      format: function (v, c) {
+        return d3.format(',.1f')(v) + ' L per adult' +
+          (c && c.covariates && c.covariates.alc_year ? ' (' + c.covariates.alc_year + ')' : '');
+      },
+      value: function (c) { return c.covariates ? c.covariates.alc : null; }
     }
   ];
 
   var BLUE = '#2171b5';
 
-  function termName(r) { return r.log ? 'ln(' + r.label + ')' : r.label; }
+  function termName(r) { return tr(r).name(r.label); }
 
   function stars(p) {
     if (!isFinite(p)) { return ''; }
@@ -111,7 +149,7 @@
   }
 
   function usable(r, v) {
-    return v !== null && v !== undefined && isFinite(v) && (!r.log || v > 0);
+    return v !== null && v !== undefined && isFinite(v) && tr(r).ok(v);
   }
 
   /* Estimation sample: countries with at least one visitor and every regressor.
@@ -130,7 +168,7 @@
         visitors: c.visitors,
         y: Math.log(c.visitors),
         raw: raw,
-        x: raw.map(function (v, j) { return regs[j].log ? Math.log(v) : v; })
+        x: raw.map(function (v, j) { return tr(regs[j]).f(v); })
       });
     });
     return { rows: rows, dropped: dropped };
@@ -408,6 +446,7 @@
     function drawChart() {
       var j = state.focus;
       var reg = regs[j];
+      var T = tr(reg);
       var others = regs.filter(function (_, m) { return m !== j; });
       var meanX = regs.map(function (_, m) { return d3.mean(rows, function (r) { return r.x[m]; }); });
       var meanY = d3.mean(y);
@@ -424,7 +463,7 @@
         var ly = ey[i] + meanY;
         return {
           row: r,
-          x: reg.log ? Math.exp(lx) : lx,
+          x: T.inv(lx),
           y: Math.exp(ly),
           fitted: fit.fitted[i]
         };
@@ -438,8 +477,16 @@
 
       var xExt = d3.extent(points, function (p) { return p.x; });
       var yExt = d3.extent(points, function (p) { return p.y; });
-      var x = reg.log ? d3.scaleLog().domain([xExt[0] / 1.6, xExt[1] * 1.6])
-        : d3.scaleLinear().domain(xExt).nice();
+      var x;
+      if (reg.transform === 'log') {
+        x = d3.scaleLog().domain([xExt[0] / 1.6, xExt[1] * 1.6]);
+      } else if (reg.transform === 'log1p') {
+        /* symlog with constant 1 is exactly ln(1 + x) for x >= 0 */
+        var tlo = T.f(xExt[0]), thi = T.f(xExt[1]), tpad = (thi - tlo) * 0.06 || 0.5;
+        x = d3.scaleSymlog().constant(1).domain([T.inv(tlo - tpad), T.inv(thi + tpad)]);
+      } else {
+        x = d3.scaleLinear().domain(xExt).nice();
+      }
       var yScale = d3.scaleLog().domain([yExt[0] / 1.5, yExt[1] * 1.6]);
       x.range([m.left, W - m.right]);
       yScale.range([H - m.bottom, m.top]);
@@ -458,10 +505,20 @@
         }
         return out;
       }
-      var xTicks = reg.log ? logTicks(x) : x.ticks(W < 500 ? 4 : 7);
+      function symlogTicks(scale) {
+        var d = scale.domain();
+        var all = [0, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000];
+        var inside = all.filter(function (v) { return v >= d[0] && v <= d[1]; });
+        if (inside.length > (W < 500 ? 5 : 8)) {
+          inside = inside.filter(function (v) { return v === 0 || Math.log10(v) % 1 === 0; });
+        }
+        return inside;
+      }
+      var xTicks = reg.transform === 'log' ? logTicks(x)
+        : reg.transform === 'log1p' ? symlogTicks(x) : x.ticks(W < 500 ? 4 : 7);
       var yTicks = logTicks(yS);
       var fmtTick = d3.format(',~r');
-      var xFmt = reg.log ? function (v) {
+      var xFmt = reg.transform === 'log' || reg.transform === 'log1p' ? function (v) {
         return v >= 1e6 ? fmtTick(v / 1e6) + 'M' : v >= 1e3 && reg.key === 'gdp_pc' ? fmtTick(v / 1e3) + 'k' : fmtTick(v);
       } : function (v) { return sign(d3.format(',.1~f')(v)); };
 
@@ -545,11 +602,12 @@
       var clipped = plot.append('g').attr('clip-path', 'url(#vreg-clip)');
       var d0 = x.domain();
       var grid = d3.range(0, 81).map(function (st) {
-        return reg.log ? d0[0] * Math.pow(d0[1] / d0[0], st / 80) : d0[0] + st / 80 * (d0[1] - d0[0]);
+        var g0 = T.f(d0[0]), g1 = T.f(d0[1]);
+        return T.inv(g0 + st / 80 * (g1 - g0));
       });
       var band = grid.map(function (xv) {
         var cvec = [1].concat(meanX.slice());
-        cvec[j + 1] = reg.log ? Math.log(xv) : xv;
+        cvec[j + 1] = T.f(xv);
         var yhat = d3.sum(cvec, function (v, a) { return v * fit.beta[a]; });
         var vv = 0;
         for (var a = 0; a < cvec.length; a++) {
@@ -694,18 +752,31 @@
         'the coefficient times sd(x) / sd(ln visitors), in the estimation sample.'
       ];
       if (regs.length > 1) {
-        parts.push('The chart shows the variable chosen in the menu holding the other constant: ' +
-          'both axes are adjusted for the other variable (residuals from a regression on it, ' +
-          'plus the sample mean), so the slope of the line is exactly its coefficient. ' +
-          'Labels are World Bank country codes; hover over a dot for details.');
-      } else {
-        parts.push('Labels are World Bank country codes; hover over a dot for details.');
+        parts.push('The chart shows the variable chosen in the menu holding the others constant: ' +
+          'both axes are adjusted for the other variables (residuals from a regression on them, ' +
+          'plus the sample mean), so the slope of the line is exactly its coefficient.');
       }
+      parts.push('Labels are World Bank country codes; hover over a dot for details.');
       parts.push('Distances are great-circle distances between the centroids of each ' +
-        'country’s main landmass; France is set at ' + HOME_DISTANCE_KM + ' km.');
-      if (opts.covariates && opts.covariates.indicators && opts.covariates.indicators.gdp_pc) {
-        parts.push('GDP per capita: ' + opts.covariates.indicators.gdp_pc.name +
-          ', World Bank, most recent year available.');
+        'country\u2019s main landmass; France is set at ' + HOME_DISTANCE_KM + ' km.');
+      var cov = opts.covariates || {};
+      var ind = cov.indicators || {};
+      var used = regs.map(function (r) { return r.key; });
+      if (used.indexOf('gdp_pc') >= 0 && ind.gdp_pc) {
+        parts.push('GDP per capita: ' + ind.gdp_pc.name + ', World Bank, most recent year available.');
+      }
+      if (used.indexOf('economists') >= 0) {
+        parts.push('Economists: ' + (REPEC_MEASURE === 'repec_shares' ? 'author shares' : 'number of authors') +
+          ' registered with RePEc, by country of affiliation' +
+          (cov.repec && cov.repec.as_of ? ' (' + cov.repec.as_of + ')' : '') +
+          ', per million people (World Bank population); US states are summed.');
+      }
+      if (used.indexOf('alcohol') >= 0 && ind.alc) {
+        parts.push('Alcohol: ' + ind.alc.name + ', WHO via the World Bank.');
+      }
+      var log1p = regs.filter(function (r) { return r.transform === 'log1p'; }).map(function (r) { return r.label.toLowerCase(); });
+      if (log1p.length) {
+        parts.push('ln(1 + x) is used for ' + log1p.join(' and ') + ', which can be zero.');
       }
       parts.push('Countries with no visitors are not in the sample' +
         (s.dropped.length ? ', nor are ' + s.dropped.join(', ') + ' (missing data)' : '') + '.');
