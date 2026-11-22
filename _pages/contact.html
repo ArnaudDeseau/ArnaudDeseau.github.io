@@ -69,9 +69,10 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
   .vreg-tip[hidden] { display: none; }
   .vreg-equation { margin: 0.8em 0 0.4em; font-size: 0.85em; font-family: Georgia, "Times New Roman", serif; font-style: italic; color: #333333; }
   .vreg-table { width: 100%; border-collapse: collapse; font-size: 0.75em; font-variant-numeric: tabular-nums; }
-  .vreg-table th, .vreg-table td { padding: 4px 8px; border-bottom: 1px solid #e6ecf1; text-align: right; white-space: nowrap; }
+  .vreg-table th, .vreg-table td { padding: 4px 8px; border-bottom: 1px solid #e6ecf1; text-align: center; white-space: nowrap; }
   .vreg-table th[scope="row"], .vreg-table thead th:first-child { text-align: left; white-space: normal; min-width: 12em; }
-  .vreg-table thead th { color: #555555; font-weight: 600; border-bottom: 1px solid #b8c4ce; }
+  .vreg-table thead { background-color: #002d6c; }
+  .vreg-table thead th { color: #ffffff; font-weight: 600; text-align: center; border-bottom: 0; }
   .vreg-table tfoot td { text-align: left; color: #666666; border-bottom: 0; }
   .vreg-scroll { overflow-x: auto; }
   .vreg-note { margin-top: 0.6em; font-size: 0.7em; color: #777777; }
@@ -98,7 +99,7 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
 </details>
 
 <!-- Cross-country regression on the same data; code in assets/js/visitor-regression.js -->
-<h2 id="visitor-regression-title" style="margin-top: 2em;">Visitors and distance</h2>
+<h2 id="visitor-regression-title" style="margin-top: 2em;">Correlates of Visitors</h2>
 <div id="visitor-regression"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
