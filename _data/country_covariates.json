@@ -1,0 +1,1280 @@
+{
+ "source": "World Bank, World Development Indicators",
+ "indicators": {
+  "gdp_pc": {
+   "code": "NY.GDP.PCAP.PP.CD",
+   "name": "GDP per capita, PPP (current international $)"
+  }
+ },
+ "countries": {
+  "AD": {
+   "iso3": "AND",
+   "name": "Andorra",
+   "gdp_pc": 79566.79,
+   "gdp_pc_year": 2025
+  },
+  "AE": {
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "gdp_pc": 79343.78,
+   "gdp_pc_year": 2024
+  },
+  "AF": {
+   "iso3": "AFG",
+   "name": "Afghanistan",
+   "gdp_pc": 2236.2,
+   "gdp_pc_year": 2024
+  },
+  "AG": {
+   "iso3": "ATG",
+   "name": "Antigua and Barbuda",
+   "gdp_pc": 35832.48,
+   "gdp_pc_year": 2025
+  },
+  "AL": {
+   "iso3": "ALB",
+   "name": "Albania",
+   "gdp_pc": 28220.8,
+   "gdp_pc_year": 2025
+  },
+  "AM": {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "gdp_pc": 24754.21,
+   "gdp_pc_year": 2025
+  },
+  "AO": {
+   "iso3": "AGO",
+   "name": "Angola",
+   "gdp_pc": 10251.35,
+   "gdp_pc_year": 2025
+  },
+  "AR": {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "gdp_pc": 32586.63,
+   "gdp_pc_year": 2025
+  },
+  "AS": {
+   "iso3": "ASM",
+   "name": "American Samoa"
+  },
+  "AT": {
+   "iso3": "AUT",
+   "name": "Austria",
+   "gdp_pc": 76777.54,
+   "gdp_pc_year": 2025
+  },
+  "AU": {
+   "iso3": "AUS",
+   "name": "Australia",
+   "gdp_pc": 71934.4,
+   "gdp_pc_year": 2025
+  },
+  "AW": {
+   "iso3": "ABW",
+   "name": "Aruba",
+   "gdp_pc": 51712.15,
+   "gdp_pc_year": 2024
+  },
+  "AZ": {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "gdp_pc": 26112.53,
+   "gdp_pc_year": 2025
+  },
+  "BA": {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "gdp_pc": 25814.26,
+   "gdp_pc_year": 2025
+  },
+  "BB": {
+   "iso3": "BRB",
+   "name": "Barbados",
+   "gdp_pc": 25893.87,
+   "gdp_pc_year": 2025
+  },
+  "BD": {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "gdp_pc": 10153.71,
+   "gdp_pc_year": 2025
+  },
+  "BE": {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "gdp_pc": 74675.61,
+   "gdp_pc_year": 2025
+  },
+  "BF": {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "gdp_pc": 3071.63,
+   "gdp_pc_year": 2025
+  },
+  "BG": {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "gdp_pc": 44451.1,
+   "gdp_pc_year": 2025
+  },
+  "BH": {
+   "iso3": "BHR",
+   "name": "Bahrain",
+   "gdp_pc": 70996.78,
+   "gdp_pc_year": 2025
+  },
+  "BI": {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "gdp_pc": 1248.05,
+   "gdp_pc_year": 2025
+  },
+  "BJ": {
+   "iso3": "BEN",
+   "name": "Benin",
+   "gdp_pc": 4816.88,
+   "gdp_pc_year": 2025
+  },
+  "BM": {
+   "iso3": "BMU",
+   "name": "Bermuda",
+   "gdp_pc": 118727.97,
+   "gdp_pc_year": 2024
+  },
+  "BN": {
+   "iso3": "BRN",
+   "name": "Brunei Darussalam",
+   "gdp_pc": 92429.93,
+   "gdp_pc_year": 2025
+  },
+  "BO": {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "gdp_pc": 12873.04,
+   "gdp_pc_year": 2025
+  },
+  "BR": {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "gdp_pc": 23433.29,
+   "gdp_pc_year": 2025
+  },
+  "BS": {
+   "iso3": "BHS",
+   "name": "Bahamas, The",
+   "gdp_pc": 41257.77,
+   "gdp_pc_year": 2024
+  },
+  "BT": {
+   "iso3": "BTN",
+   "name": "Bhutan",
+   "gdp_pc": 19594.0,
+   "gdp_pc_year": 2025
+  },
+  "BW": {
+   "iso3": "BWA",
+   "name": "Botswana",
+   "gdp_pc": 20697.91,
+   "gdp_pc_year": 2025
+  },
+  "BY": {
+   "iso3": "BLR",
+   "name": "Belarus",
+   "gdp_pc": 34715.98,
+   "gdp_pc_year": 2025
+  },
+  "BZ": {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "gdp_pc": 14965.75,
+   "gdp_pc_year": 2025
+  },
+  "CA": {
+   "iso3": "CAN",
+   "name": "Canada",
+   "gdp_pc": 66745.82,
+   "gdp_pc_year": 2025
+  },
+  "CD": {
+   "iso3": "COD",
+   "name": "Congo, Dem. Rep.",
+   "gdp_pc": 1919.82,
+   "gdp_pc_year": 2025
+  },
+  "CF": {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "gdp_pc": 1313.88,
+   "gdp_pc_year": 2025
+  },
+  "CG": {
+   "iso3": "COG",
+   "name": "Congo, Rep.",
+   "gdp_pc": 7248.44,
+   "gdp_pc_year": 2025
+  },
+  "CH": {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "gdp_pc": 102513.35,
+   "gdp_pc_year": 2025
+  },
+  "CI": {
+   "iso3": "CIV",
+   "name": "Cote d'Ivoire",
+   "gdp_pc": 8208.91,
+   "gdp_pc_year": 2025
+  },
+  "CL": {
+   "iso3": "CHL",
+   "name": "Chile",
+   "gdp_pc": 37774.09,
+   "gdp_pc_year": 2025
+  },
+  "CM": {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "gdp_pc": 5787.85,
+   "gdp_pc_year": 2025
+  },
+  "CN": {
+   "iso3": "CHN",
+   "name": "China",
+   "gdp_pc": 29333.33,
+   "gdp_pc_year": 2025
+  },
+  "CO": {
+   "iso3": "COL",
+   "name": "Colombia",
+   "gdp_pc": 22640.42,
+   "gdp_pc_year": 2025
+  },
+  "CR": {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "gdp_pc": 33814.77,
+   "gdp_pc_year": 2025
+  },
+  "CU": {
+   "iso3": "CUB",
+   "name": "Cuba"
+  },
+  "CV": {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "gdp_pc": 12165.3,
+   "gdp_pc_year": 2025
+  },
+  "CW": {
+   "iso3": "CUW",
+   "name": "Curacao",
+   "gdp_pc": 32740.77,
+   "gdp_pc_year": 2024
+  },
+  "CY": {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "gdp_pc": 64574.62,
+   "gdp_pc_year": 2025
+  },
+  "CZ": {
+   "iso3": "CZE",
+   "name": "Czechia",
+   "gdp_pc": 60487.29,
+   "gdp_pc_year": 2025
+  },
+  "DE": {
+   "iso3": "DEU",
+   "name": "Germany",
+   "gdp_pc": 75406.69,
+   "gdp_pc_year": 2025
+  },
+  "DJ": {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "gdp_pc": 8451.97,
+   "gdp_pc_year": 2025
+  },
+  "DK": {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "gdp_pc": 83218.07,
+   "gdp_pc_year": 2025
+  },
+  "DM": {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "gdp_pc": 22713.13,
+   "gdp_pc_year": 2025
+  },
+  "DO": {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "gdp_pc": 28721.1,
+   "gdp_pc_year": 2025
+  },
+  "DZ": {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "gdp_pc": 18586.26,
+   "gdp_pc_year": 2025
+  },
+  "EC": {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "gdp_pc": 16756.65,
+   "gdp_pc_year": 2025
+  },
+  "EE": {
+   "iso3": "EST",
+   "name": "Estonia",
+   "gdp_pc": 52105.51,
+   "gdp_pc_year": 2025
+  },
+  "EG": {
+   "iso3": "EGY",
+   "name": "Egypt, Arab Rep.",
+   "gdp_pc": 20204.01,
+   "gdp_pc_year": 2025
+  },
+  "ER": {
+   "iso3": "ERI",
+   "name": "Eritrea"
+  },
+  "ES": {
+   "iso3": "ESP",
+   "name": "Spain",
+   "gdp_pc": 59867.69,
+   "gdp_pc_year": 2025
+  },
+  "ET": {
+   "iso3": "ETH",
+   "name": "Ethiopia",
+   "gdp_pc": 3621.67,
+   "gdp_pc_year": 2025
+  },
+  "FI": {
+   "iso3": "FIN",
+   "name": "Finland",
+   "gdp_pc": 65884.49,
+   "gdp_pc_year": 2025
+  },
+  "FJ": {
+   "iso3": "FJI",
+   "name": "Fiji",
+   "gdp_pc": 16337.57,
+   "gdp_pc_year": 2025
+  },
+  "FM": {
+   "iso3": "FSM",
+   "name": "Micronesia, Fed. Sts.",
+   "gdp_pc": 4604.4,
+   "gdp_pc_year": 2025
+  },
+  "FO": {
+   "iso3": "FRO",
+   "name": "Faroe Islands",
+   "gdp_pc": 82089.28,
+   "gdp_pc_year": 2024
+  },
+  "FR": {
+   "iso3": "FRA",
+   "name": "France",
+   "gdp_pc": 63975.35,
+   "gdp_pc_year": 2025
+  },
+  "GA": {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "gdp_pc": 22218.34,
+   "gdp_pc_year": 2025
+  },
+  "GB": {
+   "iso3": "GBR",
+   "name": "United Kingdom",
+   "gdp_pc": 64606.5,
+   "gdp_pc_year": 2025
+  },
+  "GD": {
+   "iso3": "GRD",
+   "name": "Grenada",
+   "gdp_pc": 21345.97,
+   "gdp_pc_year": 2025
+  },
+  "GE": {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "gdp_pc": 29414.38,
+   "gdp_pc_year": 2025
+  },
+  "GH": {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "gdp_pc": 8610.28,
+   "gdp_pc_year": 2025
+  },
+  "GI": {
+   "iso3": "GIB",
+   "name": "Gibraltar"
+  },
+  "GL": {
+   "iso3": "GRL",
+   "name": "Greenland",
+   "gdp_pc": 78905.58,
+   "gdp_pc_year": 2023
+  },
+  "GM": {
+   "iso3": "GMB",
+   "name": "Gambia, The",
+   "gdp_pc": 3705.64,
+   "gdp_pc_year": 2025
+  },
+  "GN": {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "gdp_pc": 4934.65,
+   "gdp_pc_year": 2025
+  },
+  "GQ": {
+   "iso3": "GNQ",
+   "name": "Equatorial Guinea",
+   "gdp_pc": 16133.11,
+   "gdp_pc_year": 2025
+  },
+  "GR": {
+   "iso3": "GRC",
+   "name": "Greece",
+   "gdp_pc": 45263.65,
+   "gdp_pc_year": 2025
+  },
+  "GT": {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "gdp_pc": 15197.08,
+   "gdp_pc_year": 2025
+  },
+  "GU": {
+   "iso3": "GUM",
+   "name": "Guam"
+  },
+  "GW": {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "gdp_pc": 3293.1,
+   "gdp_pc_year": 2025
+  },
+  "GY": {
+   "iso3": "GUY",
+   "name": "Guyana",
+   "gdp_pc": 97899.01,
+   "gdp_pc_year": 2025
+  },
+  "HK": {
+   "iso3": "HKG",
+   "name": "Hong Kong SAR, China",
+   "gdp_pc": 80422.81,
+   "gdp_pc_year": 2025
+  },
+  "HN": {
+   "iso3": "HND",
+   "name": "Honduras",
+   "gdp_pc": 7871.09,
+   "gdp_pc_year": 2025
+  },
+  "HR": {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "gdp_pc": 50946.17,
+   "gdp_pc_year": 2025
+  },
+  "HT": {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "gdp_pc": 3133.72,
+   "gdp_pc_year": 2025
+  },
+  "HU": {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "gdp_pc": 49837.6,
+   "gdp_pc_year": 2025
+  },
+  "ID": {
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "gdp_pc": 17659.79,
+   "gdp_pc_year": 2025
+  },
+  "IE": {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "gdp_pc": 155089.41,
+   "gdp_pc_year": 2025
+  },
+  "IL": {
+   "iso3": "ISR",
+   "name": "Israel",
+   "gdp_pc": 59716.97,
+   "gdp_pc_year": 2025
+  },
+  "IM": {
+   "iso3": "IMN",
+   "name": "Isle of Man"
+  },
+  "IN": {
+   "iso3": "IND",
+   "name": "India",
+   "gdp_pc": 11747.92,
+   "gdp_pc_year": 2025
+  },
+  "IQ": {
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "gdp_pc": 14266.8,
+   "gdp_pc_year": 2025
+  },
+  "IR": {
+   "iso3": "IRN",
+   "name": "Iran, Islamic Rep.",
+   "gdp_pc": 19699.22,
+   "gdp_pc_year": 2025
+  },
+  "IS": {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "gdp_pc": 83431.21,
+   "gdp_pc_year": 2025
+  },
+  "IT": {
+   "iso3": "ITA",
+   "name": "Italy",
+   "gdp_pc": 62802.51,
+   "gdp_pc_year": 2025
+  },
+  "JG": {
+   "iso3": "CHI",
+   "name": "Channel Islands"
+  },
+  "JM": {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "gdp_pc": 13291.25,
+   "gdp_pc_year": 2025
+  },
+  "JO": {
+   "iso3": "JOR",
+   "name": "Jordan",
+   "gdp_pc": 12631.63,
+   "gdp_pc_year": 2025
+  },
+  "JP": {
+   "iso3": "JPN",
+   "name": "Japan",
+   "gdp_pc": 55421.88,
+   "gdp_pc_year": 2025
+  },
+  "KE": {
+   "iso3": "KEN",
+   "name": "Kenya",
+   "gdp_pc": 7015.94,
+   "gdp_pc_year": 2025
+  },
+  "KG": {
+   "iso3": "KGZ",
+   "name": "Kyrgyz Republic",
+   "gdp_pc": 9219.51,
+   "gdp_pc_year": 2025
+  },
+  "KH": {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "gdp_pc": 8542.7,
+   "gdp_pc_year": 2025
+  },
+  "KI": {
+   "iso3": "KIR",
+   "name": "Kiribati",
+   "gdp_pc": 3936.61,
+   "gdp_pc_year": 2025
+  },
+  "KM": {
+   "iso3": "COM",
+   "name": "Comoros",
+   "gdp_pc": 4238.26,
+   "gdp_pc_year": 2025
+  },
+  "KN": {
+   "iso3": "KNA",
+   "name": "St. Kitts and Nevis",
+   "gdp_pc": 36777.26,
+   "gdp_pc_year": 2025
+  },
+  "KP": {
+   "iso3": "PRK",
+   "name": "Korea, Dem. People's Rep."
+  },
+  "KR": {
+   "iso3": "KOR",
+   "name": "Korea, Rep.",
+   "gdp_pc": 63124.92,
+   "gdp_pc_year": 2025
+  },
+  "KW": {
+   "iso3": "KWT",
+   "name": "Kuwait",
+   "gdp_pc": 56467.73,
+   "gdp_pc_year": 2025
+  },
+  "KY": {
+   "iso3": "CYM",
+   "name": "Cayman Islands",
+   "gdp_pc": 92201.09,
+   "gdp_pc_year": 2024
+  },
+  "KZ": {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "gdp_pc": 44293.48,
+   "gdp_pc_year": 2025
+  },
+  "LA": {
+   "iso3": "LAO",
+   "name": "Lao PDR",
+   "gdp_pc": 10383.0,
+   "gdp_pc_year": 2025
+  },
+  "LB": {
+   "iso3": "LBN",
+   "name": "Lebanon",
+   "gdp_pc": 11917.45,
+   "gdp_pc_year": 2024
+  },
+  "LC": {
+   "iso3": "LCA",
+   "name": "St. Lucia",
+   "gdp_pc": 28673.84,
+   "gdp_pc_year": 2025
+  },
+  "LI": {
+   "iso3": "LIE",
+   "name": "Liechtenstein"
+  },
+  "LK": {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "gdp_pc": 17065.03,
+   "gdp_pc_year": 2025
+  },
+  "LR": {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "gdp_pc": 1981.09,
+   "gdp_pc_year": 2025
+  },
+  "LS": {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "gdp_pc": 3184.12,
+   "gdp_pc_year": 2025
+  },
+  "LT": {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "gdp_pc": 56837.81,
+   "gdp_pc_year": 2025
+  },
+  "LU": {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "gdp_pc": 156542.08,
+   "gdp_pc_year": 2025
+  },
+  "LV": {
+   "iso3": "LVA",
+   "name": "Latvia",
+   "gdp_pc": 46136.69,
+   "gdp_pc_year": 2025
+  },
+  "LY": {
+   "iso3": "LBY",
+   "name": "Libya",
+   "gdp_pc": 16521.4,
+   "gdp_pc_year": 2025
+  },
+  "MA": {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "gdp_pc": 11111.71,
+   "gdp_pc_year": 2025
+  },
+  "MC": {
+   "iso3": "MCO",
+   "name": "Monaco"
+  },
+  "MD": {
+   "iso3": "MDA",
+   "name": "Moldova",
+   "gdp_pc": 19995.76,
+   "gdp_pc_year": 2025
+  },
+  "ME": {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "gdp_pc": 35422.64,
+   "gdp_pc_year": 2025
+  },
+  "MF": {
+   "iso3": "MAF",
+   "name": "St. Martin (French part)"
+  },
+  "MG": {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "gdp_pc": 1952.48,
+   "gdp_pc_year": 2025
+  },
+  "MH": {
+   "iso3": "MHL",
+   "name": "Marshall Islands",
+   "gdp_pc": 8964.32,
+   "gdp_pc_year": 2025
+  },
+  "MK": {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "gdp_pc": 28028.57,
+   "gdp_pc_year": 2025
+  },
+  "ML": {
+   "iso3": "MLI",
+   "name": "Mali",
+   "gdp_pc": 3502.76,
+   "gdp_pc_year": 2025
+  },
+  "MM": {
+   "iso3": "MMR",
+   "name": "Myanmar",
+   "gdp_pc": 6011.53,
+   "gdp_pc_year": 2025
+  },
+  "MN": {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "gdp_pc": 20797.77,
+   "gdp_pc_year": 2025
+  },
+  "MO": {
+   "iso3": "MAC",
+   "name": "Macao SAR, China",
+   "gdp_pc": 137030.68,
+   "gdp_pc_year": 2025
+  },
+  "MP": {
+   "iso3": "MNP",
+   "name": "Northern Mariana Islands"
+  },
+  "MR": {
+   "iso3": "MRT",
+   "name": "Mauritania",
+   "gdp_pc": 7675.52,
+   "gdp_pc_year": 2025
+  },
+  "MT": {
+   "iso3": "MLT",
+   "name": "Malta",
+   "gdp_pc": 72210.34,
+   "gdp_pc_year": 2025
+  },
+  "MU": {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "gdp_pc": 33666.64,
+   "gdp_pc_year": 2025
+  },
+  "MV": {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "gdp_pc": 28554.89,
+   "gdp_pc_year": 2025
+  },
+  "MW": {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "gdp_pc": 1899.29,
+   "gdp_pc_year": 2025
+  },
+  "MX": {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "gdp_pc": 25868.48,
+   "gdp_pc_year": 2025
+  },
+  "MY": {
+   "iso3": "MYS",
+   "name": "Malaysia",
+   "gdp_pc": 41497.67,
+   "gdp_pc_year": 2025
+  },
+  "MZ": {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "gdp_pc": 1697.94,
+   "gdp_pc_year": 2025
+  },
+  "NA": {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "gdp_pc": 11985.72,
+   "gdp_pc_year": 2025
+  },
+  "NC": {
+   "iso3": "NCL",
+   "name": "New Caledonia"
+  },
+  "NE": {
+   "iso3": "NER",
+   "name": "Niger",
+   "gdp_pc": 2177.25,
+   "gdp_pc_year": 2025
+  },
+  "NG": {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "gdp_pc": 9531.61,
+   "gdp_pc_year": 2025
+  },
+  "NI": {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "gdp_pc": 9283.92,
+   "gdp_pc_year": 2025
+  },
+  "NL": {
+   "iso3": "NLD",
+   "name": "Netherlands",
+   "gdp_pc": 87320.15,
+   "gdp_pc_year": 2025
+  },
+  "NO": {
+   "iso3": "NOR",
+   "name": "Norway",
+   "gdp_pc": 104043.67,
+   "gdp_pc_year": 2025
+  },
+  "NP": {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "gdp_pc": 6175.16,
+   "gdp_pc_year": 2025
+  },
+  "NR": {
+   "iso3": "NRU",
+   "name": "Naoero",
+   "gdp_pc": 14200.49,
+   "gdp_pc_year": 2025
+  },
+  "NZ": {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "gdp_pc": 57350.36,
+   "gdp_pc_year": 2025
+  },
+  "OM": {
+   "iso3": "OMN",
+   "name": "Oman",
+   "gdp_pc": 42295.18,
+   "gdp_pc_year": 2025
+  },
+  "PA": {
+   "iso3": "PAN",
+   "name": "Panama",
+   "gdp_pc": 43902.16,
+   "gdp_pc_year": 2025
+  },
+  "PE": {
+   "iso3": "PER",
+   "name": "Peru",
+   "gdp_pc": 18816.1,
+   "gdp_pc_year": 2025
+  },
+  "PF": {
+   "iso3": "PYF",
+   "name": "French Polynesia"
+  },
+  "PG": {
+   "iso3": "PNG",
+   "name": "Papua New Guinea",
+   "gdp_pc": 5214.77,
+   "gdp_pc_year": 2025
+  },
+  "PH": {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "gdp_pc": 12576.99,
+   "gdp_pc_year": 2025
+  },
+  "PK": {
+   "iso3": "PAK",
+   "name": "Pakistan",
+   "gdp_pc": 6573.42,
+   "gdp_pc_year": 2025
+  },
+  "PL": {
+   "iso3": "POL",
+   "name": "Poland",
+   "gdp_pc": 54262.4,
+   "gdp_pc_year": 2025
+  },
+  "PR": {
+   "iso3": "PRI",
+   "name": "Puerto Rico (US)",
+   "gdp_pc": 52195.55,
+   "gdp_pc_year": 2025
+  },
+  "PS": {
+   "iso3": "PSE",
+   "name": "West Bank and Gaza",
+   "gdp_pc": 4999.71,
+   "gdp_pc_year": 2025
+  },
+  "PT": {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "gdp_pc": 53145.73,
+   "gdp_pc_year": 2025
+  },
+  "PW": {
+   "iso3": "PLW",
+   "name": "Palau",
+   "gdp_pc": 23051.68,
+   "gdp_pc_year": 2025
+  },
+  "PY": {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "gdp_pc": 20181.42,
+   "gdp_pc_year": 2025
+  },
+  "QA": {
+   "iso3": "QAT",
+   "name": "Qatar",
+   "gdp_pc": 128882.93,
+   "gdp_pc_year": 2025
+  },
+  "RO": {
+   "iso3": "ROU",
+   "name": "Romania",
+   "gdp_pc": 50895.08,
+   "gdp_pc_year": 2025
+  },
+  "RS": {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "gdp_pc": 33909.76,
+   "gdp_pc_year": 2025
+  },
+  "RU": {
+   "iso3": "RUS",
+   "name": "Russian Federation",
+   "gdp_pc": 49568.14,
+   "gdp_pc_year": 2025
+  },
+  "RW": {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "gdp_pc": 4164.44,
+   "gdp_pc_year": 2025
+  },
+  "SA": {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "gdp_pc": 73783.56,
+   "gdp_pc_year": 2025
+  },
+  "SB": {
+   "iso3": "SLB",
+   "name": "Solomon Islands",
+   "gdp_pc": 2787.62,
+   "gdp_pc_year": 2025
+  },
+  "SC": {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "gdp_pc": 35854.03,
+   "gdp_pc_year": 2025
+  },
+  "SD": {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "gdp_pc": 2192.27,
+   "gdp_pc_year": 2025
+  },
+  "SE": {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "gdp_pc": 72528.89,
+   "gdp_pc_year": 2025
+  },
+  "SG": {
+   "iso3": "SGP",
+   "name": "Singapore",
+   "gdp_pc": 163353.99,
+   "gdp_pc_year": 2025
+  },
+  "SI": {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "gdp_pc": 59244.71,
+   "gdp_pc_year": 2025
+  },
+  "SK": {
+   "iso3": "SVK",
+   "name": "Slovak Republic",
+   "gdp_pc": 49308.7,
+   "gdp_pc_year": 2025
+  },
+  "SL": {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "gdp_pc": 3716.89,
+   "gdp_pc_year": 2025
+  },
+  "SM": {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "gdp_pc": 78810.34,
+   "gdp_pc_year": 2023
+  },
+  "SN": {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "gdp_pc": 5463.22,
+   "gdp_pc_year": 2025
+  },
+  "SO": {
+   "iso3": "SOM",
+   "name": "Somalia, Fed. Rep.",
+   "gdp_pc": 1642.77,
+   "gdp_pc_year": 2025
+  },
+  "SR": {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "gdp_pc": 22652.4,
+   "gdp_pc_year": 2025
+  },
+  "SS": {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "gdp_pc": 1154.89,
+   "gdp_pc_year": 2015
+  },
+  "ST": {
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "gdp_pc": 6388.48,
+   "gdp_pc_year": 2025
+  },
+  "SV": {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "gdp_pc": 14101.18,
+   "gdp_pc_year": 2025
+  },
+  "SX": {
+   "iso3": "SXM",
+   "name": "Sint Maarten (Dutch part)",
+   "gdp_pc": 56490.5,
+   "gdp_pc_year": 2025
+  },
+  "SY": {
+   "iso3": "SYR",
+   "name": "Syrian Arab Republic",
+   "gdp_pc": 4905.15,
+   "gdp_pc_year": 2022
+  },
+  "SZ": {
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "gdp_pc": 12529.28,
+   "gdp_pc_year": 2025
+  },
+  "TC": {
+   "iso3": "TCA",
+   "name": "Turks and Caicos Islands",
+   "gdp_pc": 38009.51,
+   "gdp_pc_year": 2024
+  },
+  "TD": {
+   "iso3": "TCD",
+   "name": "Chad",
+   "gdp_pc": 2902.74,
+   "gdp_pc_year": 2025
+  },
+  "TG": {
+   "iso3": "TGO",
+   "name": "Togo",
+   "gdp_pc": 4079.36,
+   "gdp_pc_year": 2025
+  },
+  "TH": {
+   "iso3": "THA",
+   "name": "Thailand",
+   "gdp_pc": 26250.07,
+   "gdp_pc_year": 2025
+  },
+  "TJ": {
+   "iso3": "TJK",
+   "name": "Tajikistan",
+   "gdp_pc": 5923.47,
+   "gdp_pc_year": 2025
+  },
+  "TL": {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "gdp_pc": 4809.49,
+   "gdp_pc_year": 2025
+  },
+  "TM": {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "gdp_pc": 22601.55,
+   "gdp_pc_year": 2025
+  },
+  "TN": {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "gdp_pc": 15233.49,
+   "gdp_pc_year": 2025
+  },
+  "TO": {
+   "iso3": "TON",
+   "name": "Tonga",
+   "gdp_pc": 8674.68,
+   "gdp_pc_year": 2025
+  },
+  "TR": {
+   "iso3": "TUR",
+   "name": "Turkiye",
+   "gdp_pc": 45288.48,
+   "gdp_pc_year": 2025
+  },
+  "TT": {
+   "iso3": "TTO",
+   "name": "Trinidad and Tobago",
+   "gdp_pc": 37121.21,
+   "gdp_pc_year": 2025
+  },
+  "TV": {
+   "iso3": "TUV",
+   "name": "Tuvalu",
+   "gdp_pc": 6759.28,
+   "gdp_pc_year": 2025
+  },
+  "TZ": {
+   "iso3": "TZA",
+   "name": "Tanzania",
+   "gdp_pc": 4470.95,
+   "gdp_pc_year": 2025
+  },
+  "UA": {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "gdp_pc": 18904.98,
+   "gdp_pc_year": 2025
+  },
+  "UG": {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "gdp_pc": 3487.7,
+   "gdp_pc_year": 2025
+  },
+  "US": {
+   "iso3": "USA",
+   "name": "United States",
+   "gdp_pc": 90026.52,
+   "gdp_pc_year": 2025
+  },
+  "UY": {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "gdp_pc": 38314.89,
+   "gdp_pc_year": 2025
+  },
+  "UZ": {
+   "iso3": "UZB",
+   "name": "Uzbekistan",
+   "gdp_pc": 13601.29,
+   "gdp_pc_year": 2025
+  },
+  "VC": {
+   "iso3": "VCT",
+   "name": "St. Vincent and the Grenadines",
+   "gdp_pc": 22799.4,
+   "gdp_pc_year": 2025
+  },
+  "VE": {
+   "iso3": "VEN",
+   "name": "Venezuela, RB"
+  },
+  "VG": {
+   "iso3": "VGB",
+   "name": "British Virgin Islands"
+  },
+  "VI": {
+   "iso3": "VIR",
+   "name": "Virgin Islands (U.S.)",
+   "gdp_pc": 49785.14,
+   "gdp_pc_year": 2022
+  },
+  "VN": {
+   "iso3": "VNM",
+   "name": "Viet Nam",
+   "gdp_pc": 18088.49,
+   "gdp_pc_year": 2025
+  },
+  "VU": {
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "gdp_pc": 4525.24,
+   "gdp_pc_year": 2025
+  },
+  "WS": {
+   "iso3": "WSM",
+   "name": "Samoa",
+   "gdp_pc": 9318.96,
+   "gdp_pc_year": 2025
+  },
+  "XK": {
+   "iso3": "XKX",
+   "name": "Kosovo",
+   "gdp_pc": 19263.33,
+   "gdp_pc_year": 2025
+  },
+  "YE": {
+   "iso3": "YEM",
+   "name": "Yemen, Rep."
+  },
+  "ZA": {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "gdp_pc": 15905.68,
+   "gdp_pc_year": 2025
+  },
+  "ZM": {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "gdp_pc": 4379.26,
+   "gdp_pc_year": 2025
+  },
+  "ZW": {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "gdp_pc": 6470.42,
+   "gdp_pc_year": 2025
+  }
+ },
+ "retrieved": "2026-11-22"
+}
