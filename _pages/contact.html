@@ -50,6 +50,35 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
   .vmap-list button { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
   .vmap-list button:hover { text-decoration: underline; }
   .vmap-list .vmap-count { color: #888888; }
+
+  .vreg-controls { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 0.5em 0 0.8em; font-size: 0.8em; color: #444444; }
+  .vreg-controls label { cursor: pointer; }
+  .vreg-controls select { margin-left: 4px; padding: 3px 6px; border: 1px solid #b8c4ce; border-radius: 4px; background: #ffffff; color: #1f2d3d; font: inherit; cursor: pointer; }
+  .vreg-chart { position: relative; }
+  .vreg-chart svg { display: block; overflow: visible; }
+  .vreg-grid line { stroke: #e6ecf1; }
+  .vreg-axis text { fill: #666666; font-size: 11px; }
+  .vreg-axis line, .vreg-axis path { stroke: #b8c4ce; }
+  .vreg-axis-title { fill: #555555; font-size: 12px; }
+  .vreg-band { fill: #2171b5; fill-opacity: 0.12; }
+  .vreg-line { fill: none; stroke: #1f2d3d; stroke-width: 2; }
+  .vreg-dot { stroke: #ffffff; stroke-width: 1.5; }
+  .vreg-labels text { fill: #333333; font-size: 10px; paint-order: stroke; stroke: #ffffff; stroke-width: 3px; stroke-linejoin: round; }
+  .vreg-labels-small text { font-size: 9px; }
+  .vreg-tip { position: absolute; z-index: 3; pointer-events: none; padding: 5px 9px; border-radius: 4px; background: rgba(20, 30, 45, 0.92); color: #ffffff; font-size: 0.72em; line-height: 1.4; white-space: nowrap; transform: translate(-50%, calc(-100% - 12px)); }
+  .vreg-tip[hidden] { display: none; }
+  .vreg-equation { margin: 0.8em 0 0.4em; font-size: 0.85em; font-family: Georgia, "Times New Roman", serif; font-style: italic; color: #333333; }
+  .vreg-table { width: 100%; border-collapse: collapse; font-size: 0.75em; font-variant-numeric: tabular-nums; }
+  .vreg-table th, .vreg-table td { padding: 4px 8px; border-bottom: 1px solid #e6ecf1; text-align: right; white-space: nowrap; }
+  .vreg-table th[scope="row"], .vreg-table thead th:first-child { text-align: left; white-space: normal; min-width: 12em; }
+  .vreg-table thead th { color: #555555; font-weight: 600; border-bottom: 1px solid #b8c4ce; }
+  .vreg-table tfoot td { text-align: left; color: #666666; border-bottom: 0; }
+  .vreg-scroll { overflow-x: auto; }
+  .vreg-note { margin-top: 0.6em; font-size: 0.7em; color: #777777; }
+  .vreg-annot rect { fill: #ffffff; fill-opacity: 0.94; stroke: #d5dee6; }
+  .vreg-annot text { font-size: 12px; fill: #555555; }
+  .vreg-annot .vreg-annot-main { font-size: 13px; font-weight: 600; fill: #1f2d3d; }
+  .vreg-annot .vreg-annot-var { font-size: 11px; fill: #777777; }
 </style>
 
 <h2 style="margin-top: 2em;">Visitors around the world</h2>
@@ -68,8 +97,13 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
   <ol></ol>
 </details>
 
+<!-- Cross-country regression on the same data; code in assets/js/visitor-regression.js -->
+<h2 id="visitor-regression-title" style="margin-top: 2em;">Visitors and distance</h2>
+<div id="visitor-regression"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="{{ '/assets/js/visitor-regression.js' | relative_url }}"></script>
 <script>
   function playSound() {
     document.getElementById('clickSound').play();
@@ -78,7 +112,8 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
   (function () {
     var visitors = {{ site.data.visitors | jsonify }};
     var wrap = document.getElementById('visitor-map-wrap');
-    var parts = [wrap, document.getElementById('visitor-map-caption'), document.getElementById('visitor-map-list')];
+    var parts = [wrap, document.getElementById('visitor-map-caption'), document.getElementById('visitor-map-list'),
+                 document.getElementById('visitor-regression-title'), document.getElementById('visitor-regression')];
     function hideMap() {
       parts.forEach(function (el) { el.style.display = 'none'; });
     }
@@ -235,6 +270,19 @@ Cité Scientifique, 59655 Villeneuve d’Ascq Cedex
         label.text(c.name);
         li.append('span').attr('class', 'vmap-count').text(' ' + c.count.toLocaleString());
       });
+
+      /* Regression of visitors on distance to France, under the map. */
+      try {
+        window.VisitorRegression.render({
+          container: document.getElementById('visitor-regression'),
+          features: features,
+          covariates: {{ site.data.country_covariates | jsonify }}
+        });
+      } catch (err) {
+        document.getElementById('visitor-regression-title').style.display = 'none';
+        document.getElementById('visitor-regression').style.display = 'none';
+        if (window.console) { console.error(err); }
+      }
     }
 
     /* For countries with overseas parts (France, Norway, the US...), use the largest
