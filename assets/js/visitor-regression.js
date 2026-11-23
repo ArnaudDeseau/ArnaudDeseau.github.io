@@ -10,8 +10,9 @@
  *
  * The dependent variable comes from _data/visitors.json (updated twice a day
  * by the "Update visitor map" GitHub Action). Regressors are computed here
- * (distance) or read from _data/country_covariates.json (World Bank and RePEc
- * data, updated monthly by the "Update country data" GitHub Action).
+ * (distance) or read from _data/country_covariates.json (World Bank data and
+ * RePEc research scores, updated monthly by the "Update country data" GitHub
+ * Action).
  *
  * With several regressors, the chart shows the relationship for the variable
  * chosen in the menu, holding the others constant (Frisch-Waugh-Lovell: both
@@ -29,10 +30,6 @@
   var EXCLUDED_IDS = { '010': true }; /* Antarctica */
   /* Three-letter codes for places the World Bank does not list. */
   var ISO3_FALLBACK = { TW: 'TWN' };
-  /* RePEc measure: 'repec_shares' (fractional count: an economist with two
-     affiliations counts half in each country) or 'repec_authors' (raw count). */
-  var REPEC_MEASURE = 'repec_shares';
-
   var TRANSFORMS = {
     log: { f: Math.log, inv: Math.exp, name: function (l) { return 'ln(' + l + ')'; }, ok: function (v) { return v > 0; } },
     log1p: { f: Math.log1p, inv: Math.expm1, name: function (l) { return 'ln(1 + ' + l + ')'; }, ok: function (v) { return v > -1; } },
@@ -77,19 +74,19 @@
       value: function (c) { return c.covariates ? c.covariates.gdp_pc : null; }
     },
     {
-      key: 'economists',
-      label: 'Economists per million',
-      axis: 'RePEc economists per million people (log(1 + x) scale)',
+      key: 'research',
+      label: 'Economics research per million',
+      axis: 'RePEc research score per million people (log(1 + x) scale)',
       transform: 'log1p',
       format: function (v, c) {
         var cv = c && c.covariates;
-        return d3.format(',.1f')(v) + ' per million' +
-          (cv && cv.repec_authors !== undefined ? ' (' + cv.repec_authors.toLocaleString('en-GB') + ' registered)' : '');
+        return d3.format(',.0f')(v) + ' per million' +
+          (cv && cv.repec_wpages !== undefined ? ' (score ' + d3.format(',.0f')(cv.repec_wpages) + ')' : '');
       },
       value: function (c) {
         var cv = c.covariates;
-        if (!cv || cv[REPEC_MEASURE] === undefined || cv[REPEC_MEASURE] === null || !(cv.pop > 0)) { return null; }
-        return cv[REPEC_MEASURE] / cv.pop * 1e6;
+        if (!cv || cv.repec_wpages === undefined || cv.repec_wpages === null || !(cv.pop > 0)) { return null; }
+        return cv.repec_wpages / cv.pop * 1e6;
       }
     },
     {
@@ -507,7 +504,7 @@
       }
       function symlogTicks(scale) {
         var d = scale.domain();
-        var all = [0, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000];
+        var all = [0, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000];
         var inside = all.filter(function (v) { return v >= d[0] && v <= d[1]; });
         if (inside.length > (W < 500 ? 5 : 8)) {
           inside = inside.filter(function (v) { return v === 0 || Math.log10(v) % 1 === 0; });
@@ -519,7 +516,7 @@
       var yTicks = logTicks(yS);
       var fmtTick = d3.format(',~r');
       var xFmt = reg.transform === 'log' || reg.transform === 'log1p' ? function (v) {
-        return v >= 1e6 ? fmtTick(v / 1e6) + 'M' : v >= 1e3 && reg.key === 'gdp_pc' ? fmtTick(v / 1e3) + 'k' : fmtTick(v);
+        return v >= 1e6 ? fmtTick(v / 1e6) + 'M' : v >= 1e4 || (v >= 1e3 && reg.key === 'gdp_pc') ? fmtTick(v / 1e3) + 'k' : fmtTick(v);
       } : function (v) { return sign(d3.format(',.1~f')(v)); };
 
       var adjusted = others.length > 0;
@@ -765,9 +762,9 @@
       if (used.indexOf('gdp_pc') >= 0 && ind.gdp_pc) {
         parts.push('GDP per capita: ' + ind.gdp_pc.name + ', World Bank, most recent year available.');
       }
-      if (used.indexOf('economists') >= 0) {
-        parts.push('Economists: ' + (REPEC_MEASURE === 'repec_shares' ? 'author shares' : 'number of authors') +
-          ' registered with RePEc, by country of affiliation' +
+      if (used.indexOf('research') >= 0) {
+        parts.push('Economics research: RePEc score (journal pages weighted by number of authors and ' +
+          'recursive impact factors, all years) of the economists affiliated in each country' +
           (cov.repec && cov.repec.as_of ? ' (' + cov.repec.as_of + ')' : '') +
           ', per million people (World Bank population); US states are summed.');
       }
