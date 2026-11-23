@@ -1,18 +1,18 @@
 {
   "since": "2026-10-13",
-  "total": 253,
+  "total": 265,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 117
+      "count": 121
     },
     {
       "code": "US",
       "num": "840",
       "name": "United States",
-      "count": 41
+      "count": 47
     },
     {
       "code": "BE",
@@ -51,6 +51,12 @@
       "count": 5
     },
     {
+      "code": "DE",
+      "num": "276",
+      "name": "Germany",
+      "count": 5
+    },
+    {
       "code": "ES",
       "num": "724",
       "name": "Spain",
@@ -61,12 +67,6 @@
       "num": "356",
       "name": "India",
       "count": 4
-    },
-    {
-      "code": "DE",
-      "num": "276",
-      "name": "Germany",
-      "count": 3
     },
     {
       "code": "IT",
@@ -249,5 +249,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-22"
+  "updated": "2026-11-23"
 }
