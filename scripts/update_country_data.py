@@ -4,8 +4,10 @@ for the regression under the visitor map.
 Sources:
   - World Bank, World Development Indicators (API): GDP per capita (PPP),
     population, alcohol consumption per capita. Most recent value per country.
-  - RePEc/IDEAS "Top Countries and States" ranking: number of registered
-    economists per country (authors and author shares, by affiliation).
+  - RePEc/IDEAS ranking of countries and states by "Number of Journal Pages,
+    Weighted by Number of Authors and Recursive Impact Factors" (all years,
+    economists currently registered in each country), plus the number of
+    registered economists (authors and author shares, by affiliation).
     US states are summed into the United States, and French overseas
     departments into France. If the RePEc page cannot be read, the previous
     RePEc values are kept.
@@ -35,7 +37,7 @@ INDICATORS = {
 FIRST_YEAR = 2015  # look for the most recent value from this year on
 OUT = "_data/country_covariates.json"
 API = "https://api.worldbank.org/v2"
-REPEC_URL = "https://ideas.repec.org/top/top.country.all.html"
+REPEC_URL = "https://ideas.repec.org/top/top.country.awscpages.html"
 RETRY_WAITS = [int(x) for x in os.environ.get("RETRY_WAITS", "30,60,120,240").split(",")]
 USER_AGENT = "country-data-updater for a personal academic website (GitHub Actions)"
 
@@ -181,7 +183,7 @@ def number(text):
 
 
 def read_repec():
-    """Returns ({iso2: {"authors": n, "shares": s}}, date text) or raises."""
+    """Returns ({iso2: {"score": x, "authors": n, "shares": s}}, date text) or raises."""
     page = fetch(REPEC_URL).decode("utf-8", "replace")
     parser = TableParser()
     parser.feed(page)
@@ -197,17 +199,19 @@ def read_repec():
     if not table:
         raise RuntimeError("ranking table not found on the page")
     col_name = next(i for i, c in enumerate(header) if "country" in c)
+    col_score = header.index("score")
     col_authors = header.index("authors")
     col_shares = next(i for i, c in enumerate(header) if c.startswith("author") and "share" in c)
 
     by_norm = {norm(e["name"]): iso2 for iso2, e in countries.items()}
     out, unmatched = {}, []
     for row in table:
-        if len(row) <= max(col_name, col_authors, col_shares):
+        if len(row) <= max(col_name, col_score, col_authors, col_shares):
             continue
         name = html.unescape(row[col_name])
+        score = number(row[col_score])
         authors, shares = number(row[col_authors]), number(row[col_shares])
-        if authors is None or shares is None:
+        if score is None or authors is None or shares is None:
             continue
         key = norm(name)
         if key.endswith(" united states"):  # "Massachusetts (United States)"
@@ -218,7 +222,8 @@ def read_repec():
         if not iso2 or iso2 not in countries:
             unmatched.append(name)
             continue
-        slot = out.setdefault(iso2, {"authors": 0.0, "shares": 0.0})
+        slot = out.setdefault(iso2, {"score": 0.0, "authors": 0.0, "shares": 0.0})
+        slot["score"] += score
         slot["authors"] += authors
         slot["shares"] += shares
     if unmatched:
@@ -240,17 +245,24 @@ repec_note = None
 try:
     repec, repec_date = read_repec()
     for iso2, e in countries.items():
-        r = repec.get(iso2, {"authors": 0.0, "shares": 0.0})  # not listed: no registered economist
+        r = repec.get(iso2, {"score": 0.0, "authors": 0.0, "shares": 0.0})  # not listed: none
+        e["repec_wpages"] = round(r["score"], 2)
         e["repec_authors"] = int(round(r["authors"]))
         e["repec_shares"] = round(r["shares"], 2)
-    repec_note = {"source": "RePEc/IDEAS, Top Countries and States", "url": REPEC_URL, "as_of": repec_date}
+    repec_note = {
+        "source": "RePEc/IDEAS, Top Countries and States by Number of Journal Pages, "
+                  "Weighted by Number of Authors and Recursive Impact Factors",
+        "url": REPEC_URL,
+        "as_of": repec_date,
+    }
     us = countries.get("US", {})
-    print(f"RePEc: {len(repec)} countries ({repec_date}); United States = {us.get('repec_authors')} authors")
+    print(f"RePEc: {len(repec)} countries ({repec_date}); United States = "
+          f"{us.get('repec_wpages')} weighted pages, {us.get('repec_authors')} authors")
 except Exception as e:  # keep what we had rather than lose the variable
     print(f"WARNING: could not read RePEc ({e}); keeping the previous RePEc values.")
     old = previous.get("countries", {})
     for iso2, e2 in countries.items():
-        for k in ("repec_authors", "repec_shares"):
+        for k in ("repec_wpages", "repec_authors", "repec_shares"):
             if k in old.get(iso2, {}):
                 e2[k] = old[iso2][k]
     repec_note = previous.get("repec")
