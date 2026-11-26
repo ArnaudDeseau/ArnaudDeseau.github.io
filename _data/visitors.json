@@ -1,12 +1,12 @@
 {
   "since": "2026-10-13",
-  "total": 275,
+  "total": 277,
   "countries": [
     {
       "code": "FR",
       "num": "250",
       "name": "France",
-      "count": 128
+      "count": 129
     },
     {
       "code": "US",
@@ -81,6 +81,12 @@
       "count": 3
     },
     {
+      "code": "NL",
+      "num": "528",
+      "name": "Netherlands",
+      "count": 3
+    },
+    {
       "code": "CD",
       "num": "180",
       "name": "DR Congo",
@@ -96,12 +102,6 @@
       "code": "MO",
       "num": "446",
       "name": "Macao",
-      "count": 2
-    },
-    {
-      "code": "NL",
-      "num": "528",
-      "name": "Netherlands",
       "count": 2
     },
     {
