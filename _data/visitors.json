@@ -1,6 +1,6 @@
 {
   "since": "2026-10-13",
-  "total": 277,
+  "total": 278,
   "countries": [
     {
       "code": "FR",
@@ -33,6 +33,12 @@
       "count": 7
     },
     {
+      "code": "DE",
+      "num": "276",
+      "name": "Germany",
+      "count": 6
+    },
+    {
       "code": "KR",
       "num": "410",
       "name": "South Korea",
@@ -48,12 +54,6 @@
       "code": "CA",
       "num": "124",
       "name": "Canada",
-      "count": 5
-    },
-    {
-      "code": "DE",
-      "num": "276",
-      "name": "Germany",
       "count": 5
     },
     {
@@ -249,5 +249,5 @@
       "count": 1
     }
   ],
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
 }
